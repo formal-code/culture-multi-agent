@@ -1,0 +1,9 @@
+{
+  "spot_name": "东昌府区",
+  "facts": [
+    {"id": "F01", "text": "东昌府木版年画是国家级非物质文化遗产", "source": "https://www.dongchangfu.gov.cn/1"},
+    {"id": "F02", "text": "一块年画版需刻制数月", "source": "https://www.dongchangfu.gov.cn/2"},
+    {"id": "F03", "text": "传统年画需套印五色", "source": "https://www.dongchangfu.gov.cn/3"}
+  ],
+ "cultural_elements": ["木版年画", "东昌府", "运河", "光岳楼", "东昌湖", "山陕会馆"]
+}

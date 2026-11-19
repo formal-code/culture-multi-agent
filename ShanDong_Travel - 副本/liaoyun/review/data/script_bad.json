@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "spot_name": "东昌府区",
+  "script": {
+    "title": "大家好今天带大家走进东昌府看年画",
+    "hook": "大家好，今天带大家走进东昌府",
+    "total_duration": 60,
+    "segments": [
+      {"no": 1, "duration": 5, "vo": "大家好，今天带大家走进东昌府。", "asset": "assets/01.jpg", "fact_ids": []},
+      {"no": 2, "duration": 15, "vo": "这座城始建于1370年，年画也传了几百年。", "asset": "assets/02.jpg", "fact_ids": []},
+      {"no": 3, "duration": 20, "vo": "东昌府木版年画是国家级非遗，一张要套印五色。", "asset": "assets/不存在.jpg", "fact_ids": ["F01", "F03"]},
+      {"no": 4, "duration": 30, "vo": "周末来东昌府，看师傅手上这门手艺。", "asset": "assets/04.jpg", "fact_ids": []}
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "topic": "聊城",
+  "city": "聊城",
+  "source": "auto_from_a",
+  "facts": [
+    {
+      "id": "F01",
+      "text": "精彩龙舟赛 出彩新聊城 | 5月27日-28日，2023中国聊城·江北水城龙舟公开赛在东昌湖金凤广场水域举办",
+      "source": "https://www.lcxw.cn/shiting/zhibo/20230525/36004.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F02",
+      "text": "国内一流的滨水生态景区——东昌湖是国家4A级旅游区、山东省重点服务业园区、山东省生态渔业示范园、国家垂钓基地，也是“江北水城•运河古都——生态聊城”城市品牌的核心区域。",
+      "source": "http://www.liaocheng.gov.cn/channel_t_156_16533/doc_639482a8f8ab1b326469ea4c.html",
+      "basis": "source_text"
+    },
+    {
+      "id": "F10",
+      "text": "光岳楼位于聊城古城中心，是中国历史文化名城聊城的象征。",
+      "source": "http://wlj.liaocheng.gov.cn/channel_t_296_26904/doc_63949cadaca39563852dcd10.html",
+      "basis": "source_text"
+    },
+    {
+      "id": "F16",
+      "text": "国庆长假最后一天欢乐拉满 一城盛景是聊城与游客的双向奔赴（郭绍隆 于春晖） #聊城 #中华水上古城 #光岳楼 #国庆长假",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20261008/188928.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F17",
+      "text": "清风漾碧波，东昌湖水上多元运动治愈又解压！",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260814/185710.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F18",
+      "text": "光岳楼现日照金楼奇观",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260521/180303.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F19",
+      "text": "黄昏时分 收船归来 落日下的东昌湖",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260514/177000.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F20",
+      "text": "游船如织 景美如画 东昌湖水上观光升温",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260507/172880.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F21",
+      "text": "春日打卡新去处！东昌湖风景区樱花山樱花盛开",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260330/158633.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F22",
+      "text": "雪落光岳楼 砖瓦皆成诗",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260302/156289.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F23",
+      "text": "新春走基层丨水文“哨兵” 守护东昌湖碧水清波",
+      "source": "https://www.lcxw.cn/shipin/shupingshipin/20260206/153795.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F24",
+      "text": "聊城五一假期 如约光岳楼鱼灯舞巡游",
+      "source": "https://www.lcxw.cn/shipin/hengpinshipin/20260506/171848.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F25",
+      "text": "冰封东昌湖 候鸟舞翩跹",
+      "source": "https://www.lcxw.cn/shipin/hengpinshipin/20260127/152200.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F26",
+      "text": "1月3日，在水上古城四条大街共同表演《江北水城，我爱你》《上春山》，每条大街各100人方阵轮番上演。其中舞龙队以龙腾之姿，在光岳楼前上演压轴大戏。",
+      "source": "https://www.lcxw.cn/shipin/hengpinshipin/20260104/149888.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F27",
+      "text": "揽一轮明月，品一味团圆！当聊城光岳楼与满月同框有多美！",
+      "source": "https://www.lcxw.cn/shipin/hengpinshipin/20251006/131159.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F28",
+      "text": "【风华聊城 非遗新韵】夜游古城 非遗盛宴！登光岳楼听额尔古纳！看聊城把非遗玩成“江湖livehouse”",
+      "source": "https://www.lcxw.cn/shipin/hengpinshipin/20250630/120494.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F29",
+      "text": "聊城东昌湖：不止是冠军基地，更是你下一站“慢生活”目的地~",
+      "source": "https://www.lcxw.cn/shipin/hengpinshipin/20250605/117952.html",
+      "basis": "article_title"
+    },
+    {
+      "id": "F30",
+      "text": "该视频报道2023中国聊城·江北水城龙舟公开赛于5月27日至28日在东昌湖金凤广场水域举办的精彩赛事。",
+      "source": "https://www.lcxw.cn/shiting/zhibo/20230525/36004.html",
+      "basis": "video_unverified"
+    },
+    {
+      "id": "F03",
+      "text": "东昌湖水质清澈，景色宜人，适宜水上游乐项目的开发与建设。",
+      "source": "http://www.liaocheng.gov.cn/channel_t_156_16533/doc_639482a8f8ab1b326469ea4c.html",
+      "basis": "source_text"
+    },
+    {
+      "id": "F11",
+      "text": "光岳楼外观为四重歇山十字脊过街式楼阁。",
+      "source": "http://wlj.liaocheng.gov.cn/channel_t_296_26904/doc_63949cadaca39563852dcd10.html",
+      "basis": "source_text"
+    }
+  ],
+  "assets": [
+    {
+      "file": "asset_53b21b75b5ac00fa.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F01",
+        "F30"
+      ],
+      "hint": "该视频报道2023中国聊城·江北水城龙舟公开赛于5月27日至28日在东昌湖金凤广场水域举办的精彩赛事。"
+    },
+    {
+      "file": "asset_384809b8dd31a3e8.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "宽阔湖面旁木栈道延伸入水，岸边石砌护坡与垂柳，远处城市楼群，蓝天白云。"
+    },
+    {
+      "file": "asset_c314fd7524b55970.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "航拍城市大型湖泊，湖中绿岛上有亭台建筑，多座拱桥横跨水面，两岸绿树与城区楼房，蓝天白云。"
+    },
+    {
+      "file": "asset_545c65ea10fde1c2.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "俯瞰宽阔湖面，湖岸绿树亭台与游船点缀，前方城市道路车流，远处楼房与蓝天白云。"
+    },
+    {
+      "file": "asset_287ff0b1d32df61a.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "晴空下一座白色多孔石拱桥横跨宽阔湖面，桥上有行人，远处可见城市建筑与岸边岩石。"
+    },
+    {
+      "file": "asset_56c026df23325476.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "航拍宽阔湖面，湖中岛屿分布灰瓦古建与多层楼阁，秋色树木环绕，游船行驶，远处拱桥与城市天际线。"
+    },
+    {
+      "file": "asset_bb2f023ab2834e30.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "宽阔平静湖面旁有木栈桥与石砌半岛广场，岸边树木及莲花造型雕塑，数人在此游览。"
+    },
+    {
+      "file": "asset_01961a35f94daa1d.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F02",
+        "F03"
+      ],
+      "hint": "荷花丛生的湖面上渔民立于木船，船舷与水中有多只鸬鹚，远处可见城墙与楼阁。"
+    },
+    {
+      "file": "asset_63ee1a88c380bd32.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F10",
+        "F11"
+      ],
+      "hint": "砖石高台上矗立多重檐歇山楼阁，檐下悬匾额，台前绿篱花坛环绕，背景晴空。"
+    },
+    {
+      "file": "asset_ec8c33a31c0f2583.jpg",
+      "type": "image",
+      "basis": "visual",
+      "facts": [
+        "F10",
+        "F11"
+      ],
+      "hint": "蓝天白云下仰拍红墙灰柱的多层重檐古楼，檐下蓝色斗拱与悬挂匾额清晰可见。"
+    },
+    {
+      "file": "asset_8cbfe408f50d0e76.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [],
+      "hint": "文章围绕《重修东昌光岳楼记》，讲述聊城光岳楼重修往事及杨、傅两家由此结下的百年交谊。"
+    },
+    {
+      "file": "asset_c96fa70c1c5c3e26.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F16"
+      ],
+      "hint": "文章标题显示该视频呈现国庆长假最后一天聊城中华水上古城、光岳楼一带的假日盛景与游客同游的文旅景象。"
+    },
+    {
+      "file": "asset_8fa2b76764c8015e.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F17"
+      ],
+      "hint": "文章标题所述视频聚焦聊城东昌湖上的多元水上运动，呈现清风碧波间的休闲解压体验。"
+    },
+    {
+      "file": "asset_82e664635bcc09f3.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F18"
+      ],
+      "hint": "文章所述视频以聊城光岳楼出现“日照金楼”光影奇观为主题。"
+    },
+    {
+      "file": "asset_163a055ea198dd19.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F19"
+      ],
+      "hint": "该视频以黄昏落日时分东昌湖上收船归来的湖畔景致为主题。"
+    },
+    {
+      "file": "asset_c7e00e0bb49c9d93.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F20"
+      ],
+      "hint": "文章所述视频聚焦聊城东昌湖游船往来、水上观光旅游升温的景区游览主题。"
+    },
+    {
+      "file": "asset_b4b4ac55cc7f0892.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F21"
+      ],
+      "hint": "文章所述视频介绍聊城东昌湖风景区樱花山樱花盛开、成为春日打卡新去处的赏花景观。"
+    },
+    {
+      "file": "asset_6d576bcf61eff1ae.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F22"
+      ],
+      "hint": "该文章配套视频以雪中的聊城光岳楼为主题，呈现古楼砖瓦在落雪时节的诗意景致。"
+    },
+    {
+      "file": "asset_d3a31c98594eed1b.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F23"
+      ],
+      "hint": "文章所述视频是新春走基层报道，讲述水文监测“哨兵”守护东昌湖水质、保住湖区碧水清波的工作。"
+    },
+    {
+      "file": "asset_5b4ec24347a991a5.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F24"
+      ],
+      "hint": "文章所述视频呈现聊城五一假期在光岳楼举行的鱼灯舞巡游活动。"
+    },
+    {
+      "file": "asset_3afda06cf08747c3.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F25"
+      ],
+      "hint": "文章所述视频以东昌湖冰封时节的湖面与翩跹飞舞的候鸟为主题。"
+    },
+    {
+      "file": "asset_ab408dedf540d25b.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F26"
+      ],
+      "hint": "文章所述视频展现1月3日聊城水上古城四条大街各百人方阵轮番表演《江北水城，我爱你》《上春山》，并由舞龙队在光岳楼前上演压轴大戏的文艺展演活动。"
+    },
+    {
+      "file": "asset_2621add80a6f2ac7.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F27"
+      ],
+      "hint": "该文章所述视频以中秋时节聊城光岳楼与满月同框的景致为主题，突出揽月团圆的节日氛围。"
+    },
+    {
+      "file": "asset_d6ac59244b5cc96c.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F28"
+      ],
+      "hint": "文章介绍聊城古城夜游非遗盛宴活动，讲述登光岳楼聆听额尔古纳演出、把非遗演绎成“江湖livehouse”的文旅体验。"
+    },
+    {
+      "file": "asset_b3aefb57129b4e59.mp4",
+      "type": "video",
+      "basis": "video_unverified",
+      "facts": [
+        "F29"
+      ],
+      "hint": "文章所述视频聚焦聊城东昌湖，将其呈现为兼具冠军训练基地身份与“慢生活”休闲气质的旅游目的地。"
+    }
+  ],
+  "cultural_elements": [
+    "聊城",
+    "东昌湖",
+    "龙舟赛",
+    "江北水城",
+    "文旅活动",
+    "金凤广场",
+    "湖泊",
+    "木栈道",
+    "滨水景观",
+    "垂柳",
+    "城市天际线",
+    "晴天",
+    "航拍",
+    "城市风光",
+    "拱桥"
+  ]
+}

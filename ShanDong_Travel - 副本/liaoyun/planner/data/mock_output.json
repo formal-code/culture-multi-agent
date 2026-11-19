@@ -1,0 +1,170 @@
+{
+  "topic": "聊城东昌府木版年画",
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "人物故事",
+      "script": {
+        "title": "刻了四十年的那块版",
+        "hook": "这块梨木版，他刻了整整四十年。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 8,
+            "vo": "聊城的老巷子里，住着一位刻年画版的老师傅。",
+            "subtitle": "老巷子里的手艺人",
+            "visual": "清晨老街，老人推作坊木门",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 18,
+            "vo": "东昌府木版年画是国家级非物质文化遗产。他手里的每一刀，都得顺着梨木的纹理走。",
+            "subtitle": "国家级非遗，一刀一刀刻出来",
+            "visual": "特写握刀刻版的手",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": ["F01"],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 20,
+            "vo": "一块年画版要刻制数月，刻坏了就从头再来。他说版是有脾气的，你敬它，它才给你好颜色。",
+            "subtitle": "一块版，刻数月",
+            "visual": "架上刻到一半的梨木版",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": ["F02"],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 14,
+            "vo": "如今年轻人学这个的不多了，但运河边这间小屋的灯，还亮着。",
+            "subtitle": "小屋的灯，还亮着",
+            "visual": "夜晚作坊窗里透出灯光",
+            "asset": "assets/04.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "非遗工艺",
+      "script": {
+        "title": "一张年画，为什么要印五遍",
+        "hook": "一张年画，为什么要印五遍？",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 6,
+            "vo": "东昌府木版年画，靠的是一门老手艺。",
+            "subtitle": "一门老手艺",
+            "visual": "成品年画铺满桌面",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": ["F01"],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 20,
+            "vo": "第一步是刻版。一块年画版要刻制数月，线条细到能看清人物的眉眼，一刀都不能错。",
+            "subtitle": "刻版数月，一刀不错",
+            "visual": "刻刀在梨木版上游走特写",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": ["F02"],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 22,
+            "vo": "然后是套印。传统年画要套印五色，印一色晾一色，颜色一层压一层，急不得也快不得。",
+            "subtitle": "套印五色，一层压一层",
+            "visual": "五色颜料盘与套印过程",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": ["F03"],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "五色套完，一张带着运河味的年画才算真正成了。",
+            "subtitle": "五色成画",
+            "visual": "举起完成的年画对光展示",
+            "asset": "assets/04.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "周末攻略",
+      "script": {
+        "title": "聊城半日：看一块版怎么刻出来",
+        "hook": "周末不知道去哪？来聊城看一块版的诞生。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 10,
+            "vo": "从聊城古城出发，第一站直奔年画作坊。",
+            "subtitle": "第一站：年画作坊",
+            "visual": "古城街巷行人画面",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 16,
+            "vo": "上午看师傅刻版，一块版要刻数月，你可以凑近看看握刀的手法。",
+            "subtitle": "看师傅刻版",
+            "visual": "游客围观师傅刻版",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": ["F02"],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 20,
+            "vo": "下午沿着运河散散步，水边的老街区很安静，适合慢慢逛慢慢拍。",
+            "subtitle": "运河边慢慢逛",
+            "visual": "运河水岸与老街",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": true
+          },
+          {
+            "no": 4,
+            "duration": 14,
+            "vo": "半日行程不赶不累，带上孩子来，比在家刷手机有意思多了。",
+            "subtitle": "半日行程，不赶不累",
+            "visual": "孩子举着年画成品笑",
+            "asset": "assets/04.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3502 @@
+{
+  "schema_version": "video-review-1.1",
+  "step": "understand_video",
+  "created_at": "2026-11-19T11:29:59.022325+00:00",
+  "model": "qwen3.8-omni-flash",
+  "video": {
+    "duration_seconds": 60.0,
+    "fps": 20.0,
+    "size": [
+      1080,
+      1920
+    ],
+    "has_audio_stream": true,
+    "sha256": "7a1a0cbfa77c7d1370833d447e328771ca093ea2d3f14c7e0ff8192346ce71eb"
+  },
+  "status": "complete",
+  "chunks": [
+    {
+      "index": 1,
+      "start_seconds": 0,
+      "end_seconds": 20,
+      "time_basis": "program_clip_bounds",
+      "errors": [],
+      "media_start_seconds": 0.0,
+      "media_end_seconds": 20.4,
+      "core_start_in_media": 0.0,
+      "core_end_in_media": 20.0,
+      "visual": {
+        "accessed": true,
+        "scenes": [
+          {
+            "start": 0.0,
+            "end": 9.5,
+            "description": "画面展示春季公园场景。开头为航拍视角，可见粉色花树、木栈道及散步的人群；随后切至草地上的蓝色帐篷和坐在折叠椅上休息的人；接着是人们在野餐垫上用餐以及躺在彩色吊床里休息的画面；最后是一名女子带着几名儿童在树林间走动。",
+            "on_screen_text": [
+              "聊城光岳楼与东昌湖的四季光影，美到窒息！",
+              "3月29日 山东聊城",
+              "聊城市新闻传媒中心",
+              "春天来聊城东昌湖，樱花山花开得正旺！",
+              "光岳楼倒映在花海里，这颜值绝了！"
+            ]
+          },
+          {
+            "start": 9.5,
+            "end": 14.5,
+            "description": "画面转为龙舟比赛特写。包含划手挥动船桨的近景、鼓手击鼓的特写（伴有水花飞溅），以及水面波浪翻滚的镜头。",
+            "on_screen_text": [
+              "到了五月，金凤广场龙舟赛那叫一个热闹！",
+              "5月27日-28日",
+              "中国聊城·江北水域龙舟公开赛",
+              "在东昌湖金凤广场水域举办",
+              "即将起浆！"
+            ]
+          },
+          {
+            "start": 14.5,
+            "end": 20.4,
+            "description": "画面展示宽阔的水域全景。远处可见城市建筑群和摩天轮，多艘龙舟在湖面竞渡；结尾处再次出现船上人员击鼓的背影剪影。",
+            "on_screen_text": [
+              "东昌湖可是冠军基地，水上运动氛围拉满。",
+              "中国·聊城江北水域龙舟公开赛",
+              "支持单位",
+              "国家体育总局社体中心 中国龙舟协会",
+              "由市政府主办",
+              "市教育和体育局承办 市旅发集团协办"
+            ]
+          }
+        ],
+        "uncertainty": []
+      },
+      "audio": {
+        "accessed": true,
+        "transcript": "春天来聊城东昌湖，樱花山花开得正旺。光岳楼倒映在花海里，这颜值绝了！到了五月，金凤广场龙舟赛那叫一个热闹。东昌湖可是冠军基地，水上运动氛围拉满。秋",
+        "sound_description": "单人女声普通话旁白，语气热情、积极；背景有轻快器乐配乐；约19.8秒处说到“秋”后突然中断并结束，无后续内容。",
+        "uncertainty": []
+      }
+    },
+    {
+      "index": 2,
+      "start_seconds": 20,
+      "end_seconds": 40,
+      "time_basis": "program_clip_bounds",
+      "errors": [],
+      "media_start_seconds": 19.6,
+      "media_end_seconds": 40.4,
+      "core_start_in_media": 0.4,
+      "core_end_in_media": 20.4,
+      "visual": {
+        "accessed": true,
+        "scenes": [
+          {
+            "start": 0.0,
+            "end": 10.2,
+            "description": "演播室画面中，一名穿黑色西装、蓝色衬衫的男子站在屏幕右侧。左侧大屏幕先显示地球动画，随后切换为包含水面、拱桥和古建筑的风景图，图中带有红色标签。男子有轻微的手部动作。",
+            "on_screen_text": [
+              "【山东新闻联播】聚焦聊城东昌湖水墨初秋",
+              "海岱四季",
+              "聊城市新闻传媒中心",
+              "秋天的东昌湖起雾了，水云相接，光岳楼若隐若现，",
+              "妥妥的水墨画既视感！"
+            ]
+          },
+          {
+            "start": 10.3,
+            "end": 19.8,
+            "description": "画面切至户外自然场景，前景是枯黄的芦苇，背景是一片结冰的湖面。许多水鸟（包括深色鸭类和白色鹭类）停留在冰面上，部分在走动或站立，空中偶有鸟类飞过。镜头有轻微的平移和缩放。",
+            "on_screen_text": [
+              "冬天下雪的光岳楼太有诗意了！",
+              "近日，大量越冬水鸟聚集在东昌湖冰面上，为冰封的湖面增添了生机与活力。",
+              "湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。",
+              "聊城市新闻传媒中心"
+            ]
+          }
+        ],
+        "uncertainty": []
+      },
+      "audio": {
+        "accessed": true,
+        "transcript": "秋天的东昌湖起雾了，水云相接，光岳楼若隐若现，妥妥的水墨画既视感。冬天下雪的光岳楼太有诗意了，湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。傍晚",
+        "sound_description": "单人女声旁白，语速适中偏慢，吐字清晰。背景伴有轻柔舒缓的纯音乐（钢琴/弦乐），音量较低不干扰人声。段落间有明显停顿，结尾处“傍晚”一词后音频突然截断。无环境噪音或电流声。",
+        "uncertainty": [
+          "结尾词“傍晚”被切断，后续内容缺失"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "start_seconds": 40,
+      "end_seconds": 60,
+      "time_basis": "program_clip_bounds",
+      "errors": [],
+      "media_start_seconds": 39.6,
+      "media_end_seconds": 60.0,
+      "core_start_in_media": 0.4,
+      "core_end_in_media": 20.4,
+      "visual": {
+        "accessed": true,
+        "scenes": [
+          {
+            "start": 0.0,
+            "end": 10.0,
+            "description": "画面展示黄昏时分的湖面，水面波光粼粼，远处有船只的剪影。前5秒内，镜头保持固定，记录了水面的波纹和远处的建筑轮廓。随后底部字幕发生切换，但画面主体内容保持一致。",
+            "on_screen_text": [
+              "聊城市新闻传媒中心",
+              "湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。",
+              "黄昏时分 收船归来 落日下的东昌湖",
+              "5月12日 山东聊城",
+              "聊城市新闻传媒中心",
+              "傍晚落日熔金，洒满整个东昌湖。",
+              "看着游船归来，光岳楼剪影超有感觉！"
+            ]
+          },
+          {
+            "start": 10.0,
+            "end": 18.9,
+            "description": "画面转为夜景，展示一座被灯光照亮的传统多层楼阁（牌匾显示“光岳楼”），背景有一轮巨大的圆月和星空特效。期间画面带有轻微的缩放或平移效果，底部字幕在14.9秒左右发生切换。",
+            "on_screen_text": [
+              "揽一轮明月 品一味团圆",
+              "聊城光岳楼与满月同框有多美",
+              "晚上满月升空，和光岳楼同框太震撼了！",
+              "夜游古城看非遗，这趟聊城之旅值了！"
+            ]
+          },
+          {
+            "start": 18.9,
+            "end": 20.4,
+            "description": "画面切至另一座传统建筑的局部特写，可见红色的墙体、灰色的瓦顶以及一块蓝底金字的牌匾（文字为“光岳楼”）。此段落的顶部装饰条颜色发生变化，且无底部字幕。",
+            "on_screen_text": []
+          }
+        ],
+        "uncertainty": [
+          "由于提供的视频帧最高仅到19.0秒，无法确认19.0秒至20.4秒期间的具体动态及是否有其他未展示的字幕出现。"
+        ]
+      },
+      "audio": {
+        "accessed": true,
+        "transcript": "傍晚落日熔金，洒满整个东昌湖。看着游船归来，光岳楼剪影超有感觉！晚上满月升空，和光岳楼同框太震撼了。夜游古城看非遗，这趟聊城之旅值啦！",
+        "sound_description": "单人女声旁白，语调轻快、充满赞叹感；背景伴有舒缓的纯音乐（钢琴/弦乐），无环境噪音或杂音。",
+        "uncertainty": []
+      }
+    }
+  ],
+  "limitations": [
+    "视频理解由模型完成，不能保证每帧覆盖；分镜时间为模型近似观察，片段边界由程序确定",
+    "音频按程序片段提供整体转写，不冒充逐字精确时间戳；静音与未成功读取音频是不同状态"
+  ],
+  "coverage": {
+    "expected_chunks": 3,
+    "visual_chunks_read": 3,
+    "audio_chunks_read": 3,
+    "audio_chunks_expected": 3,
+    "note": "覆盖表示每个片段调用成功，非逐帧识别准确率"
+  },
+  "render_record": {
+    "status": "duration_matched_not_independently_verified",
+    "data": {
+      "renderer_version": "2.5",
+      "platform": "douyin",
+      "style": "douyin",
+      "aspect_ratio": "9:16",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 20,
+      "total_frames": 1200,
+      "duration_seconds": 60.0,
+      "title_seconds": 3.0,
+      "validation": {
+        "full_decode_verified": true,
+        "decoded_frames": 1200,
+        "timeline_checked": true,
+        "caption_text_preserved": true,
+        "visual_audit": {
+          "events": [
+            {
+              "kind": "suspected_video_freeze",
+              "severity": "warning",
+              "no": 3,
+              "asset_id": "asset_af6c3bbe6bdd92e6",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_af6c3bbe6bdd92e6.mp4",
+              "start_frame": 470,
+              "end_frame": 590,
+              "start_seconds": 23.5,
+              "end_seconds": 29.5,
+              "basis": "similarity_to_anchor_after_masking_added_text_not_adjacent_frame_only"
+            }
+          ],
+          "suppressed_events": 0,
+          "samples_checked": 120,
+          "sample_interval_seconds": 0.5,
+          "method": "encoded_grayscale_foreground_samples_with_added_text_masked",
+          "limits": "抽样会漏过短暂异常；夜景和固定机位可能正常。相似画面不等于解码故障；不做OCR或事实判断。"
+        },
+        "checked_caption_layouts": 12,
+        "subtitle_geometry_verified": true,
+        "method": "shared_render_geometry_not_OCR",
+        "final_mux_full_decode_verified": true,
+        "audio_duration_verified": true
+      },
+      "source_decode_events": [],
+      "reuse_check": {
+        "assets": [
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_b4b4ac55cc7f0892.mp4",
+            "segment_numbers": [
+              1
+            ],
+            "duration_seconds": 10.0,
+            "fraction": 0.167,
+            "media_type": "video",
+            "frequent_reuse": false
+          },
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+            "segment_numbers": [
+              2
+            ],
+            "duration_seconds": 10.0,
+            "fraction": 0.167,
+            "media_type": "video",
+            "frequent_reuse": false
+          },
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_af6c3bbe6bdd92e6.mp4",
+            "segment_numbers": [
+              3
+            ],
+            "duration_seconds": 10.0,
+            "fraction": 0.167,
+            "media_type": "video",
+            "frequent_reuse": false
+          },
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_3afda06cf08747c3.mp4",
+            "segment_numbers": [
+              4
+            ],
+            "duration_seconds": 10.0,
+            "fraction": 0.167,
+            "media_type": "video",
+            "frequent_reuse": false
+          },
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_163a055ea198dd19.mp4",
+            "segment_numbers": [
+              5
+            ],
+            "duration_seconds": 10.0,
+            "fraction": 0.167,
+            "media_type": "video",
+            "frequent_reuse": false
+          },
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_2621add80a6f2ac7.mp4",
+            "segment_numbers": [
+              6
+            ],
+            "duration_seconds": 10.0,
+            "fraction": 0.167,
+            "media_type": "video",
+            "frequent_reuse": false
+          }
+        ],
+        "longest_same_source_seconds": 10.0,
+        "policy": "reuse_permitted_report_only_not_rejected"
+      },
+      "performance": {
+        "preflight_seconds": 51.6209,
+        "planning_seconds": 0.2871,
+        "encoding_seconds": 299.4087,
+        "validation_seconds": 7.8548,
+        "total_seconds": 359.1714,
+        "cache_activity": {
+          "preflight_hits": 14,
+          "preflight_misses": 7,
+          "image_hits": 0,
+          "image_misses": 0,
+          "video_read_retries": 0
+        },
+        "cache_state": {
+          "preflight": {
+            "entries": 14,
+            "bytes": 21321,
+            "max_entries": 128,
+            "max_bytes": 8388608
+          },
+          "images": {
+            "entries": 0,
+            "bytes": 0,
+            "max_entries": 12,
+            "max_bytes": 100663296
+          }
+        },
+        "cache_lifetime": "process_only_stat_identity_invalidation",
+        "memory_limits": "cache_limits_not_total_process_memory_limit_no_full_video_frame_cache",
+        "tts_prepare_seconds": 66.3733,
+        "total_with_tts_seconds": 430.5064
+      },
+      "segments": [
+        {
+          "no": 1,
+          "start_frame": 0,
+          "end_frame": 200,
+          "shots": [
+            {
+              "asset_id": "asset_b4b4ac55cc7f0892",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_b4b4ac55cc7f0892.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 0,
+              "end_frame": 200,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                1080,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 13.5,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "樱花山"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 0,
+              "end_frame": 92,
+              "text": "春天来聊城东昌湖，樱花山花开得正旺！",
+              "reading_units_per_second": 3.48
+            },
+            {
+              "start_frame": 92,
+              "end_frame": 200,
+              "text": "光岳楼倒映在花海里，这颜值绝了！",
+              "reading_units_per_second": 2.59
+            }
+          ],
+          "selection": {
+            "no": 1,
+            "selected_asset_id": "asset_b4b4ac55cc7f0892",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 13.5,
+              "qualified": true,
+              "specific_keywords": [
+                "东昌湖",
+                "樱花山"
+              ],
+              "generic_keywords": [
+                "聊城"
+              ],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_2621add80a6f2ac7",
+                "score": 14.7,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼",
+                  "东昌湖"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_b4b4ac55cc7f0892",
+                "score": 13.5,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "樱花山"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_8cbfe408f50d0e76",
+                "score": 9.3,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "unknown",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_ab408dedf540d25b",
+                "score": 9.3,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_6d576bcf61eff1ae",
+                "score": 9.3,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_b4b4ac55cc7f0892.mp4"
+          }
+        },
+        {
+          "no": 2,
+          "start_frame": 200,
+          "end_frame": 400,
+          "shots": [
+            {
+              "asset_id": "asset_53b21b75b5ac00fa",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 200,
+              "end_frame": 400,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                2560,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 16.8,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "龙舟赛",
+                  "金凤广场"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 200,
+              "end_frame": 286,
+              "text": "到了五月，金凤广场龙舟赛那叫一个热闹！",
+              "reading_units_per_second": 3.95
+            },
+            {
+              "start_frame": 286,
+              "end_frame": 400,
+              "text": "东昌湖可是冠军基地，水上运动氛围拉满。",
+              "reading_units_per_second": 2.98
+            }
+          ],
+          "selection": {
+            "no": 2,
+            "selected_asset_id": "asset_53b21b75b5ac00fa",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 16.8,
+              "qualified": true,
+              "specific_keywords": [
+                "东昌湖",
+                "龙舟赛",
+                "金凤广场"
+              ],
+              "generic_keywords": [],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_6aa95eacd31e7603",
+                "score": 19.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "龙舟",
+                  "水上运动"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_53b21b75b5ac00fa",
+                "score": 16.8,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "龙舟赛",
+                  "金凤广场"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_c3a024cfe0d924f6",
+                "score": 13.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "龙舟"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "edited_video",
+                "conflicts": [],
+                "quality_preference": -2,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_8fa2b76764c8015e",
+                "score": 11.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "水上运动"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_b3aefb57129b4e59",
+                "score": 11.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "冠军基地"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_53b21b75b5ac00fa.mp4"
+          }
+        },
+        {
+          "no": 3,
+          "start_frame": 400,
+          "end_frame": 600,
+          "shots": [
+            {
+              "asset_id": "asset_af6c3bbe6bdd92e6",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_af6c3bbe6bdd92e6.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": true,
+              "start_frame": 400,
+              "end_frame": 600,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                1080,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 5.4,
+                "qualified": false,
+                "specific_keywords": [
+                  "东昌湖"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "edited_video",
+                "conflicts": [],
+                "quality_preference": -2,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "edited_video"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 400,
+              "end_frame": 519,
+              "text": "秋天的东昌湖起雾了，水云相接，光岳楼若隐若现，",
+              "reading_units_per_second": 3.36
+            },
+            {
+              "start_frame": 519,
+              "end_frame": 600,
+              "text": "妥妥的水墨画既视感！",
+              "reading_units_per_second": 2.22
+            }
+          ],
+          "selection": {
+            "no": 3,
+            "selected_asset_id": "asset_af6c3bbe6bdd92e6",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 5.4,
+              "qualified": false,
+              "specific_keywords": [
+                "东昌湖"
+              ],
+              "generic_keywords": [],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "edited_video",
+              "conflicts": [],
+              "quality_preference": -2,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_2621add80a6f2ac7",
+                "score": 14.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼",
+                  "东昌湖"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_8cbfe408f50d0e76",
+                "score": 9.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "unknown",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_ab408dedf540d25b",
+                "score": 9.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_6d576bcf61eff1ae",
+                "score": 9.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_d6ac59244b5cc96c",
+                "score": 9.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": -1,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_af6c3bbe6bdd92e6.mp4"
+          }
+        },
+        {
+          "no": 4,
+          "start_frame": 600,
+          "end_frame": 800,
+          "shots": [
+            {
+              "asset_id": "asset_3afda06cf08747c3",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_3afda06cf08747c3.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 600,
+              "end_frame": 800,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                1906,
+                1080
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 8.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "候鸟"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 600,
+              "end_frame": 661,
+              "text": "冬天下雪的光岳楼太有诗意了！",
+              "reading_units_per_second": 4.26
+            },
+            {
+              "start_frame": 661,
+              "end_frame": 800,
+              "text": "湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。",
+              "reading_units_per_second": 2.88
+            }
+          ],
+          "selection": {
+            "no": 4,
+            "selected_asset_id": "asset_3afda06cf08747c3",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 8.0,
+              "qualified": true,
+              "specific_keywords": [
+                "候鸟"
+              ],
+              "generic_keywords": [],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_6d576bcf61eff1ae",
+                "score": 13.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼",
+                  "雪景"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_c7e00e0bb49c9d93",
+                "score": 8.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "游船"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_3afda06cf08747c3",
+                "score": 8.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "候鸟"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_0142b5129b2c4f64",
+                "score": 8.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "游船"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": -2,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_8cbfe408f50d0e76",
+                "score": 5.4,
+                "qualified": false,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "unknown",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_3afda06cf08747c3.mp4"
+          }
+        },
+        {
+          "no": 5,
+          "start_frame": 800,
+          "end_frame": 1000,
+          "shots": [
+            {
+              "asset_id": "asset_163a055ea198dd19",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_163a055ea198dd19.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "near_ratio_fill",
+              "preserve_full": false,
+              "start_frame": 800,
+              "end_frame": 1000,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                1080,
+                1920
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 10.2,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "落日"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 800,
+              "end_frame": 877,
+              "text": "傍晚落日熔金，洒满整个东昌湖。",
+              "reading_units_per_second": 3.38
+            },
+            {
+              "start_frame": 877,
+              "end_frame": 1000,
+              "text": "看着游船归来，光岳楼剪影超有感觉！",
+              "reading_units_per_second": 2.44
+            }
+          ],
+          "selection": {
+            "no": 5,
+            "selected_asset_id": "asset_163a055ea198dd19",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 10.2,
+              "qualified": true,
+              "specific_keywords": [
+                "东昌湖",
+                "落日"
+              ],
+              "generic_keywords": [],
+              "exact_phrases": [],
+              "desired_kind": "scenery",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_c7e00e0bb49c9d93",
+                "score": 13.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "游船"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_0142b5129b2c4f64",
+                "score": 13.4,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "游船"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": -2,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_2621add80a6f2ac7",
+                "score": 10.8,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼",
+                  "东昌湖"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_163a055ea198dd19",
+                "score": 10.2,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "落日"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_8cbfe408f50d0e76",
+                "score": 5.4,
+                "qualified": false,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "unknown",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_163a055ea198dd19.mp4"
+          }
+        },
+        {
+          "no": 6,
+          "start_frame": 1000,
+          "end_frame": 1200,
+          "shots": [
+            {
+              "asset_id": "asset_2621add80a6f2ac7",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_2621add80a6f2ac7.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 1000,
+              "end_frame": 1200,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                1904,
+                1080
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 5.7,
+                "qualified": false,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 1000,
+              "end_frame": 1090,
+              "text": "晚上满月升空，和光岳楼同框太震撼了！",
+              "reading_units_per_second": 3.56
+            },
+            {
+              "start_frame": 1090,
+              "end_frame": 1200,
+              "text": "夜游古城看非遗，这趟聊城之旅值了！",
+              "reading_units_per_second": 2.73
+            }
+          ],
+          "selection": {
+            "no": 6,
+            "selected_asset_id": "asset_2621add80a6f2ac7",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 5.7,
+              "qualified": false,
+              "specific_keywords": [
+                "光岳楼"
+              ],
+              "generic_keywords": [
+                "聊城"
+              ],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_d6ac59244b5cc96c",
+                "score": 10.5,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼",
+                  "非遗"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": -1,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_5b4ec24347a991a5",
+                "score": 10.5,
+                "qualified": true,
+                "specific_keywords": [
+                  "光岳楼",
+                  "非遗"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": -2,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_8cbfe408f50d0e76",
+                "score": 5.7,
+                "qualified": false,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "unknown",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_ab408dedf540d25b",
+                "score": 5.7,
+                "qualified": false,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              {
+                "asset_id": "asset_6d576bcf61eff1ae",
+                "score": 5.7,
+                "qualified": false,
+                "specific_keywords": [
+                  "光岳楼"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_2621add80a6f2ac7.mp4"
+          }
+        }
+      ],
+      "substitutions": [],
+      "warnings": [
+        "素材 asset_c96fa70c1c5c3e26：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_82e664635bcc09f3：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_5b4ec24347a991a5：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_d6ac59244b5cc96c：抽样发现近黑画面，可能为转场或异常",
+        "素材 asset_0142b5129b2c4f64：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_a19b20e564be4c95：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_c3a024cfe0d924f6：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_c3a024cfe0d924f6：上游标注为新闻或已有字幕成片；原有文字/画面会保留",
+        "素材 asset_af6c3bbe6bdd92e6：部分抽样位置解码失败，合成时仍需检查",
+        "素材 asset_af6c3bbe6bdd92e6：上游标注为新闻或已有字幕成片；原有文字/画面会保留",
+        "分镜 3，23.50～29.50 秒：疑似视频停帧，请结合原素材核对。"
+      ],
+      "material_checks": [
+        {
+          "asset_id": "asset_53b21b75b5ac00fa",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+          "media_type": "video",
+          "width": 2560,
+          "height": 1440,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 104.34,
+                "luminance_std": 84.14,
+                "edge_energy": 450.83,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 287,
+                "readable": true,
+                "brightness": 105.13,
+                "luminance_std": 65.06,
+                "edge_energy": 646.21,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 574,
+                "readable": true,
+                "brightness": 113.73,
+                "luminance_std": 59.62,
+                "edge_energy": 738.9,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 862,
+                "readable": true,
+                "brightness": 139.79,
+                "luminance_std": 51.19,
+                "edge_energy": 670.98,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1149,
+                "readable": true,
+                "brightness": 139.22,
+                "luminance_std": 60.21,
+                "edge_energy": 655.27,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 83.854,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              2560,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.41,
+          "severe_upscale_suspected": false,
+          "used": true
+        },
+        {
+          "asset_id": "asset_8cbfe408f50d0e76",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_8cbfe408f50d0e76.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "unknown",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 147.47,
+                "luminance_std": 69.4,
+                "edge_energy": 378.62,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 776,
+                "readable": true,
+                "brightness": 158.08,
+                "luminance_std": 55.64,
+                "edge_energy": 361.95,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1553,
+                "readable": true,
+                "brightness": 142.43,
+                "luminance_std": 75.12,
+                "edge_energy": 421.06,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 2330,
+                "readable": true,
+                "brightness": 143.92,
+                "luminance_std": 70.16,
+                "edge_energy": 381.94,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 3106,
+                "readable": true,
+                "brightness": 156.23,
+                "luminance_std": 61.3,
+                "edge_energy": 391.55,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 21.181,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_c96fa70c1c5c3e26",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_c96fa70c1c5c3e26.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1440,
+          "content_kind": "unknown",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 113.59,
+                "luminance_std": 60.12,
+                "edge_energy": 649.99,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 952,
+                "readable": true,
+                "brightness": 107.18,
+                "luminance_std": 59.65,
+                "edge_energy": 587.46,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1905,
+                "readable": true,
+                "brightness": 121.49,
+                "luminance_std": 56.78,
+                "edge_energy": 689.99,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 2858,
+                "readable": true,
+                "brightness": 110.84,
+                "luminance_std": 63.45,
+                "edge_energy": 436.23,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 3810,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 52.91,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 0.93,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_8fa2b76764c8015e",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_8fa2b76764c8015e.mp4",
+          "media_type": "video",
+          "width": 720,
+          "height": 960,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 165.8,
+                "luminance_std": 45.75,
+                "edge_energy": 344.81,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 168,
+                "readable": true,
+                "brightness": 176.22,
+                "luminance_std": 43.59,
+                "edge_energy": 359.75,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 337,
+                "readable": true,
+                "brightness": 127.56,
+                "luminance_std": 54.55,
+                "edge_energy": 481.1,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 506,
+                "readable": true,
+                "brightness": 112.52,
+                "luminance_std": 55.63,
+                "edge_energy": 360.65,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 674,
+                "readable": true,
+                "brightness": 132.1,
+                "luminance_std": 32.93,
+                "edge_energy": 334.12,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 53.368,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              720,
+              960
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 1.4,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_82e664635bcc09f3",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_82e664635bcc09f3.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 135.11,
+                "luminance_std": 69.16,
+                "edge_energy": 366.15,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 94,
+                "readable": true,
+                "brightness": 143.91,
+                "luminance_std": 63.16,
+                "edge_energy": 338.02,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 188,
+                "readable": true,
+                "brightness": 151.03,
+                "luminance_std": 53.55,
+                "edge_energy": 306.5,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 281,
+                "readable": true,
+                "brightness": 142.67,
+                "luminance_std": 45.73,
+                "edge_energy": 453.77,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 375,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 52.354,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_163a055ea198dd19",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_163a055ea198dd19.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 114.78,
+                "luminance_std": 57.94,
+                "edge_energy": 359.86,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 101,
+                "readable": true,
+                "brightness": 121.53,
+                "luminance_std": 58.43,
+                "edge_energy": 261.26,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 202,
+                "readable": true,
+                "brightness": 111.96,
+                "luminance_std": 56.53,
+                "edge_energy": 330.87,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 302,
+                "readable": true,
+                "brightness": 125.48,
+                "luminance_std": 65.47,
+                "edge_energy": 399.74,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 403,
+                "readable": true,
+                "brightness": 131.05,
+                "luminance_std": 67.08,
+                "edge_energy": 325.92,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 44.462,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": true
+        },
+        {
+          "asset_id": "asset_c7e00e0bb49c9d93",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_c7e00e0bb49c9d93.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 132.13,
+                "luminance_std": 44.57,
+                "edge_energy": 297.83,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 182,
+                "readable": true,
+                "brightness": 139.89,
+                "luminance_std": 22.33,
+                "edge_energy": 142.04,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 363,
+                "readable": true,
+                "brightness": 132.53,
+                "luminance_std": 32.33,
+                "edge_energy": 291.94,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 544,
+                "readable": true,
+                "brightness": 137.38,
+                "luminance_std": 21.07,
+                "edge_energy": 134.14,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 726,
+                "readable": true,
+                "brightness": 133.25,
+                "luminance_std": 44.37,
+                "edge_energy": 304.24,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 30.382,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_5b4ec24347a991a5",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_5b4ec24347a991a5.mp4",
+          "media_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 106.84,
+                "luminance_std": 69.26,
+                "edge_energy": 504.4,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 116,
+                "readable": true,
+                "brightness": 108.87,
+                "luminance_std": 60.31,
+                "edge_energy": 158.01,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 232,
+                "readable": true,
+                "brightness": 79.38,
+                "luminance_std": 53.83,
+                "edge_energy": 220.06,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 347,
+                "readable": true,
+                "brightness": 83.86,
+                "luminance_std": 59.96,
+                "edge_energy": 218.55,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 463,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 57.627,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1920,
+              1080
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 0.55,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_3afda06cf08747c3",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_3afda06cf08747c3.mp4",
+          "media_type": "video",
+          "width": 1906,
+          "height": 1080,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 136.66,
+                "luminance_std": 24.49,
+                "edge_energy": 145.3,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 184,
+                "readable": true,
+                "brightness": 121.0,
+                "luminance_std": 27.75,
+                "edge_energy": 149.94,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 369,
+                "readable": true,
+                "brightness": 113.96,
+                "luminance_std": 23.1,
+                "edge_energy": 138.97,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 554,
+                "readable": true,
+                "brightness": 109.24,
+                "luminance_std": 23.02,
+                "edge_energy": 135.96,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 738,
+                "readable": true,
+                "brightness": 115.4,
+                "luminance_std": 16.61,
+                "edge_energy": 83.04,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 28.674,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1906,
+              1080
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.56,
+          "severe_upscale_suspected": false,
+          "used": true
+        },
+        {
+          "asset_id": "asset_b4b4ac55cc7f0892",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_b4b4ac55cc7f0892.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1440,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 155.58,
+                "luminance_std": 51.88,
+                "edge_energy": 503.88,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 222,
+                "readable": true,
+                "brightness": 133.33,
+                "luminance_std": 44.55,
+                "edge_energy": 255.91,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 444,
+                "readable": true,
+                "brightness": 149.8,
+                "luminance_std": 66.03,
+                "edge_energy": 371.03,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 665,
+                "readable": true,
+                "brightness": 142.12,
+                "luminance_std": 44.35,
+                "edge_energy": 409.65,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 887,
+                "readable": true,
+                "brightness": 163.87,
+                "luminance_std": 43.36,
+                "edge_energy": 255.14,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 58.516,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.93,
+          "severe_upscale_suspected": false,
+          "used": true
+        },
+        {
+          "asset_id": "asset_ab408dedf540d25b",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_ab408dedf540d25b.mp4",
+          "media_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 124.62,
+                "luminance_std": 67.94,
+                "edge_energy": 515.1,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 112,
+                "readable": true,
+                "brightness": 161.69,
+                "luminance_std": 77.8,
+                "edge_energy": 368.15,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 223,
+                "readable": true,
+                "brightness": 131.76,
+                "luminance_std": 66.01,
+                "edge_energy": 262.21,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 334,
+                "readable": true,
+                "brightness": 131.63,
+                "luminance_std": 55.42,
+                "edge_energy": 313.28,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 446,
+                "readable": true,
+                "brightness": 119.14,
+                "luminance_std": 55.76,
+                "edge_energy": 276.77,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 79.408,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1920,
+              1080
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.55,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_6d576bcf61eff1ae",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_6d576bcf61eff1ae.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 158.59,
+                "luminance_std": 41.0,
+                "edge_energy": 540.21,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 110,
+                "readable": true,
+                "brightness": 105.41,
+                "luminance_std": 52.31,
+                "edge_energy": 359.17,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 220,
+                "readable": true,
+                "brightness": 152.15,
+                "luminance_std": 87.64,
+                "edge_energy": 271.64,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 331,
+                "readable": true,
+                "brightness": 136.07,
+                "luminance_std": 64.22,
+                "edge_energy": 332.03,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 441,
+                "readable": true,
+                "brightness": 131.91,
+                "luminance_std": 76.66,
+                "edge_energy": 533.0,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 77.373,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_2621add80a6f2ac7",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_2621add80a6f2ac7.mp4",
+          "media_type": "video",
+          "width": 1904,
+          "height": 1080,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 88.68,
+                "luminance_std": 55.89,
+                "edge_energy": 180.2,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 244,
+                "readable": true,
+                "brightness": 80.6,
+                "luminance_std": 55.37,
+                "edge_energy": 181.22,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 488,
+                "readable": true,
+                "brightness": 91.36,
+                "luminance_std": 49.92,
+                "edge_energy": 208.49,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 732,
+                "readable": true,
+                "brightness": 103.96,
+                "luminance_std": 64.63,
+                "edge_energy": 187.08,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 976,
+                "readable": true,
+                "brightness": 77.71,
+                "luminance_std": 52.83,
+                "edge_energy": 201.19,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 68.976,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1904,
+              1080
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.56,
+          "severe_upscale_suspected": false,
+          "used": true
+        },
+        {
+          "asset_id": "asset_d6ac59244b5cc96c",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_d6ac59244b5cc96c.mp4",
+          "media_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 145.11,
+                "luminance_std": 55.44,
+                "edge_energy": 15.71,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 247,
+                "readable": true,
+                "brightness": 76.64,
+                "luminance_std": 68.04,
+                "edge_energy": 166.9,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 494,
+                "readable": true,
+                "brightness": 66.65,
+                "luminance_std": 56.16,
+                "edge_energy": 265.77,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 741,
+                "readable": true,
+                "brightness": 90.83,
+                "luminance_std": 40.28,
+                "edge_energy": 176.94,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 988,
+                "readable": true,
+                "brightness": 6.32,
+                "luminance_std": 26.12,
+                "edge_energy": 37.19,
+                "near_black": true,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 138.753,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1920,
+              1080
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "抽样发现近黑画面，可能为转场或异常"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 0.55,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_b3aefb57129b4e59",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_b3aefb57129b4e59.mp4",
+          "media_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 146.38,
+                "luminance_std": 85.11,
+                "edge_energy": 400.12,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 635,
+                "readable": true,
+                "brightness": 131.6,
+                "luminance_std": 47.96,
+                "edge_energy": 237.04,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1270,
+                "readable": true,
+                "brightness": 126.78,
+                "luminance_std": 50.23,
+                "edge_energy": 125.71,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1904,
+                "readable": true,
+                "brightness": 115.76,
+                "luminance_std": 46.85,
+                "edge_energy": 486.15,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 2539,
+                "readable": true,
+                "brightness": 25.29,
+                "luminance_std": 37.73,
+                "edge_energy": 275.11,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 126.411,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1920,
+              1080
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.55,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_0142b5129b2c4f64",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_0142b5129b2c4f64.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 128.06,
+                "luminance_std": 60.19,
+                "edge_energy": 739.3,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 130,
+                "readable": true,
+                "brightness": 124.97,
+                "luminance_std": 48.52,
+                "edge_energy": 567.66,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 260,
+                "readable": true,
+                "brightness": 135.35,
+                "luminance_std": 52.26,
+                "edge_energy": 286.65,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 389,
+                "readable": true,
+                "brightness": 116.75,
+                "luminance_std": 52.96,
+                "edge_energy": 508.38,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 519,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 56.03,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_6c9ce76ebf3406cd",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_6c9ce76ebf3406cd.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 2160,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 140.89,
+                "luminance_std": 50.93,
+                "edge_energy": 233.8,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 112,
+                "readable": true,
+                "brightness": 114.89,
+                "luminance_std": 62.06,
+                "edge_energy": 283.65,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 224,
+                "readable": true,
+                "brightness": 125.69,
+                "luminance_std": 51.68,
+                "edge_energy": 88.3,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 337,
+                "readable": true,
+                "brightness": 110.16,
+                "luminance_std": 63.31,
+                "edge_energy": 232.56,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 449,
+                "readable": true,
+                "brightness": 134.73,
+                "luminance_std": 48.58,
+                "edge_energy": 108.5,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 52.726,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              2160
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.62,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_a19b20e564be4c95",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_a19b20e564be4c95.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 116.69,
+                "luminance_std": 49.94,
+                "edge_energy": 380.2,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 206,
+                "readable": true,
+                "brightness": 122.96,
+                "luminance_std": 47.95,
+                "edge_energy": 411.25,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 411,
+                "readable": true,
+                "brightness": 130.76,
+                "luminance_std": 54.3,
+                "edge_energy": 281.3,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 616,
+                "readable": true,
+                "brightness": 110.63,
+                "luminance_std": 47.21,
+                "edge_energy": 313.72,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 822,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 46.035,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1920
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 1.0,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_c3a024cfe0d924f6",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_c3a024cfe0d924f6.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1440,
+          "content_kind": "edited_video",
+          "preserve_full": true,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 69.99,
+                "luminance_std": 43.12,
+                "edge_energy": 321.83,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 3154,
+                "readable": true,
+                "brightness": 89.64,
+                "luminance_std": 59.45,
+                "edge_energy": 504.39,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 6307,
+                "readable": true,
+                "brightness": 93.62,
+                "luminance_std": 57.16,
+                "edge_energy": 368.43,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 9460,
+                "readable": true,
+                "brightness": 90.56,
+                "luminance_std": 59.87,
+                "edge_energy": 443.3,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 12614,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 32.497,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查",
+            "上游标注为新闻或已有字幕成片；原有文字/画面会保留"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 0.93,
+          "severe_upscale_suspected": false,
+          "used": false
+        },
+        {
+          "asset_id": "asset_af6c3bbe6bdd92e6",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_af6c3bbe6bdd92e6.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1440,
+          "content_kind": "edited_video",
+          "preserve_full": true,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 94.56,
+                "luminance_std": 49.92,
+                "edge_energy": 285.14,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 174,
+                "readable": true,
+                "brightness": 106.63,
+                "luminance_std": 58.84,
+                "edge_energy": 411.81,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 348,
+                "readable": true,
+                "brightness": 98.99,
+                "luminance_std": 53.41,
+                "edge_energy": 392.35,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 522,
+                "readable": true,
+                "brightness": 103.02,
+                "luminance_std": 57.67,
+                "edge_energy": 355.31,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 696,
+                "readable": false,
+                "error_type": "IndexError"
+              }
+            ],
+            "decode_failures": 1,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 23.547,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [
+            "部分抽样位置解码失败，合成时仍需检查",
+            "上游标注为新闻或已有字幕成片；原有文字/画面会保留"
+          ],
+          "focus_box": null,
+          "target_upscale_factor": 0.93,
+          "severe_upscale_suspected": false,
+          "used": true
+        },
+        {
+          "asset_id": "asset_6aa95eacd31e7603",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\de074c0406dd4af9aec8bc6a9f625386\\source\\a_delivery\\assets\\asset_6aa95eacd31e7603.mp4",
+          "media_type": "video",
+          "width": 1080,
+          "height": 1440,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 131.33,
+                "luminance_std": 58.29,
+                "edge_energy": 660.34,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 287,
+                "readable": true,
+                "brightness": 156.02,
+                "luminance_std": 51.62,
+                "edge_energy": 223.71,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 574,
+                "readable": true,
+                "brightness": 136.16,
+                "luminance_std": 66.95,
+                "edge_energy": 528.39,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 861,
+                "readable": true,
+                "brightness": 148.1,
+                "luminance_std": 47.89,
+                "edge_energy": 258.16,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1148,
+                "readable": true,
+                "brightness": 110.94,
+                "luminance_std": 67.5,
+                "edge_energy": 326.33,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 63.111,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              1080,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.93,
+          "severe_upscale_suspected": false,
+          "used": false
+        }
+      ],
+      "preflight_method": "images_fully_decoded_videos_sampled_up_to_5_positions",
+      "quality_limits": "像素指标只作疑似问题提示；素材类别来自上游文字，不识别主体、文字或真实地点。",
+      "text_cleaning_notice": "仅画面显示清理不支持的装饰符号；输入JSON不改写。",
+      "caption_preferred_seconds": 2.2,
+      "transition_method": "current_scene_dip_no_previous_picture_under_new_caption",
+      "detail_policy": "optional_upstream_focus_box_only_overview_kept",
+      "style_basis": "project_presets_not_platform_official_rules",
+      "semantic_recognition": false,
+      "audio": "tts",
+      "tts": {
+        "provider": "dashscope.audio.tts_v2.SpeechSynthesizer",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "longanlingxin",
+        "sample_rate": 24000,
+        "channels": 1,
+        "alignment": "measured_short_phrase_audio_not_word_timestamps",
+        "speed_policy": "provider_default_then_pitch_preserving_atempo_max_1.12",
+        "pause_seconds": 0.12,
+        "tail_seconds": 0.25,
+        "pause_policy": {
+          "version": "semantic_slack_v1",
+          "strategy": "redistribute_existing_tail_at_existing_phrase_boundaries",
+          "inserted_pause_limits_seconds": {
+            "continuation": 0.12,
+            "sentence": 0.4,
+            "question": 0.55,
+            "observation": 1.6
+          },
+          "ordinary_ending_reserve_seconds": 0.6,
+          "observation_ending_reserve_seconds": 1.6,
+          "includes_provider_internal_silence": false
+        },
+        "provider_calls": 12,
+        "cache_hits": 0,
+        "segments": [
+          {
+            "no": 1,
+            "original_duration_seconds": 10,
+            "actual_duration_seconds": 10,
+            "extended": false,
+            "natural_audio_seconds": 8.2703,
+            "tempo_factor": 1.0,
+            "start_sample": 0,
+            "end_sample": 240000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 41514,
+              "baseline_tail_seconds": 1.72975,
+              "final_tail_samples": 34794,
+              "final_tail_seconds": 1.44975,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "春天来聊城东昌湖，樱花山花开得正旺！",
+                "cache_key": "4f10141c321240656de3022e4ab6f3586ecd744c7549220c889e121427dfdf03",
+                "cache_hit": false,
+                "start_sample": 0,
+                "end_sample": 99684,
+                "start_seconds": 0.0,
+                "end_seconds": 4.1535,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "光岳楼倒映在花海里，这颜值绝了！",
+                "cache_key": "bf79d056b97a0b9dd768aad8a7139a1dd4c6db0c69e3b235bd38aae659ba7c3e",
+                "cache_hit": false,
+                "start_sample": 109284,
+                "end_sample": 205206,
+                "start_seconds": 4.5535,
+                "end_seconds": 8.5503,
+                "pause_after_samples": 34794,
+                "pause_after_seconds": 1.44975,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 2,
+            "original_duration_seconds": 10,
+            "actual_duration_seconds": 10,
+            "extended": false,
+            "natural_audio_seconds": 7.8262,
+            "tempo_factor": 1.0,
+            "start_sample": 240000,
+            "end_sample": 480000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 52172,
+              "baseline_tail_seconds": 2.173833,
+              "final_tail_samples": 45452,
+              "final_tail_seconds": 1.893833,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "到了五月，金凤广场龙舟赛那叫一个热闹！",
+                "cache_key": "25796389ba301a005a2f86426307a80217e0497d966e8a3c790ee2b9ea0554d2",
+                "cache_hit": false,
+                "start_sample": 240000,
+                "end_sample": 333414,
+                "start_seconds": 10.0,
+                "end_seconds": 13.8923,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "东昌湖可是冠军基地，水上运动氛围拉满。",
+                "cache_key": "9b8ad7809070397693a05a9ece2665070877271b24e1724f09d03b903a5571a5",
+                "cache_hit": false,
+                "start_sample": 343014,
+                "end_sample": 434548,
+                "start_seconds": 14.2922,
+                "end_seconds": 18.1062,
+                "pause_after_samples": 45452,
+                "pause_after_seconds": 1.893833,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 3,
+            "original_duration_seconds": 10,
+            "actual_duration_seconds": 10,
+            "extended": false,
+            "natural_audio_seconds": 8.0874,
+            "tempo_factor": 1.0,
+            "start_sample": 480000,
+            "end_sample": 720000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "unchanged",
+              "baseline_tail_samples": 45903,
+              "baseline_tail_seconds": 1.912625,
+              "final_tail_samples": 45903,
+              "final_tail_seconds": 1.912625,
+              "redistributed_samples": 0,
+              "redistributed_seconds": 0.0,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "continuation",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                2880
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "秋天的东昌湖起雾了，水云相接，光岳楼若隐若现，",
+                "cache_key": "8c48b74afd2246ddb7fa3bd4919593abd93cdfdeb0f55a24fd94c9c353f504a9",
+                "cache_hit": false,
+                "start_sample": 480000,
+                "end_sample": 619808,
+                "start_seconds": 20.0,
+                "end_seconds": 25.8253,
+                "pause_after_samples": 2880,
+                "pause_after_seconds": 0.12,
+                "pause_kind": "continuation"
+              },
+              {
+                "text": "妥妥的水墨画既视感！",
+                "cache_key": "234e2073d67be087b72acbfda8d1d270494eb4c12dcf75567f037d1d328ceac0",
+                "cache_hit": false,
+                "start_sample": 622688,
+                "end_sample": 674097,
+                "start_seconds": 25.9453,
+                "end_seconds": 28.0874,
+                "pause_after_samples": 45903,
+                "pause_after_seconds": 1.912625,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 4,
+            "original_duration_seconds": 10,
+            "actual_duration_seconds": 10,
+            "extended": false,
+            "natural_audio_seconds": 7.6694,
+            "tempo_factor": 1.0,
+            "start_sample": 720000,
+            "end_sample": 960000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 55934,
+              "baseline_tail_seconds": 2.330583,
+              "final_tail_samples": 49214,
+              "final_tail_seconds": 2.050583,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "冬天下雪的光岳楼太有诗意了！",
+                "cache_key": "81134e2bdb07b807efb8cb4f28a6a7f32d16ae7c540f062463456c8349e64236",
+                "cache_hit": false,
+                "start_sample": 720000,
+                "end_sample": 782694,
+                "start_seconds": 30.0,
+                "end_seconds": 32.6123,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。",
+                "cache_key": "43f5295597c31cb85d7141e2192cdccea9e259cd4a3f3783103ef9b895557d9d",
+                "cache_hit": false,
+                "start_sample": 792294,
+                "end_sample": 910786,
+                "start_seconds": 33.0123,
+                "end_seconds": 37.9494,
+                "pause_after_samples": 49214,
+                "pause_after_seconds": 2.050583,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 5,
+            "original_duration_seconds": 10,
+            "actual_duration_seconds": 10,
+            "extended": false,
+            "natural_audio_seconds": 7.4343,
+            "tempo_factor": 1.0,
+            "start_sample": 960000,
+            "end_sample": 1200000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 61577,
+              "baseline_tail_seconds": 2.565708,
+              "final_tail_samples": 54857,
+              "final_tail_seconds": 2.285708,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "傍晚落日熔金，洒满整个东昌湖。",
+                "cache_key": "a60869138ced8102edb98500033008c21f3eaf232beefdbcf9d4e009699a6d70",
+                "cache_hit": false,
+                "start_sample": 960000,
+                "end_sample": 1042129,
+                "start_seconds": 40.0,
+                "end_seconds": 43.422,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "看着游船归来，光岳楼剪影超有感觉！",
+                "cache_key": "c49f07b7340edda26a690adf4cc775806c4586ea557fb47d6d8df03d857ad4b0",
+                "cache_hit": false,
+                "start_sample": 1051729,
+                "end_sample": 1145143,
+                "start_seconds": 43.822,
+                "end_seconds": 47.7143,
+                "pause_after_samples": 54857,
+                "pause_after_seconds": 2.285708,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 6,
+            "original_duration_seconds": 10,
+            "actual_duration_seconds": 10,
+            "extended": false,
+            "natural_audio_seconds": 7.6955,
+            "tempo_factor": 1.0,
+            "start_sample": 1200000,
+            "end_sample": 1440000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 55307,
+              "baseline_tail_seconds": 2.304458,
+              "final_tail_samples": 48587,
+              "final_tail_seconds": 2.024458,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "晚上满月升空，和光岳楼同框太震撼了！",
+                "cache_key": "7fb9a2be458fa51092204db74540749e811a5ef2c44d1e70f1e1d0f58d502acc",
+                "cache_hit": false,
+                "start_sample": 1200000,
+                "end_sample": 1297803,
+                "start_seconds": 50.0,
+                "end_seconds": 54.0751,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "夜游古城看非遗，这趟聊城之旅值了！",
+                "cache_key": "32981c965c994e0b11309156b41227e302080f085517be911e58551d856a5856",
+                "cache_hit": false,
+                "start_sample": 1307403,
+                "end_sample": 1391413,
+                "start_seconds": 54.4751,
+                "end_seconds": 57.9755,
+                "pause_after_samples": 48587,
+                "pause_after_seconds": 2.024458,
+                "pause_kind": "sentence"
+              }
+            ]
+          }
+        ],
+        "original_total_duration_seconds": 60,
+        "actual_total_duration_seconds": 60.0,
+        "final_decoded_audio_samples": 1440000
+      }
+    },
+    "note": "同名记录时长匹配；记录不是实际视觉或听觉识别结果"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stage": "单维修正_opening",
+  "call": 2,
+  "model": "qwen3.8-omni-flash",
+  "answer": "```json\n{\n  \"conclusion\": \"开场前15秒为公园秋景静态图，顶部标题“带娃看聊城！4张图测测孩子的观察力”约3秒后消失；底部字幕与旁白依次给出祈使句“别划走！快叫上神兽…”及两个疑问（湖水颜色、树叶色彩），形成信息缺口而非悬念。\",\n  \"evidence_ids\": [\n    \"V001\",\n    \"A001\"\n  ],\n  \"nature\": \"成片观察\",\n  \"uncertainty\": \"画面未提供具体湖泊/建筑名称；音频整体转写不用于逐句时间对齐。\"\n}\n```",
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 25942,
+    "total_tokens": 26094,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 152
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 25088,
+      "image_tokens": null,
+      "text_tokens": 25942
+    }
+  },
+  "elapsed_seconds": 6.02
+}

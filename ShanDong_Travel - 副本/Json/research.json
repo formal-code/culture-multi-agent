@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "reference_videos": [],
+  "media_assets": [
+    {
+      "id": "asset_001",
+      "media_type": "image",
+      "file_path": "assets/4b84-htwhfzr8793445.jpg",
+      "title": "湖面与亭阁远景",
+      "description": "高处俯瞰湖面、桥梁、亭阁与沿岸绿树，具体拍摄地点待确认。",
+      "keywords": [
+        "湖面",
+        "湖景",
+        "远景",
+        "桥梁",
+        "亭阁",
+        "水岸"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_002",
+      "media_type": "image",
+      "file_path": "assets/31528473_133032576107_2.jpg",
+      "title": "树木掩映的传统建筑",
+      "description": "树木掩映下的传统建筑及屋檐，具体建筑名称待确认。",
+      "keywords": [
+        "古建",
+        "建筑",
+        "屋檐",
+        "院落",
+        "树木"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_003",
+      "media_type": "image",
+      "file_path": "assets/1006160000010ne7f0236.jpg",
+      "title": "湖畔城楼与倒影",
+      "description": "湖面、岸边城墙及传统城楼，蓝天白云下可见水面倒影，具体建筑名称待确认。",
+      "keywords": [
+        "湖畔",
+        "湖面",
+        "城楼",
+        "古城",
+        "倒影",
+        "水岸"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_004",
+      "media_type": "image",
+      "file_path": "assets/OIP-C.jpg",
+      "title": "人物展示年画成品",
+      "description": "室内人物手持彩色人物年画展示，背景有悬挂的年画；画面不是刻版或套印过程。",
+      "keywords": [
+        "年画",
+        "木版年画",
+        "年画成品",
+        "人物",
+        "展示",
+        "手捧",
+        "门神"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_005",
+      "media_type": "image",
+      "file_path": "assets/OIP-C.webp",
+      "title": "桌面铺陈的彩色年画",
+      "description": "人物在桌旁展示彩色年画，桌面铺满年画成品；画面未显示五次套印操作。",
+      "keywords": [
+        "年画",
+        "木版年画",
+        "彩色年画",
+        "年画成品",
+        "展示",
+        "桌面",
+        "门神"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_006",
+      "media_type": "image",
+      "file_path": "assets/R-C.jpg",
+      "title": "山陕会馆牌楼",
+      "description": "传统建筑正面，可见“山陕会馆”文字、装饰构件与屋檐。",
+      "keywords": [
+        "山陕会馆",
+        "会馆",
+        "古建",
+        "门匾",
+        "雕花",
+        "屋檐",
+        "建筑"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_007",
+      "media_type": "image",
+      "file_path": "assets/屏幕截图 2026-11-11 170627.png",
+      "title": "木版印版展陈",
+      "description": "展柜中陈列多块带有雕刻纹样的木版，为静态展品画面，不是手持刻刀的制作过程。",
+      "keywords": [
+        "木版",
+        "年画版",
+        "印版",
+        "雕刻",
+        "纹样",
+        "展陈",
+        "刻木"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_f35d952e5569239a2ff9",
+      "media_type": "image",
+      "file_path": "assets/park_autumn_01.jpg",
+      "title": "公园湖面与秋日风光",
+      "description": "航拍视角下城市公园湖水碧蓝，岸边层林尽染呈现金黄秋色，圆形广场与游船码头点缀其间，风光秀丽。",
+      "keywords": [
+        "航拍",
+        "公园",
+        "湖泊",
+        "秋景",
+        "城市风光",
+        "自然景观"
+      ],
+      "source_url": "https://www.lcxw.cn/yaowen/shehui/20261111/190983.html",
+      "license": "待确认（原素材清单未提供授权证明）"
+    },
+    {
+      "id": "asset_5c103bb061071c340668",
+      "media_type": "image",
+      "file_path": "assets/lakeside_architecture_02.png",
+      "title": "湖畔中式建筑与游船",
+      "description": "宽阔湖面环抱绿树掩映的中式古建筑群，红柱灰瓦与圆顶亭阁错落有致，岸边整齐停靠着各式彩色游船。",
+      "keywords": [
+        "湖光山色",
+        "中式建筑",
+        "游船",
+        "城市风光",
+        "园林景观"
+      ],
+      "source_url": "http://www.liaocheng.gov.cn/channel_t_156_11744/",
+      "license": "待确认（原素材清单未提供授权证明）"
+    },
+    {
+      "id": "asset_ca194e13ee824ad4ff66",
+      "media_type": "image",
+      "file_path": "assets/linqing_cat_poster_03.png",
+      "title": "“猫在临清”主题海报",
+      "description": "一只毛发蓬松的异瞳白猫静卧于深色背景前，右侧配有白色书法字体“猫在临清”及宣传标语。",
+      "keywords": [
+        "临清",
+        "狮子猫",
+        "白猫",
+        "文旅宣传",
+        "城市名片",
+        "宠物"
+      ],
+      "source_url": "http://www.liaocheng.gov.cn/channel_t_156_11744/",
+      "license": "待确认（原素材清单未提供授权证明）"
+    },
+    {
+      "id": "asset_56c026df233254762ee6",
+      "media_type": "image",
+      "file_path": "assets/lake_island_04.jpg",
+      "title": "湖心岛与中式楼阁航拍",
+      "description": "航拍宽阔湖面中央的岛屿，岛上分布着中式楼阁与园林建筑，近处有一艘游船，远处可见长桥与城市天际线。",
+      "keywords": [
+        "湖景",
+        "古建筑",
+        "航拍",
+        "岛屿",
+        "游船",
+        "城市风光"
+      ],
+      "source_url": "http://wlj.liaocheng.gov.cn/channel_t_296_26904/doc_63949caeaca39563852dcd11.html",
+      "license": "待确认（原素材清单未提供授权证明）"
+    },
+    {
+      "id": "asset_1563dfafc36cf568ea5b",
+      "media_type": "video",
+      "file_path": "assets/03202202V1Y3.mp4",
+      "title": "用户提供视频 03202202V1Y3",
+      "description": "无",
+      "keywords": [],
+      "source_url": "",
+      "license": "待确认（用户提供，尚未附授权说明）"
+    }
+  ],
+  "city": "聊城"
+}

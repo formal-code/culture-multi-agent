@@ -1,0 +1,26 @@
+{
+  "stage": "单维修正_audience",
+  "call": 4,
+  "model": "qwen3.8-omni-flash",
+  "answer": "```json\n{\n  \"conclusion\": \"从视频措辞和内容推断，可能面向亲子家庭。口播与字幕使用了“神兽”、“你家宝贝”等称呼，并反复提出“和孩子一起找细节”、“锻炼观察力”的互动任务；平台文案及话题标签也明确包含“带娃”、“亲子游”和“遛娃好去处”。\",\n  \"evidence_ids\": [\"TASK\", \"V001\", \"A001\", \"V003\", \"A003\"],\n  \"nature\": \"合理推断\",\n  \"uncertainty\": \"无观众实测数据证明实际触达人群即为亲子家庭，受众定位完全基于文本内容与话术特征推导。\"\n}\n```",
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 25943,
+    "total_tokens": 26104,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 161
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 25088,
+      "image_tokens": null,
+      "text_tokens": 25943
+    }
+  },
+  "elapsed_seconds": 3.91
+}

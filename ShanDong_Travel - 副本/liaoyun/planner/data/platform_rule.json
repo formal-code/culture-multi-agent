@@ -1,0 +1,32 @@
+{
+  "douyin": {
+    "name": "抖音",
+    "title_max": 30,
+    "caption_max": 100,
+    "durations": [15, 30, 60],
+    "tag_min": 2,
+    "tag_max": 5,
+    "style": "前3秒必须抛出强钩子，口语化短句，每句不超过15字，节奏快，避免书面语。结尾引导互动（点赞、评论、转发）。",
+    "subtitle_zone": "底部上移15%，避开点赞评论按钮"
+  },
+  "xiaohongshu": {
+    "name": "小红书",
+    "title_max": 20,
+    "caption_max": 1000,
+    "durations": [30, 60],
+    "tag_min": 5,
+    "tag_max": 10,
+    "style": "第一人称'我'，开头用一句生活化场景引入。正文分3-5点列举，语气亲切像跟朋友分享，适度用emoji。结尾加'收藏''打卡'类引导。",
+    "subtitle_zone": "居中偏上，避开底部信息栏"
+  },
+  "shipinhao": {
+    "name": "视频号",
+    "title_max": 20,
+    "caption_max": 100,
+    "durations": [30, 60],
+    "tag_min": 1,
+    "tag_max": 3,
+    "style": "叙事完整，语气稳重，面向30岁以上受众，少用网络流行语。信息密度适中，结尾落在文化价值或情感共鸣上。",
+    "subtitle_zone": "底部上移20%，避开分享按钮"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_003",
+  "call": 6,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\n  \"accessed\": true,\n  \"transcript\": \"一张风景照也能看出满满层次感。最后看这张猫在林青海报，白猫毛发啥色？旁边写着哪几个字？和孩子聊聊最爱哪张图，这一分钟绝对不亏。\",\n  \"sound_description\": \"单人女声旁白，语速适中，语气亲切自然。背景有轻柔的纯音乐（钢琴或类似乐器），音量较低，未干扰人声。句间有短暂停顿以配合画面展示节奏。无明显环境噪音或电流声。\",\n  \"uncertainty\": [\n    \"'林青'为根据发音推测的词，可能是人名、地名或特定作品名，存在同音异字的可能（如'临清'等）。\"\n  ]\n}",
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 551,
+    "total_tokens": 718,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 167
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 142,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 409
+    }
+  },
+  "elapsed_seconds": 5.47
+}

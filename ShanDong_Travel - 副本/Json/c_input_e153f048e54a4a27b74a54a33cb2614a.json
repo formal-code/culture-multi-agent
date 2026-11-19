@@ -1,0 +1,212 @@
+{
+  "topic": "聊城东昌府木版年画",
+  "brief": {
+    "spot_name": "东昌府木版年画",
+    "city": "聊城",
+    "province": "山东",
+    "target_audience": "小孩子（具体年龄段未指定）",
+    "communication_goal": "本次用户要求（与原有目标冲突时以本次要求为准）：面向儿童介绍聊城东昌府木版年画，\n突出传统手工艺和非遗体验，语言简单易懂。\n请从当前候选脚本中选择最符合这一目标的一条。\n原有策划目标（补充参考）：以儿童容易理解、愿意观看的方式介绍聊城东昌府木版年画，激发对地方文化和传统手工艺的兴趣；具体故事、画面和表达形式可自由发挥。",
+    "target_platforms": [],
+    "target_duration_sec": null
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "人物故事",
+      "script": {
+        "title": "刻刀下的运河年味",
+        "hook": "这把刻刀，他握了四十七年。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 10,
+            "vo": "东昌府木版年画，国家级非遗。张金堂老人在运河边的作坊里，刻完最后一刀——这块‘门神’版，他刻了整整三个月。",
+            "subtitle": "东昌府木版年画｜国家级非遗",
+            "visual": "特写布满老茧的手持刻刀雕琢梨木板，背景虚化可见光岳楼剪影与窗外东昌湖水波",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "五色套印，红黄蓝绿黑，少一色，年画就不活。他守着山陕会馆旁的老铺子，年复一年调色、对版、刷印。",
+            "subtitle": "五色套印｜一道不能少",
+            "visual": "俯拍桌面：五块不同颜色的印版整齐排列，老人正用棕刷蘸朱砂红油墨轻扫印版",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 15,
+            "vo": "小时候，他蹲在东昌湖码头看南来北往的货船，船上贴的正是东昌府年画。如今，他教孙子认光岳楼瓦当纹样——那也是年画里的吉祥底纹。",
+            "subtitle": "从运河码头到光岳楼纹样",
+            "visual": "叠化镜头：黑白旧照（运河码头年画招贴）→ 彩色实拍（孙子手指光岳楼檐角纹样，桌上摊开未上色线稿）",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 13,
+            "vo": "不收徒，不直播，只等春节前最后一批订单。他说：‘年画不是快消品，是运河水养出来的时间。’",
+            "subtitle": "年画，是运河水养出来的时间",
+            "visual": "中景：老人背对镜头站在山陕会馆朱红门楼下，手中展开一幅刚印好的五彩门神，风拂过画角",
+            "asset": "assets/04.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 10,
+            "vo": "东昌府木版年画，还在光岳楼的钟声里，在东昌湖的倒影里，在每一道不肯省的刻痕里。",
+            "subtitle": "在钟声里｜在湖影里｜在刻痕里",
+            "visual": "航拍慢镜头：光岳楼全景，东昌湖水面映出楼影与浮动的年画纹样倒影，涟漪漾开",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "非遗工艺",
+      "script": {
+        "title": "东昌府木版年画：五色运河印千年",
+        "hook": "刀尖在梨木上行走三个月——",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 10,
+            "vo": "刀尖在梨木上行走三个月——东昌府木版年画，国家级非遗。",
+            "subtitle": "刀尖行走三个月\n国家级非遗",
+            "visual": "特写刻刀游走于纹理细密的梨木版，木屑轻扬；背景虚化处隐约可见光岳楼剪影",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 15,
+            "vo": "一块年画版，需刻制数月。线条刚劲如运河水势，转折处藏鲁西风骨。",
+            "subtitle": "一块版·数月刻\n线条如运河奔涌",
+            "visual": "中景：老艺人左手压版、右手执刀，刻出‘门神’衣褶的硬朗弧线；窗外透入东昌湖波光",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 15,
+            "vo": "传统套印必用五色：红黄蓝绿黑。一色一版，层层叠印，缺一不可。",
+            "subtitle": "五色套印\n一色一版",
+            "visual": "俯拍桌面：五块不同颜色油墨的梨木印版并列排开，印泥鲜亮；背景墙上有山陕会馆雕花窗棂",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 20,
+            "vo": "墨线定骨，朱砂点睛，藤黄染袍——东昌府年画，在运河畔活了六百年。光岳楼下，东昌湖边，年味从未断流。",
+            "subtitle": "墨线定骨·朱砂点睛\n运河畔活了六百年",
+            "visual": "慢镜头：刷墨、覆纸、棕耙匀压、揭起——一张门神年画渐显；叠化光岳楼全景与东昌湖倒影",
+            "asset": "assets/04.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "周末攻略",
+      "script": {
+        "title": "聊城周末非遗体验：手印东昌府年画",
+        "hook": "运河边的光岳楼旁，藏着一块要刻数月的木版！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "周末来聊城，直奔东昌湖畔的山陕会馆——这里就是国家级非遗东昌府木版年画的活态传承地。",
+            "subtitle": "山陕会馆 · 东昌府木版年画",
+            "visual": "航拍东昌湖与山陕会馆古建群，镜头推至会馆门匾，穿插游客步行进入",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 13,
+            "vo": "别只看！亲手套印五色年画——红黄蓝绿黑，一色一版，层层叠加才出年味。",
+            "subtitle": "传统年画需套印五色",
+            "visual": "特写手部操作：刷色、覆纸、棕耙拓印，五次叠印过程快剪",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 15,
+            "vo": "好奇一块版怎么来的？老师傅说，梨木雕版得刻满数月，刀锋游走间，全是运河古城的时光沉淀。",
+            "subtitle": "一块年画版需刻制数月",
+            "visual": "近景雕刻刀刻木纹，背景虚化光岳楼剪影，桌上散落刻刀与木屑",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 20,
+            "vo": "行程这样排：上午山陕会馆印年画，中午逛东昌湖吃魏氏熏鸡，下午登光岳楼俯瞰运河，把东昌府的年味带回家。",
+            "subtitle": "山陕会馆→东昌湖→光岳楼→运河",
+            "visual": "动态地图动效：山陕会馆→东昌湖（游船）→光岳楼（仰拍）→运河码头（帆影），结尾定格手捧鲜红年画成品",
+            "asset": "assets/04.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": true
+          }
+        ]
+      }
+    }
+  ]
+}

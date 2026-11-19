@@ -1,0 +1,281 @@
+{
+  "topic": "聊城",
+  "brief": {
+    "audience": {
+      "value": "周末短途游的年轻家庭",
+      "source": "user"
+    },
+    "goal": {
+      "value": "用聊城的婚俗、庙会与葫芦文化等民俗素材，展示本地的风土人情",
+      "source": "user"
+    },
+    "platforms": {
+      "value": [
+        "douyin",
+        "xiaohongshu",
+        "shipinhao"
+      ],
+      "source": "系统默认"
+    },
+    "target_duration": {
+      "value": 60,
+      "source": "系统默认"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "龙舟竞渡",
+      "script": {
+        "title": "聊城龙舟燃爆东昌湖！",
+        "hook": "鼓点炸裂！水花劈开东昌湖！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "5月27日至28日，2023中国聊城·江北水城龙舟公开赛，在东昌湖金凤广场水域火热开赛！",
+            "subtitle": "5月27-28日｜东昌湖金凤广场水域",
+            "visual": "该视频报道2023中国聊城·江北水城龙舟公开赛于5月27日至28日在东昌湖金凤广场水域举办的精彩赛事。",
+            "asset": "assets/asset_53b21b75b5ac00fa.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01",
+              "F36"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "这里是东昌湖——国家4A级旅游区、山东省生态渔业示范园，也是‘江北水城•运河古都’城市品牌的核心区域。",
+            "subtitle": "东昌湖｜国家4A级旅游区",
+            "visual": "宽阔湖面旁木栈道延伸入水，岸边石砌护坡与垂柳，远处城市楼群，蓝天白云。",
+            "asset": "assets/asset_384809b8dd31a3e8.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02",
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "航拍视角下的东昌湖，绿岛亭台、多座拱桥横跨水面，滨水景观与城市天际线交融，尽显江北水城气质。",
+            "subtitle": "航拍东昌湖｜拱桥·绿岛·天际线",
+            "visual": "航拍城市大型湖泊，湖中绿岛上有亭台建筑，多座拱桥横跨水面，两岸绿树与城区楼房，蓝天白云。",
+            "asset": "assets/asset_c314fd7524b55970.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02",
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "光岳楼矗立古城中心，是中国历史文化名城聊城的象征；晴空下重檐飞角，红墙灰柱，静守千载东昌湖。",
+            "subtitle": "光岳楼｜聊城古城中心",
+            "visual": "砖石高台上矗立多重檐歇山楼阁，檐下悬匾额，台前绿篱花坛环绕，背景晴空。",
+            "asset": "assets/asset_63ee1a88c380bd32.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F14"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "从龙舟竞渡到光岳楼辉映，从金凤广场到木栈道垂柳，聊城用一场场文旅活动，把滨水生活过成日常。",
+            "subtitle": "龙舟·光岳楼·滨水生活",
+            "visual": "俯瞰宽阔湖面，湖岸绿树亭台与游船点缀，前方城市道路车流，远处楼房与蓝天白云。",
+            "asset": "assets/asset_545c65ea10fde1c2.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02",
+              "F03"
+            ],
+            "removable": false
+          }
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "光岳楼纪",
+      "script": {
+        "title": "光岳楼纪：一座楼与一座城的百年",
+        "hook": "雪落光岳楼，砖瓦皆成诗。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "《重修东昌光岳楼记》里写下的，不只是修楼的事，更是杨、傅两家百年交谊的起点。",
+            "subtitle": "《重修东昌光岳楼记》记下百年交谊",
+            "visual": "文章围绕《重修东昌光岳楼记》，讲述聊城光岳楼重修往事及杨、傅两家由此结下的百年交谊。",
+            "asset": "assets/asset_8cbfe408f50d0e76.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F21"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "光岳楼位于聊城古城中心，是中国历史文化名城聊城的象征。",
+            "subtitle": "光岳楼——聊城古城中心象征",
+            "visual": "砖石高台上矗立多重檐歇山楼阁，檐下悬匾额，台前绿篱花坛环绕，背景晴空。",
+            "asset": "assets/asset_63ee1a88c380bd32.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F14"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "日照金楼奇观映照千年东昌湖，江北水城的滨水生态景区，水深平均3米，最深处5米。",
+            "subtitle": "日照金楼 × 千年东昌湖",
+            "visual": "文章所述视频以聊城光岳楼出现“日照金楼”光影奇观为主题。",
+            "asset": "assets/asset_82e664635bcc09f3.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F24"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "东昌湖是国家4A级旅游区，也是‘江北水城•运河古都——生态聊城’城市品牌的核心区域。",
+            "subtitle": "东昌湖——江北水城核心",
+            "visual": "宽阔湖面旁木栈道延伸入水，岸边石砌护坡与垂柳，远处城市楼群，蓝天白云。",
+            "asset": "assets/asset_384809b8dd31a3e8.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02",
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "中秋月升，光岳楼与满月同框；非遗夜游，登楼听额尔古纳，把古城变成江湖livehouse。",
+            "subtitle": "中秋月 · 非遗夜游",
+            "visual": "该文章所述视频以中秋时节聊城光岳楼与满月同框的景致为主题，突出揽月团圆的节日氛围。",
+            "asset": "assets/asset_2621add80a6f2ac7.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F33"
+            ],
+            "removable": false
+          }
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "湖上十二时辰",
+      "script": {
+        "title": "东昌湖十二时辰：聊城慢生活图鉴",
+        "hook": "晨雾未散，钓竿已垂入东昌湖。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "晨雾垂钓——国家垂钓基地的静谧开场。东昌湖，江北水城的心跳，千年不竭的湖泊，木栈道、垂柳、城市天际线，在晴天里徐徐铺展。",
+            "subtitle": "晨雾垂钓·国家垂钓基地",
+            "visual": "宽阔湖面旁木栈道延伸入水，岸边石砌护坡与垂柳，远处城市楼群，蓝天白云。",
+            "asset": "assets/asset_384809b8dd31a3e8.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02",
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 10,
+            "vo": "午间游船如织，水上观光升温。金凤广场水域波光跃动，东昌湖是国家4A级景区，更是山东省生态渔业示范园。",
+            "subtitle": "午间游船如织",
+            "visual": "文章所述视频聚焦聊城东昌湖游船往来、水上观光旅游升温的景区游览主题。",
+            "asset": "assets/asset_c7e00e0bb49c9d93.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F26"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 13,
+            "vo": "午后清风漾碧波，水上运动治愈又解压。东昌湖不止是冠军基地，更是你下一站‘慢生活’目的地。",
+            "subtitle": "午后水上运动·治愈解压",
+            "visual": "文章标题所述视频聚焦聊城东昌湖上的多元水上运动，呈现清风碧波间的休闲解压体验。",
+            "asset": "assets/asset_8fa2b76764c8015e.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F23",
+              "F35"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "黄昏收船归来，落日下的东昌湖泛着金边。滨水景观在光影中沉淀，城市与湖泊完成每日默契交接。",
+            "subtitle": "黄昏收船·落日东昌湖",
+            "visual": "该视频以黄昏落日时分东昌湖上收船归来的湖畔景致为主题。",
+            "asset": "assets/asset_163a055ea198dd19.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F25"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 13,
+            "vo": "夜游非遗盛宴！登光岳楼听额尔古纳，看聊城把非遗玩成‘江湖livehouse’。古城灯火映湖，文旅活动点亮江北水城。",
+            "subtitle": "夜游非遗·古城Livehouse",
+            "visual": "文章介绍聊城古城夜游非遗盛宴活动，讲述登光岳楼聆听额尔古纳演出、把非遗演绎成“江湖livehouse”的文旅体验。",
+            "asset": "assets/asset_d6ac59244b5cc96c.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F34"
+            ],
+            "removable": false
+          }
+        ],
+        "needs_review": true
+      }
+    }
+  ],
+  "self_check": {
+    "cand_1": [
+      "第2段配音 51 字，超过 12 秒上限 48 字",
+      "出现世纪/载等时间说法：「千载」"
+    ],
+    "cand_2": [
+      "出现具体年数：「百年」"
+    ],
+    "cand_3": [
+      "第1段配音 60 字，超过 12 秒上限 48 字",
+      "第2段配音 50 字，超过 10 秒上限 40 字",
+      "第5段配音 57 字，超过 13 秒上限 52 字",
+      "第3段引用了与该素材无关的事实：F35",
+      "出现具体年数：「千年」"
+    ]
+  }
+}

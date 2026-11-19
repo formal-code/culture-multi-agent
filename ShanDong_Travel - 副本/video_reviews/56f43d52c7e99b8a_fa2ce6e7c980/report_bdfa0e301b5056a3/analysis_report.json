@@ -1,0 +1,244 @@
+{
+  "schema_version": "video-review-1.1",
+  "step": "video_analysis_report",
+  "created_at": "2026-11-18T13:37:07.686521+00:00",
+  "model": "qwen3.8-omni-flash",
+  "platform": "unspecified",
+  "video_sha256": "56f43d52c7e99b8accd6e4cd1216ace0a3f28e1ea0e42cf32dcdb9c54d6e019a",
+  "understanding_status": "complete",
+  "coverage": {
+    "expected_chunks": 2,
+    "visual_chunks_read": 2,
+    "audio_chunks_read": 2,
+    "audio_chunks_expected": 2,
+    "note": "覆盖表示每个片段调用成功，非逐帧识别准确率"
+  },
+  "status": "complete",
+  "task": {
+    "topic": "",
+    "user_request": "",
+    "brief": {},
+    "platform_content": {},
+    "selected_script": {},
+    "audience_basis": "用户要求及上游brief，保留各字段source；未明确部分仅可推断",
+    "current_user_request_precedence": "本次用户要求优先；已有brief冲突时须指出，不能把旧要求当成本次要求"
+  },
+  "evidence": {
+    "TASK": {
+      "kind": "task_context",
+      "text": {
+        "topic": "",
+        "user_request": "",
+        "brief": {},
+        "platform_content": {},
+        "selected_script": {},
+        "audience_basis": "用户要求及上游brief，保留各字段source；未明确部分仅可推断",
+        "current_user_request_precedence": "本次用户要求优先；已有brief冲突时须指出，不能把旧要求当成本次要求"
+      }
+    },
+    "MEDIA": {
+      "kind": "media_metadata",
+      "text": {
+        "duration_seconds": 60.03,
+        "fps": 20.0,
+        "size": [
+          960,
+          1280
+        ],
+        "has_audio_stream": true,
+        "sha256": "56f43d52c7e99b8accd6e4cd1216ace0a3f28e1ea0e42cf32dcdb9c54d6e019a"
+      }
+    },
+    "V001": {
+      "kind": "video_observation",
+      "start_seconds": 0,
+      "end_seconds": 30,
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 15.2,
+          "description": "画面展示了一幅公园秋景的静态航拍图，中心是湖泊，周围环绕着绿色和黄色的树林、步道及建筑。在0-3秒期间，画面上方出现标题文本框，下方出现引导性字幕；随后上方标题消失，底部字幕依次更换为关于湖水颜色和树叶色彩的提问。",
+          "on_screen_text": [
+            "高质量陪娃60秒聊城风光眼力游戏，发现细节之美",
+            "先别划走，带宝贝玩个观察小游戏。",
+            "看这幅公园秋景：引导宝贝找找湖水的颜色，",
+            "再看看岸边树叶藏着几种色彩？"
+          ]
+        },
+        {
+          "start": 15.2,
+          "end": 30.4,
+          "description": "画面切换为一幅湖畔建筑的静态近景图，展示了水边的传统风格房屋、红色柱子以及停靠在岸边的游船。底部的字幕随着时间推移发生三次变化，分别提示观看建筑、寻找红色柱子和屋顶轮廓，以及询问最先注意到的游船颜色。",
+          "on_screen_text": [
+            "再看这幅湖畔建筑。",
+            "让宝贝找找红色的柱子和屋顶轮廓。",
+            "岸边那一排游船，问问宝贝最先注意到哪一种颜色？"
+          ]
+        }
+      ],
+      "uncertainty": [],
+      "time_basis": "model_estimate_plus_program_media_start_offset",
+      "core_range_seconds": [
+        0,
+        30
+      ]
+    },
+    "A001": {
+      "kind": "audio_observation",
+      "start_seconds": 0,
+      "end_seconds": 30,
+      "text": "先别划走，带宝贝玩个观察小游戏。看这幅公园秋景，引导宝贝找找湖水的颜色，再看看岸边树叶藏着几种色彩。再看这幅湖畔建筑，让宝贝找找红色的柱子和屋顶轮廓，岸边那一排游船，问问宝贝最先注意到哪一种颜色？第",
+      "sound_description": "单人女声清晰讲述，无背景音乐或环境噪音；语速平稳，段落间有自然停顿；结尾处“第”字后语音突然中断，疑似被截断。",
+      "uncertainty": [
+        "结尾“第”字后内容缺失，无法确认后续词语"
+      ],
+      "time_basis": "program_clip_bounds_not_utterance_alignment",
+      "core_range_seconds": [
+        0,
+        30
+      ],
+      "media_range_seconds": [
+        0.0,
+        30.4
+      ],
+      "note": "音频片段相邻处含约0.4秒程序重叠；内部边界可能截断词语，应与相邻片段对照，不等于原成片音轨中断"
+    },
+    "V002": {
+      "kind": "video_observation",
+      "start_seconds": 30,
+      "end_seconds": 60.03,
+      "scenes": [
+        {
+          "start": 29.6,
+          "end": 44.3,
+          "description": "画面展示一张静态的风景照片，主体是水面中央的岛屿、近处的游船和远处的长桥。底部依次出现带有白色背景框的黑色字幕。",
+          "on_screen_text": [
+            "第三张是空间层次挑战：先找水中央的岛屿，",
+            "再找近处游船，最后看看远方的长桥。",
+            "一张风景照，也能培养宝贝的空间感知。"
+          ]
+        },
+        {
+          "start": 44.9,
+          "end": 59.0,
+          "description": "画面切换为一张静态的海报图，左侧是一只白猫，右侧有手写体大字和小字标语。底部依次出现带有白色背景框的黑色字幕。",
+          "on_screen_text": [
+            "「在这儿 你也会慵懒惬意的」",
+            "猫在临清",
+            "最后看这张临清猫海报。",
+            "白猫的毛发是什么颜色？",
+            "旁边写着哪几个字？",
+            "和宝贝聊聊最爱的画面，这一分钟的审美观察就圆满啦。"
+          ]
+        }
+      ],
+      "uncertainty": [],
+      "time_basis": "model_estimate_plus_program_media_start_offset",
+      "core_range_seconds": [
+        30,
+        60.03
+      ]
+    },
+    "A002": {
+      "kind": "audio_observation",
+      "start_seconds": 30,
+      "end_seconds": 60.03,
+      "text": "第三章是空间层次挑战，先找水中央的岛屿，再找近处游船，最后看看远方的长桥。一张风景照也能培养宝贝的空间感知。\n\n最后看这张临清猫海报，白猫的毛发是什么颜色？旁边写着哪几个字？和宝贝聊聊最爱的画面，这一分钟的审美观察就圆满啦。",
+      "sound_description": "单人女声普通话朗读，语速平稳、吐字清晰；无背景音乐或环境噪声；约15秒处有较长停顿分隔两段内容；录音干净无明显失真。",
+      "uncertainty": [],
+      "time_basis": "program_clip_bounds_not_utterance_alignment",
+      "core_range_seconds": [
+        30,
+        60.03
+      ],
+      "media_range_seconds": [
+        29.6,
+        60.03
+      ],
+      "note": "音频片段相邻处含约0.4秒程序重叠；内部边界可能截断词语，应与相邻片段对照，不等于原成片音轨中断"
+    }
+  },
+  "dimensions": {
+    "opening": {
+      "conclusion": "开场直接点明主题并设置悬念，第一帧即出现标题‘高质量陪娃60秒...’及引导语‘先别划走...’，配合公园秋景航拍图，迅速建立情境。",
+      "evidence_ids": [
+        "V001"
+      ],
+      "nature": "成片观察",
+      "uncertainty": ""
+    },
+    "audience": {
+      "conclusion": "从视频措辞/内容推断可能面向有幼儿的家庭用户（特别是希望利用碎片时间进行亲子互动的父母），因为文案多次使用‘带宝贝’、‘问问宝贝’等指令性语言。",
+      "evidence_ids": [
+        "V001",
+        "A001",
+        "V002",
+        "A002"
+      ],
+      "nature": "合理推断",
+      "uncertainty": "用户任务中未明确指定受众，此结论基于视频内文本逻辑推导。"
+    },
+    "pacing": {
+      "conclusion": "节奏均匀且缓慢，分为四个主要段落，每段约15秒左右。每个段落包含一个视觉焦点和相应的互动问题，中间有明显的停顿或转场描述（如‘再看这幅...’、‘第三张是...’、‘最后看这张...’）。结尾处语音自然收束，无明显急促感。",
+      "evidence_ids": [
+        "V001",
+        "A001",
+        "V002",
+        "A002"
+      ],
+      "nature": "成片观察",
+      "uncertainty": "具体每秒的字幕切换频率需结合帧率估算，但整体段落划分清晰可见。"
+    },
+    "local_culture": {
+      "conclusion": "视频中明确出现了地名标签：开头字幕提及‘聊城风光’，后半部分海报显示‘猫在临清’及标语‘在这儿 你也会慵懒惬意的’。这些文字直接呈现在画面上。",
+      "evidence_ids": [
+        "V001",
+        "V002"
+      ],
+      "nature": "成片观察",
+      "uncertainty": "仅证明视频画面出现了相关文字，未核实实际拍摄地点或文化事实的真实性。"
+    },
+    "sharing": {
+      "conclusion": "设计了明确的互动环节，包括寻找颜色（湖水、树叶、游船）、识别形状（柱子、屋顶轮廓）、判断空间层次（岛屿、游船、长桥）以及阅读海报文字。旨在鼓励家长与孩子共同完成观察任务，具有潜在的社交分享属性（如晒出孩子的回答）。",
+      "evidence_ids": [
+        "V001",
+        "A001",
+        "V002",
+        "A002"
+      ],
+      "nature": "成片观察",
+      "uncertainty": "具体的分享转化率或用户反馈数据缺失，此为基于内容设计的推断。"
+    },
+    "platform_topic": {
+      "conclusion": "平台字段标记为'unspecified'，因此无法确定其所属的具体社交平台话题分类。但从内容形式（竖屏960x1280、短时长、强互动文案）来看，符合短视频平台的常见特征。",
+      "evidence_ids": [
+        "TASK",
+        "MEDIA"
+      ],
+      "nature": "待核实",
+      "uncertainty": "缺乏明确的平台元数据支持，仅能根据分辨率和时长做形态上的类比推断。"
+    }
+  },
+  "overall": "该视频是一段时长约60秒的亲子互动引导内容，采用静态图片配旁白和字幕的形式。内容围绕“观察力游戏”展开，依次展示了公园秋景、湖畔建筑、空间层次风景照及临清猫海报四个场景，通过提问引导观众（推测为家长）与孩子进行细节观察。音频由单人女声清晰讲述，无背景音乐，语速平稳。画面文字与语音高度同步，结构完整，以一句总结性话语结束。",
+  "strengths": [
+    "视听一致性强：画面中的关键元素（如红色柱子、白猫、特定文字）与旁白提问完全对应，降低了理解门槛。",
+    "结构清晰：按照‘引入-三个不同维度的观察挑战-总结’的逻辑推进，适合快速消费。",
+    "互动设计具体：提供了可执行的操作指南（找颜色、比远近、读文字），而非抽象的概念灌输。"
+  ],
+  "limitations": [
+    "视频理解由模型完成，不能保证每帧覆盖；分镜时间为模型近似观察，片段边界由程序确定",
+    "音频按程序片段提供整体转写，不冒充逐字精确时间戳；静音与未成功读取音频是不同状态",
+    "当前没有可用的已读来源正文；文化事实和近期话题结论须降为待核实",
+    "无生成记录，仍可分析成片；不能核对计划字幕和镜头安排",
+    "没有用户要求或brief；受众与传播目标只能作系统推断",
+    "相邻音频片段包含短暂重叠；片段边界处的残缺词语须结合相邻片段判断，不能单独据此认定原成片音轨中断",
+    "依赖静态图像：全程为图片轮播，缺乏动态视觉刺激，可能对注意力持续时间较短的儿童吸引力有限。",
+    "地域信息未经外部验证：虽然提到了聊城和临清，但没有提供额外的地理或文化背景知识支撑，若作为旅游推广则深度不足。",
+    "音频边界处理痕迹：A001片段结尾处出现单字‘第’后中断，虽经比对确认为程序切片导致的重叠截断而非原片故障，但在单独分析前30秒时需注意这一技术性瑕疵对连贯性的潜在干扰（已在后续片段修复）。"
+  ],
+  "prediction": {
+    "enabled": false,
+    "note": "第三步尚未实现：本报告不输出评分、播放量或爆款概率"
+  },
+  "report_directory": "C:\\Users\\lenovo\\Documents\\Codex\\2026-11-18\\ShanDong_Travel\\video_reviews\\56f43d52c7e99b8a_fa2ce6e7c980\\report_bdfa0e301b5056a3"
+}

@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_002",
+  "call": 4,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"岸边那一排游船，你家宝贝最先盯上哪种颜色？第三张是找图大挑战。先找水中央的小岛，再找近处游船，最后看远方长桥。\", \"sound_description\": \"单人女声旁白，语速适中偏慢，语气亲切自然。背景安静无杂音或音乐。句间有明显停顿以配合画面节奏。开头有极短暂的单字“阔”作为前一句的尾音残留。\", \"uncertainty\": []}",
+  "usage": {
+    "completion_tokens": 115,
+    "prompt_tokens": 553,
+    "total_tokens": 668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 115
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 142,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 411
+    }
+  },
+  "elapsed_seconds": 4.75
+}

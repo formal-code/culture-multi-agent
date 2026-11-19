@@ -1,0 +1,250 @@
+{
+  "topic": "聊城",
+  "brief": {
+    "audience": {
+      "value": "周末短途游的年轻家庭",
+      "source": "user"
+    },
+    "goal": {
+      "value": "提升聊城东昌府木版年画的知名度，带动线下体验",
+      "source": "user"
+    },
+    "platforms": {
+      "value": [
+        "douyin",
+        "xiaohongshu",
+        "shipinhao"
+      ],
+      "source": "系统默认"
+    },
+    "target_duration": {
+      "value": 60,
+      "source": "系统默认"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "水城切片",
+      "script": {
+        "title": "聊城水城切片：湖运摩秋古",
+        "hook": "摩天轮转到第三圈，孩子指着运河喊：水里有桥！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 10,
+            "vo": "江北水城，湖光先落眼——东昌湖如镜，倒映秋林与摩天轮。",
+            "subtitle": "江北水城·湖光秋色",
+            "visual": "航拍东昌湖全景，湖面开阔，环湖秋林金黄，远处摩天轮清晰可见，现代建筑错落其间",
+            "asset": "assets/asset_3d6b697f3f48f05be77f.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "镜头下移，京杭运河穿城而过——江北水城，运河古都，双标同框。",
+            "subtitle": "江北水城 运河古都",
+            "visual": "航拍运河聊城段，河道蜿蜒，两岸植被斑斓，水面反光，远处城市天际线含古建轮廓",
+            "asset": "assets/asset_f35d952e5569239a2ff9.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 13,
+            "vo": "摩天轮缓缓升至最高点，脚下是水城脉搏——湖泊、运河、秋林，三重自然风光叠进一张城市旅游图。",
+            "subtitle": "湖泊｜运河｜秋林",
+            "visual": "航拍摩天轮特写视角，镜头环绕旋转，背景呈现湖面、运河水道与大片斑斓秋林",
+            "asset": "assets/a0.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "秋林尽头，青砖灰瓦浮现——古建筑静立水畔，古韵风光未改，等你慢走细看。",
+            "subtitle": "古韵风光·水畔古建",
+            "visual": "航拍低空掠过秋林带，前方露出成片传统坡顶古建筑群，临水而建，错落有致",
+            "asset": "assets/asset_56c026df233254762ee6.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 13,
+            "vo": "周末出发，用木版年画拓印一纸水城记忆——湖景、运河、摩天轮、秋林、古建，都在墨线里活过来。",
+            "subtitle": "拓印你的水城记忆",
+            "visual": "航拍视角收束为木版年画特写（红黑主色，水城意象纹样：简化湖、船、塔、树），画面渐融回水城航拍全景",
+            "asset": "assets/asset_ca194e13ee824ad4ff66.png",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "夜脉漫游",
+      "script": {
+        "title": "夜游聊城：摩天轮下遇见年画古韵",
+        "hook": "摩天轮亮起的那一刻，运河水里浮出整座江北水城。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "镜头掠过秋色湖面，摩天轮缓缓旋转——聊城的夜，从湖光与光影的交界开始。",
+            "subtitle": "秋色湖面 · 摩天轮光影",
+            "visual": "航拍城市风光，展示湖泊、摩天轮、现代建筑及秋季植被。",
+            "asset": "assets/a0.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 13,
+            "vo": "船行运河，两岸古建筑轮廓映在粼粼水波里——江北水城，是活的运河古都。",
+            "subtitle": "运河倒影 · 古建筑轮廓",
+            "visual": "航拍：江北水城 运河古都，水岸灯光与古建轮廓清晰可见。",
+            "asset": "assets/asset_3d6b697f3f48f05be77f.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "石桥静默，灯笼微晃，青砖墙上映着流动的光——古韵风光，就在步行三步之内。",
+            "subtitle": "石桥灯笼 · 青砖流光",
+            "visual": "夜间低角度漫步视角，古建筑立面、灯笼、石桥局部，暖光映墙。",
+            "asset": "assets/asset_5c103bb061071c340668.png",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 11,
+            "vo": "转角遇见木版年画摊——朱砂红与松烟黑，在夜灯下突然有了温度。",
+            "subtitle": "转角遇见年画",
+            "visual": "第一视角手持镜头：夜市街角，木质展架上陈列年画，暖光打亮画面细节。",
+            "asset": "assets/asset_f35d952e5569239a2ff9.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "手握刻刀，印一张属于今晚的‘门神’——城市旅游，本该这样有声、有色、有手温。",
+            "subtitle": "亲手印一张门神",
+            "visual": "特写双手操作木版年画印刷过程，红墨印上纸面，背景虚化为夜景灯光。",
+            "asset": "assets/asset_ca194e13ee824ad4ff66.png",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "水陆折叠",
+      "script": {
+        "title": "聊城：水陆折叠的周末",
+        "hook": "运河倒影里，摩天轮正转过秋林枝头。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "白天，运河古渡口石阶静卧水边；同一片水面，入夜倒映摩天轮流转。",
+            "subtitle": "白天古渡口 · 夜间摩天轮倒影",
+            "visual": "航拍视角：运河古渡口石阶延伸入水，对岸秋林步道与现代玻璃幕墙并置，湖面平静映出摩天轮轮廓",
+            "asset": "assets/asset_3d6b697f3f48f05be77f.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "秋林步道铺满金黄落叶，转角处玻璃幕墙突然映出整片湖光与古建筑飞檐。",
+            "subtitle": "秋林步道 × 玻璃幕墙水光反射",
+            "visual": "低角度平移镜头：秋林步道落叶特写，镜头横移至现代玻璃幕墙，墙面清晰反射湖泊、古建筑轮廓与秋景",
+            "asset": "assets/asset_f35d952e5569239a2ff9.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "江北水城，运河古都——航拍里湖泊、摩天轮、秋景、古韵同框。",
+            "subtitle": "江北水城 · 运河古都",
+            "visual": "高空航拍全景：东昌湖水域延展，摩天轮矗立湖畔，周边现代建筑群与古城墙、垂柳、银杏交织",
+            "asset": "assets/a0.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01",
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "周末带娃来聊城，看年画刻刀游走木板，把古韵风光印进全家福。",
+            "subtitle": "木版年画体验 · 周末家庭首选",
+            "visual": "微距俯拍：木版年画雕版特写，朱砂色油墨轻压拓印，画面边缘虚化叠入孩子小手与家长侧影剪影",
+            "asset": "assets/asset_5c103bb061071c340668.png",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "城市旅游不绕路，自然风光与休闲娱乐就在一条水岸线。",
+            "subtitle": "城市旅游 · 一水串联",
+            "visual": "慢速横摇航拍：运河水道蜿蜒穿城，左岸古建筑群，右岸摩天轮与秋林，湖面游船划开波光",
+            "asset": "assets/asset_56c026df233254762ee6.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F02"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    }
+  ],
+  "self_check": {
+    "cand_1": "通过",
+    "cand_2": "通过",
+    "cand_3": "通过"
+  }
+}

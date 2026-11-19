@@ -1,0 +1,131 @@
+{
+  "topic": "聊城风光与临清猫主题海报",
+  "brief": {
+    "spot_name": "聊城风光与临清猫主题海报",
+    "city": "聊城",
+    "province": "山东",
+    "target_audience": "对聊城城市风光和文旅影像感兴趣的用户",
+    "communication_goal": "基于已提供的公园秋景、湖畔建筑、湖心岛图片和猫在临清主题海报，制作一条60秒静音字幕短片。通过画面观察介绍这组聊城文旅素材，表达休闲观赏的感受。具体湖泊、公园和建筑名称未核实，不将四幅画面描述为同一地点或连续游览路线，不编造门票、营业时间、交通、现场体验或猫咪互动服务。",
+    "target_platforms": ["douyin", "kuaishou", "xiaohongshu"],
+    "target_duration_sec": 60
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "四幅画面的视觉导览",
+      "script": {
+        "title": "四幅画面，看看聊城文旅的不同表情",
+        "hook": "湖水、楼阁和一只白猫，哪幅画面最让你心动？",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1, "duration": 15,
+            "vo": "湖水、楼阁和一只白猫，哪幅画面最让你心动？先看这张公园秋景：蓝色湖水被金黄与翠绿围住，像一幅展开的调色盘。",
+            "subtitle": "第一幅：湖水与秋色",
+            "visual": "公园湖面与秋日风光。完整展示航拍图片中的公园、湖泊、秋景和岸边树木，用已有图片轻微缩放，不生成新航拍镜头。",
+            "asset": "assets/park_autumn_01.jpg", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 2, "duration": 15,
+            "vo": "第二幅，把目光落在湖边。中式建筑沿水铺开，岸边停着彩色游船。红色屋柱、层层屋檐和树影，让画面多了几分精巧。",
+            "subtitle": "第二幅：湖畔建筑与游船",
+            "visual": "湖畔中式建筑与游船。完整展示横幅图片里的中式建筑、岸边游船与园林景观，保留画面两端建筑，不指定未经核实的建筑名称。",
+            "asset": "assets/lakeside_architecture_02.png", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 3, "duration": 15,
+            "vo": "第三幅，换个角度看湖心岛。楼阁与绿树聚在水中央，近处一艘游船，远处一条长桥。留白的湖面，让视线慢慢舒展开来。",
+            "subtitle": "第三幅：湖心岛与远处长桥",
+            "visual": "湖心岛与中式楼阁航拍。展示湖景、岛屿、古建筑、游船和远处长桥，完整保留原图，使用图片轻微缩放，不把它说成上一幅的同一地点。",
+            "asset": "assets/lake_island_04.jpg", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 4, "duration": 15,
+            "vo": "最后看看这张写着猫在临清的主题海报。白猫安静卧着，文字留在一旁。从湖景到楼阁，再到这份可爱，哪一幅最想让你收藏？",
+            "subtitle": "第四幅：猫在临清主题海报",
+            "visual": "“猫在临清”主题海报。展示白猫与右侧的临清文字，完整保留海报边界，不把静态宣传海报描述为现场拍摄或可预约的宠物体验。",
+            "asset": "assets/linqing_cat_poster_03.png", "asset_type": "image", "fact_ids": [], "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "适合亲子共看的画面观察小游戏",
+      "script": {
+        "title": "和孩子一起，在四幅聊城文旅画面里找细节",
+        "hook": "不用急着划走，和孩子一起找找这四幅画面的小细节。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1, "duration": 15,
+            "vo": "不用急着划走，和孩子一起找找这四幅画面的小细节。先看公园秋景：湖水是什么颜色？岸边的树叶，又藏着几种不同的颜色？",
+            "subtitle": "找一找：湖水和树叶的颜色",
+            "visual": "公园湖面与秋日风光。完整展示公园航拍图片、湖泊和秋景树木，保留金黄与翠绿区域，仅做轻微缩放，不新增圈画或动画。",
+            "asset": "assets/park_autumn_01.jpg", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 2, "duration": 15,
+            "vo": "再看这张湖畔建筑图。先找一找红色的柱子，再看看屋顶的轮廓。岸边还有一排游船，你最先注意到哪一种颜色？",
+            "subtitle": "找一找：红柱、屋顶和彩色游船",
+            "visual": "湖畔中式建筑与游船。完整显示中式建筑、红色柱子与岸边游船，供观众自行观察，不新增图片里没有的人物或活动。",
+            "asset": "assets/lakeside_architecture_02.png", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 3, "duration": 15,
+            "vo": "第三张像一道找图题：先找到水中央的岛屿，再找到近处的游船，最后看看远方的长桥。原来一张风景照，也能慢慢看出层次。",
+            "subtitle": "找一找：岛屿、游船与长桥",
+            "visual": "湖心岛与中式楼阁航拍。呈现湖景、岛屿、古建筑、近处游船和远处长桥，使用完整原图，不生成移动游船或地图动效。",
+            "asset": "assets/lake_island_04.jpg", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 4, "duration": 15,
+            "vo": "最后看猫在临清主题海报。白猫的毛发是什么颜色？旁边写着哪几个字？和孩子聊聊最喜欢的画面，这一分钟的观察就有了自己的答案。",
+            "subtitle": "看一看：白猫与猫在临清的文字",
+            "visual": "“猫在临清”主题海报。完整展示白猫和临清主题文字，保留海报原有文字，明确为海报展示，不声称存在现场互动。",
+            "asset": "assets/linqing_cat_poster_03.png", "asset_type": "image", "fact_ids": [], "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "第一人称慢节奏影像分享",
+      "script": {
+        "title": "给自己一分钟，看看这组聊城文旅影像",
+        "hook": "今天不赶行程，只想在几幅画面里，把节奏放慢一点。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1, "duration": 15,
+            "vo": "今天不赶行程，只想在几幅画面里，把节奏放慢一点。先看公园的秋色：蓝色湖水，金黄树叶，光是这样看着，就想多停留一会儿。",
+            "subtitle": "先把目光，交给湖水与秋色",
+            "visual": "公园湖面与秋日风光。以公园航拍图片中的湖泊、秋景和自然景观开场，完整呈现原图并轻微缩放，不虚构正在现场旅行。",
+            "asset": "assets/park_autumn_01.jpg", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 2, "duration": 15,
+            "vo": "再换到湖畔建筑这一幅。屋檐一层层展开，游船安静停在岸边。我喜欢这些细小的线条，让宽阔的湖景有了值得细看的地方。",
+            "subtitle": "细看屋檐，也看看岸边的游船",
+            "visual": "湖畔中式建筑与游船。展示中式建筑与游船构成的园林景观，完整保留横向画面，使用模糊背景填充竖屏，不新增镜头内容。",
+            "asset": "assets/lakeside_architecture_02.png", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 3, "duration": 15,
+            "vo": "接着看湖心岛这张。楼阁、绿树与水面各占一角，远处的长桥把视线带向天边。这样的留白，像给忙碌的一天留了一次深呼吸。",
+            "subtitle": "给忙碌的一天，留一点湖面的空白",
+            "visual": "湖心岛与中式楼阁航拍。完整展示岛屿、湖景、古建筑、游船和远方城市风光，以原图轻微缩放表现慢节奏，不制作连续游览路线。",
+            "asset": "assets/lake_island_04.jpg", "asset_type": "image", "fact_ids": [], "removable": false
+          },
+          {
+            "no": 4, "duration": 15,
+            "vo": "最后用猫在临清主题海报收尾。白猫安静地卧着，像给这一分钟按下暂停键。四幅画面，各有表情；你愿意把哪一幅留在心里？",
+            "subtitle": "用一张猫在临清海报，收好这一分钟",
+            "visual": "“猫在临清”主题海报。完整保留白猫形象与临清主题文字，结尾为静态海报轻微缩放，不把海报当作猫咪活动的实拍视频。",
+            "asset": "assets/linqing_cat_poster_03.png", "asset_type": "image", "fact_ids": [], "removable": false
+          }
+        ]
+      }
+    }
+  ]
+}

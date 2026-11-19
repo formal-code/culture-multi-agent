@@ -1,0 +1,254 @@
+{
+  "topic": "聊城",
+  "brief": {
+    "audience": {
+      "value": "周末短途游的年轻家庭",
+      "source": "user"
+    },
+    "goal": {
+      "value": "用聊城的婚俗、庙会与葫芦文化等民俗素材，展示本地的风土人情",
+      "source": "user"
+    },
+    "platforms": {
+      "value": [
+        "douyin",
+        "xiaohongshu",
+        "shipinhao"
+      ],
+      "source": "系统默认"
+    },
+    "target_duration": {
+      "value": 60,
+      "source": "系统默认"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "门前三叠",
+      "script": {
+        "title": "聊城三叠门：婚俗·庙会·葫芦",
+        "hook": "红灯笼亮起的那一刻，聊城的婚俗就醒了。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 10,
+            "vo": "晨光漫过灰砖木窗，红灯笼轻晃——聊城婚俗博物馆入口，静候周末出发的家庭。",
+            "subtitle": "晨光·婚俗博物馆",
+            "visual": "慢推镜头：婚俗博物馆入口，灰砖墙、木格窗、悬挂红灯笼、黑底金字对联、上方牌匾题写馆名，晨光斜照",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 15,
+            "vo": "正午时分，门内是鲁西婚俗四部曲：婚前、正婚、婚后、特殊婚俗；门外是聊城古建筑群，风土人情在青石板上缓缓铺展。",
+            "subtitle": "正午·婚俗四部曲",
+            "visual": "同一门景，正午强光下的红灯笼与对联特写，镜头微摇带出两侧古街檐角",
+            "asset": "assets/asset_23f058a141edf266.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F02",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 15,
+            "vo": "暮色渐染，门楣未变，而聊城的民俗正奔涌而来：莘县许昌营庙会是乡土嘉年华，葫芦文化节里非遗手作熠熠生辉。",
+            "subtitle": "暮色·庙会与葫芦节",
+            "visual": "同一门景，暖调暮色中灯笼微亮，虚化前景浮现庙会剪影、葫芦堆叠轮廓（无具体人物/动作）",
+            "asset": "assets/asset_97c95cf3a90b8807.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F04",
+              "F05",
+              "F06",
+              "F09",
+              "F10",
+              "F11"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 20,
+            "vo": "这扇门，见过运河畔的契约文书，也映过法国大学生带走的葫芦；它不说话，却把聊城婚俗、庙会、葫芦节全装进对联的墨香里——传统技艺，就在家门口。",
+            "subtitle": "传统技艺·就在家门口",
+            "visual": "三叠画面渐次融合：晨光/正午/暮色三时段门景横向并置，中央牌匾清晰，红灯笼恒亮",
+            "asset": "assets/asset_8b432eccb2d77535.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01",
+              "F02",
+              "F03",
+              "F07",
+              "F08",
+              "F12"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "葫芦手记",
+      "script": {
+        "title": "葫芦手记：聊城风土人情60秒",
+        "hook": "红灯笼下，刻刀游走于葫芦表皮——八仙正跃然而出！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "聊城古城区，婚俗博物馆灰砖木窗配红灯笼，门柱悬黑底金字对联。",
+            "subtitle": "聊城婚俗博物馆 红灯笼·对联·古建筑",
+            "visual": "婚俗博物馆入口全景：灰砖墙、木格窗、高悬红灯笼、黑底金字对联、牌匾题馆名",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 14,
+            "vo": "婚前礼俗、正婚礼俗、婚后礼俗、特殊婚俗——鲁西婚俗在这里鲜活呈现。",
+            "subtitle": "婚俗四部曲 鲁西风土人情",
+            "visual": "博物馆内展陈局部：传统婚服、契约文书、喜轿模型等静态陈列",
+            "asset": "assets/asset_23f058a141edf266.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 16,
+            "vo": "烟台非遗传承人宋玉良，在聊城葫芦文化节现场雕刻八仙葫芦；法国大学生逛智运嘉年华，把聊城非遗送给妈妈。",
+            "subtitle": "葫芦文化节 × 智运嘉年华",
+            "visual": "手部特写：刻刀在葫芦表面游走；穿插人群漫步节庆市集的广角镜头",
+            "asset": "assets/asset_97c95cf3a90b8807.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F05",
+              "F07",
+              "F11",
+              "F12"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 18,
+            "vo": "莘县许昌营庙会是乡土‘嘉年华’，聊城葫芦节让传统技艺出圈；婚俗博物馆陈列更获山东省精品展览奖。",
+            "subtitle": "庙会·葫芦节·精品陈列",
+            "visual": "热闹庙会全景（舞狮/摊位/人流）与葫芦节展台交错剪辑，结尾定格婚俗博物馆牌匾",
+            "asset": "assets/asset_8b432eccb2d77535.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F04",
+              "F06",
+              "F03"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "庙会切片",
+      "script": {
+        "title": "莘县庙会：聊城乡土嘉年华",
+        "hook": "鞭子炸开第一声春雷！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "莘县许昌营庙会——一场乡土‘嘉年华’。",
+            "subtitle": "莘县许昌营庙会\n一场乡土‘嘉年华’",
+            "visual": "甩鞭炸响瞬间，黄尘腾起，人群微仰头",
+            "asset": "assets/asset_23f058a141edf266.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F04"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "面塑龙腾跃指尖，唢呐声刺破青空。",
+            "subtitle": "面塑捏龙｜唢呐仰头",
+            "visual": "面塑艺人快速捏出龙形；唢呐手仰头吹奏特写",
+            "asset": "assets/asset_97c95cf3a90b8807.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F09"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "孩童踮脚抢糖瓜，香火升腾映红灯笼。",
+            "subtitle": "孩童抢糖瓜｜香火升腾",
+            "visual": "孩童伸手争抢糖瓜；香炉中青烟盘旋升腾",
+            "asset": "assets/asset_8b432eccb2d77535.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F09"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "聊城婚俗博物馆灰砖木窗，对联映红灯笼。",
+            "subtitle": "聊城婚俗博物馆\n灰砖木窗·红灯笼·对联",
+            "visual": "婚俗博物馆入口全景：灰砖墙、木格窗、红灯笼、黑底金字对联、牌匾",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "葫芦文化节里，非遗是风土人情的活心跳动。",
+            "subtitle": "葫芦文化节｜非遗·风土人情",
+            "visual": "八仙葫芦特写（色彩浓烈、造型饱满），背景虚化节庆人流",
+            "asset": "assets/asset_8f5da7478711b426.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F05",
+              "F06"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    }
+  ],
+  "self_check": {
+    "cand_1": "通过",
+    "cand_2": "通过",
+    "cand_3": "通过"
+  }
+}

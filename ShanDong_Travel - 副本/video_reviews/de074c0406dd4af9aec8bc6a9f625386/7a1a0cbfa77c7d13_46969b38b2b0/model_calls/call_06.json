@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_003",
+  "call": 6,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"傍晚落日熔金，洒满整个东昌湖。看着游船归来，光岳楼剪影超有感觉！晚上满月升空，和光岳楼同框太震撼了。夜游古城看非遗，这趟聊城之旅值啦！\", \"sound_description\": \"单人女声旁白，语调轻快、充满赞叹感；背景伴有舒缓的纯音乐（钢琴/弦乐），无环境噪音或杂音。\", \"uncertainty\": []}",
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 551,
+    "total_tokens": 661,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 110
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 142,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 409
+    }
+  },
+  "elapsed_seconds": 3.08
+}

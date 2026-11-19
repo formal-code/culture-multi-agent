@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_002",
+  "call": 4,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"第三章是空间层次挑战，先找水中央的岛屿，再找近处游船，最后看看远方的长桥。一张风景照也能培养宝贝的空间感知。\\n\\n最后看这张临清猫海报，白猫的毛发是什么颜色？旁边写着哪几个字？和宝贝聊聊最爱的画面，这一分钟的审美观察就圆满啦。\", \"sound_description\": \"单人女声普通话朗读，语速平稳、吐字清晰；无背景音乐或环境噪声；约15秒处有较长停顿分隔两段内容；录音干净无明显失真。\", \"uncertainty\": []}",
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 627,
+    "total_tokens": 759,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 132
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 212,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 415
+    }
+  },
+  "elapsed_seconds": 46.03
+}

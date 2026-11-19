@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_001",
+  "call": 2,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"先别划走，带宝贝玩个观察小游戏。看这幅公园秋景，引导宝贝找找湖水的颜色，再看看岸边树叶藏着几种色彩。再看这幅湖畔建筑，让宝贝找找红色的柱子和屋顶轮廓，岸边那一排游船，问问宝贝最先注意到哪一种颜色？第\", \"sound_description\": \"单人女声清晰讲述，无背景音乐或环境噪音；语速平稳，段落间有自然停顿；结尾处“第”字后语音突然中断，疑似被截断。\", \"uncertainty\": [\"结尾“第”字后内容缺失，无法确认后续词语\"]}",
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 619,
+    "total_tokens": 754,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 135
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 212,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 407
+    }
+  },
+  "elapsed_seconds": 46.19
+}

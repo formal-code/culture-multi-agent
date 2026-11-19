@@ -1,0 +1,26 @@
+{
+  "stage": "单维修正_pacing",
+  "call": 4,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\n  \"conclusion\": \"视频总时长约60秒，分为两个主要段落。前半段（0-30秒）语速平稳，画面以静态图为主配合字幕引导；后半段（30-60秒）在音频中观察到约15秒处存在明显停顿以分隔内容，整体节奏由连续讲解转为分段式互动提问。\",\n  \"evidence_ids\": [\n    \"MEDIA\",\n    \"V001\",\n    \"A001\",\n    \"V002\",\n    \"A002\"\n  ],\n  \"nature\": \"成片观察\",\n  \"uncertainty\": \"音频时间戳基于程序切片而非逐句对齐，具体停顿位置可能存在微小偏差；缺乏观众实测数据验证该节奏对停留时长的实际影响。\"\n}",
+  "usage": {
+    "completion_tokens": 181,
+    "prompt_tokens": 2159,
+    "total_tokens": 2340,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 181
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 1792,
+      "image_tokens": null,
+      "text_tokens": 2159
+    }
+  },
+  "elapsed_seconds": 3.54
+}

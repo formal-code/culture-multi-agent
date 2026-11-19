@@ -1,0 +1,126 @@
+{
+  "schema_version": "video-review-1.1",
+  "step": "understand_video",
+  "created_at": "2026-11-18T13:57:43.765953+00:00",
+  "model": "qwen3.8-omni-flash",
+  "video": {
+    "duration_seconds": 60.03,
+    "fps": 20.0,
+    "size": [
+      960,
+      1280
+    ],
+    "has_audio_stream": true,
+    "sha256": "56f43d52c7e99b8accd6e4cd1216ace0a3f28e1ea0e42cf32dcdb9c54d6e019a"
+  },
+  "status": "complete",
+  "chunks": [
+    {
+      "index": 1,
+      "start_seconds": 0,
+      "end_seconds": 30,
+      "time_basis": "program_clip_bounds",
+      "errors": [],
+      "media_start_seconds": 0.0,
+      "media_end_seconds": 30.4,
+      "core_start_in_media": 0.0,
+      "core_end_in_media": 30.0,
+      "visual": {
+        "accessed": true,
+        "scenes": [
+          {
+            "start": 0.0,
+            "end": 15.2,
+            "description": "画面展示了一幅公园秋景的静态航拍图，中心是湖泊，周围环绕着绿色和黄色的树林、步道及建筑。在0-3秒期间，画面上方出现标题文本框，下方出现引导性字幕；随后上方标题消失，底部字幕依次更换为关于湖水颜色和树叶色彩的提问。",
+            "on_screen_text": [
+              "高质量陪娃60秒聊城风光眼力游戏，发现细节之美",
+              "先别划走，带宝贝玩个观察小游戏。",
+              "看这幅公园秋景：引导宝贝找找湖水的颜色，",
+              "再看看岸边树叶藏着几种色彩？"
+            ]
+          },
+          {
+            "start": 15.2,
+            "end": 30.4,
+            "description": "画面切换为一幅湖畔建筑的静态近景图，展示了水边的传统风格房屋、红色柱子以及停靠在岸边的游船。底部的字幕随着时间推移发生三次变化，分别提示观看建筑、寻找红色柱子和屋顶轮廓，以及询问最先注意到的游船颜色。",
+            "on_screen_text": [
+              "再看这幅湖畔建筑。",
+              "让宝贝找找红色的柱子和屋顶轮廓。",
+              "岸边那一排游船，问问宝贝最先注意到哪一种颜色？"
+            ]
+          }
+        ],
+        "uncertainty": []
+      },
+      "audio": {
+        "accessed": true,
+        "transcript": "先别划走，带宝贝玩个观察小游戏。看这幅公园秋景，引导宝贝找找湖水的颜色，再看看岸边树叶藏着几种色彩。再看这幅湖畔建筑，让宝贝找找红色的柱子和屋顶轮廓，岸边那一排游船，问问宝贝最先注意到哪一种颜色？第",
+        "sound_description": "单人女声清晰讲述，无背景音乐或环境噪音；语速平稳，段落间有自然停顿；结尾处“第”字后语音突然中断，疑似被截断。",
+        "uncertainty": [
+          "结尾“第”字后内容缺失，无法确认后续词语"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "start_seconds": 30,
+      "end_seconds": 60.03,
+      "time_basis": "program_clip_bounds",
+      "errors": [],
+      "media_start_seconds": 29.6,
+      "media_end_seconds": 60.03,
+      "core_start_in_media": 0.4,
+      "core_end_in_media": 30.43,
+      "visual": {
+        "accessed": true,
+        "scenes": [
+          {
+            "start": 0.0,
+            "end": 14.7,
+            "description": "画面展示一张静态的风景照片，主体是水面中央的岛屿、近处的游船和远处的长桥。底部依次出现带有白色背景框的黑色字幕。",
+            "on_screen_text": [
+              "第三张是空间层次挑战：先找水中央的岛屿，",
+              "再找近处游船，最后看看远方的长桥。",
+              "一张风景照，也能培养宝贝的空间感知。"
+            ]
+          },
+          {
+            "start": 15.3,
+            "end": 29.4,
+            "description": "画面切换为一张静态的海报图，左侧是一只白猫，右侧有手写体大字和小字标语。底部依次出现带有白色背景框的黑色字幕。",
+            "on_screen_text": [
+              "「在这儿 你也会慵懒惬意的」",
+              "猫在临清",
+              "最后看这张临清猫海报。",
+              "白猫的毛发是什么颜色？",
+              "旁边写着哪几个字？",
+              "和宝贝聊聊最爱的画面，这一分钟的审美观察就圆满啦。"
+            ]
+          }
+        ],
+        "uncertainty": []
+      },
+      "audio": {
+        "accessed": true,
+        "transcript": "第三章是空间层次挑战，先找水中央的岛屿，再找近处游船，最后看看远方的长桥。一张风景照也能培养宝贝的空间感知。\n\n最后看这张临清猫海报，白猫的毛发是什么颜色？旁边写着哪几个字？和宝贝聊聊最爱的画面，这一分钟的审美观察就圆满啦。",
+        "sound_description": "单人女声普通话朗读，语速平稳、吐字清晰；无背景音乐或环境噪声；约15秒处有较长停顿分隔两段内容；录音干净无明显失真。",
+        "uncertainty": []
+      }
+    }
+  ],
+  "limitations": [
+    "视频理解由模型完成，不能保证每帧覆盖；分镜时间为模型近似观察，片段边界由程序确定",
+    "音频按程序片段提供整体转写，不冒充逐字精确时间戳；静音与未成功读取音频是不同状态"
+  ],
+  "coverage": {
+    "expected_chunks": 2,
+    "visual_chunks_read": 2,
+    "audio_chunks_read": 2,
+    "audio_chunks_expected": 2,
+    "note": "覆盖表示每个片段调用成功，非逐帧识别准确率"
+  },
+  "render_record": {
+    "status": "missing",
+    "note": "无生成记录，仍可分析成片；不能核对计划字幕和镜头安排"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "conclusion": "当前输入资料中platform字段为unspecified，且无任何平台特定标签、算法特征或社区话题标识。",
+  "evidence_ids": [
+    "TASK"
+  ],
+  "nature": "待核实",
+  "uncertainty": "没有平台元数据时不得称符合某个平台常见特征或算法要求，因此无法分析其与特定平台主题的契合度。"
+}

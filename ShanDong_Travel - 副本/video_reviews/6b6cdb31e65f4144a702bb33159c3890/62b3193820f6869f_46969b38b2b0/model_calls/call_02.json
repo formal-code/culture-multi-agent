@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_001",
+  "call": 2,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"别划走，快叫上神兽，一起在这四张聊城美图里找细节。先看这公园秋景，湖水啥颜色？岸边树叶又藏着几种色彩？接着看湖畔古建，找一找红柱子，看看屋顶轮廓。\", \"sound_description\": \"单一女声旁白，语速适中，吐字清晰，语气带有引导性和轻微活泼感。背景有轻柔的纯音乐（钢琴/弦乐），无其他环境噪音或音效。句间存在自然停顿，整体录音质量良好。\", \"uncertainty\": []}",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 549,
+    "total_tokens": 678,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 129
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 142,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 407
+    }
+  },
+  "elapsed_seconds": 10.26
+}

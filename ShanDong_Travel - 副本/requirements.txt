@@ -1,0 +1,8 @@
+openai>=1.50,<4
+streamlit>=1.35.0
+Pillow>=10.0.0
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
+numpy>=1.26.0
+pydantic>=2.7,<3
+dashscope>=1.23,<2

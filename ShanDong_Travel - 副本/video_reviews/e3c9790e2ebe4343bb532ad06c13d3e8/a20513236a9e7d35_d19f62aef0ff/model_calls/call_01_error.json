@@ -1,0 +1,7 @@
+{
+  "stage": "画面理解_001",
+  "error_type": "PermissionDeniedError",
+  "http_status": 403,
+  "code": "insufficient_quota",
+  "request_id": "5a105c65-5137-9530-816b-a220d3b09ae9"
+}

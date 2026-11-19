@@ -1,0 +1,263 @@
+{
+  "topic": "聊城",
+  "brief": {
+    "audience": {
+      "value": "周末短途游的年轻家庭",
+      "source": "user"
+    },
+    "goal": {
+      "value": "用聊城的婚俗、庙会与葫芦文化等民俗素材，展示本地的风土人情",
+      "source": "user"
+    },
+    "platforms": {
+      "value": [
+        "douyin",
+        "xiaohongshu",
+        "shipinhao"
+      ],
+      "source": "系统默认"
+    },
+    "target_duration": {
+      "value": 60,
+      "source": "系统默认"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "水城十二时辰",
+      "script": {
+        "title": "水城十二时辰·聊城",
+        "hook": "晨雾漫东昌湖，游船切开碧波——",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 10,
+            "vo": "清晨六点，东昌湖游船如织，水上观光正升温。",
+            "subtitle": "清晨六点｜东昌湖游船如织",
+            "visual": "该视频报道2023中国聊城·江北水城龙舟公开赛于5月27日至28日在东昌湖金凤广场水域举办的精彩赛事。",
+            "asset": "assets/asset_c7e00e0bb49c9d93.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F20"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "正午时分，东昌湖金凤广场水域龙舟竞渡，江北水城文旅活动火热上演。",
+            "subtitle": "正午｜龙舟竞渡·金凤广场",
+            "visual": "该视频报道2023中国聊城·江北水城龙舟公开赛于5月27日至28日在东昌湖金凤广场水域举办的精彩赛事。",
+            "asset": "assets/asset_53b21b75b5ac00fa.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01",
+              "F30"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "午后樱花山，东昌湖风景区春日打卡新去处，樱花盛开映滨水景观。",
+            "subtitle": "午后｜樱花山·春日打卡",
+            "visual": "文章所述视频介绍聊城东昌湖风景区樱花山樱花盛开、成为春日打卡新去处的赏花景观。",
+            "asset": "assets/asset_b4b4ac55cc7f0892.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F21"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "黄昏收船归来，落日下的东昌湖静谧温柔，木栈道与垂柳勾勒滨水天际线。",
+            "subtitle": "黄昏｜收船·落日东昌湖",
+            "visual": "该视频以黄昏落日时分东昌湖上收船归来的湖畔景致为主题。",
+            "asset": "assets/asset_163a055ea198dd19.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F19"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 14,
+            "vo": "雪夜光岳楼，砖瓦皆成诗；中秋月楼同框，揽一轮明月，品一味团圆。",
+            "subtitle": "雪夜×中秋｜光岳楼与月同框",
+            "visual": "该文章所述视频以中秋时节聊城光岳楼与满月同框的景致为主题，突出揽月团圆的节日氛围。",
+            "asset": "assets/asset_2621add80a6f2ac7.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F27"
+            ],
+            "removable": false
+          }
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "古楼背后的契约",
+      "script": {
+        "title": "古楼背后的契约",
+        "hook": "雪落光岳楼，砖瓦皆成诗。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "《重修东昌光岳楼记》里，杨、傅两家因楼结缘。一座楼，是契约的起点，也是信义的刻度。",
+            "subtitle": "《重修东昌光岳楼记》里，杨、傅两家因楼结缘",
+            "visual": "文章围绕《重修东昌光岳楼记》，讲述聊城光岳楼重修往事及杨、傅两家由此结下的百年交谊。",
+            "asset": "assets/asset_8cbfe408f50d0e76.mp4",
+            "asset_type": "video",
+            "fact_ids": [],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "雪落光岳楼，砖瓦皆成诗。冬日静穆中，信义沉淀为青砖的肌理与飞檐的弧线。",
+            "subtitle": "雪落光岳楼，砖瓦皆成诗",
+            "visual": "该文章配套视频以雪中的聊城光岳楼为主题，呈现古楼砖瓦在落雪时节的诗意景致。",
+            "asset": "assets/asset_6d576bcf61eff1ae.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F22"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "日照金楼奇观浮现，光岳楼在晴空下熠熠生辉。信义如光，照见江北水城的城市天际线。",
+            "subtitle": "日照金楼奇观浮现",
+            "visual": "文章所述视频以聊城光岳楼出现“日照金楼”光影奇观为主题。",
+            "asset": "assets/asset_82e664635bcc09f3.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F18"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "中秋揽月，光岳楼与满月同框。团圆时刻，信义化作东昌湖上一轮清辉。",
+            "subtitle": "中秋揽月，光岳楼与满月同框",
+            "visual": "该文章所述视频以中秋时节聊城光岳楼与满月同框的景致为主题，突出揽月团圆的节日氛围。",
+            "asset": "assets/asset_2621add80a6f2ac7.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F27"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "东昌湖游船如织，金凤广场龙舟竞渡。文旅活动升温，信义精神活在当下。",
+            "subtitle": "东昌湖游船如织，金凤广场龙舟竞渡",
+            "visual": "文章所述视频聚焦聊城东昌湖游船往来、水上观光旅游升温的景区游览主题。",
+            "asset": "assets/asset_c7e00e0bb49c9d93.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F20"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "水上运动地图",
+      "script": {
+        "title": "聊城东昌湖水上运动地图",
+        "hook": "冰面候鸟掠过龙舟赛道！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "这里是江北水城聊城的东昌湖——国家4A级旅游区、山东省生态渔业示范园，也是国家垂钓基地。",
+            "subtitle": "东昌湖：国家4A级旅游区｜生态渔业示范园｜国家垂钓基地",
+            "visual": "航拍宽阔湖面，湖中岛屿分布灰瓦古建与多层楼阁，秋色树木环绕，游船行驶，远处拱桥与城市天际线。",
+            "asset": "assets/asset_56c026df23325476.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "金凤广场水域是龙舟赛主场，2023中国聊城·江北水城龙舟公开赛在此举办。",
+            "subtitle": "金凤广场｜龙舟赛主场",
+            "visual": "该视频报道2023中国聊城·江北水城龙舟公开赛于5月27日至28日在东昌湖金凤广场水域举办的精彩赛事。",
+            "asset": "assets/asset_53b21b75b5ac00fa.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F01",
+              "F30"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "东昌湖水质清澈，水文‘哨兵’常年守护碧水清波，保障多元水上运动安全开展。",
+            "subtitle": "水质守护｜水上运动安全基础",
+            "visual": "文章所述视频是新春走基层报道，讲述水文监测“哨兵”守护东昌湖水质、保住湖区碧水清波的工作。",
+            "asset": "assets/asset_d3a31c98594eed1b.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F23"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "冰封东昌湖上，候鸟翩跹起舞；桨板、皮划艇开放带与垂钓区并存，慢生活与竞技训练同在。",
+            "subtitle": "冰面候鸟｜桨板开放带｜垂钓区｜冠军训练基地",
+            "visual": "文章所述视频以东昌湖冰封时节的湖面与翩跹飞舞的候鸟为主题。",
+            "asset": "assets/asset_3afda06cf08747c3.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F25"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "东昌湖不止是冠军基地，更是你下一站‘慢生活’目的地——清风漾碧波，水上运动治愈又解压。",
+            "subtitle": "冠军基地｜慢生活｜水上运动治愈解压",
+            "visual": "文章标题所述视频聚焦聊城东昌湖上的多元水上运动，呈现清风碧波间的休闲解压体验。",
+            "asset": "assets/asset_8fa2b76764c8015e.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F17"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    }
+  ],
+  "self_check": {
+    "cand_1": [
+      "第1段visual未原样包含素材描述：文章所述视频聚焦聊城东昌湖游船往来、水上观光旅游升温的景区游览主题。"
+    ],
+    "cand_2": "通过",
+    "cand_3": "通过"
+  }
+}

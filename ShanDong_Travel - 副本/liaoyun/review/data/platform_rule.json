@@ -1,0 +1,3 @@
+{
+  "douyin": {"title_max": 30, "durations": [15, 30, 60], "tag_min": 2, "tag_max": 5}
+}

@@ -1,0 +1,273 @@
+{
+  "topic": "聊城",
+  "brief": {
+    "audience": {
+      "value": "周末短途游的年轻家庭",
+      "source": "user"
+    },
+    "goal": {
+      "value": "用聊城的婚俗、庙会与葫芦文化等民俗素材，展示本地的风土人情",
+      "source": "user"
+    },
+    "platforms": {
+      "value": [
+        "douyin",
+        "xiaohongshu",
+        "shipinhao"
+      ],
+      "source": "系统默认"
+    },
+    "target_duration": {
+      "value": 60,
+      "source": "系统默认"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "门前三分钟",
+      "script": {
+        "title": "第一眼聊城：红灯笼下的婚俗门",
+        "hook": "灰砖木窗，红灯笼垂落——门一开，就是鲁西婚俗的仪式感。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 30,
+            "vo": "聊城婚俗博物馆入口，灰砖木窗配红灯笼，门柱悬黑底金字对联，上方牌匾题写馆名。这里是聊城古城区楼北大街南首路东，聊城契约文化博物馆北临。",
+            "subtitle": "婚俗博物馆入口｜灰砖木窗·红灯笼·黑底金字对联",
+            "visual": "聊城婚俗博物馆入口，灰砖木窗配红灯笼，门柱悬黑底金字对联，上方牌匾题写馆名。",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 10,
+            "vo": "婚前礼俗、正婚礼俗、婚后礼俗、特殊婚俗——四大部分，呈现鲁西婚俗全貌。",
+            "subtitle": "婚俗四部曲｜鲁西风土人情",
+            "visual": "聊城婚俗博物馆入口，灰砖木窗配红灯笼，门柱悬黑底金字对联，上方牌匾题写馆名。",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 8,
+            "vo": "基本陈列‘婚俗文化陈列’获山东省博物馆十大精品陈列展览优秀奖。",
+            "subtitle": "省博精品陈列｜优秀奖",
+            "visual": "聊城婚俗博物馆入口，灰砖木窗配红灯笼，门柱悬黑底金字对联，上方牌匾题写馆名。",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 7,
+            "vo": "莘县许昌营庙会，一场乡土嘉年华。",
+            "subtitle": "莘县庙会｜乡土嘉年华",
+            "visual": "该素材以莘县许昌营庙会为主题，聚焦乡土民俗节庆活动。",
+            "asset": "assets/asset_23f058a141edf266.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F04",
+              "F09"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 5,
+            "vo": "聊城葫芦文化节，非遗葫芦亮相。",
+            "subtitle": "葫芦文化节｜非遗亮相",
+            "visual": "该视频报道烟台市级非遗传承人携八仙葫芦参加聊城葫芦文化节。",
+            "asset": "assets/asset_97c95cf3a90b8807.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F05",
+              "F10"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "葫芦过黄河",
+      "script": {
+        "title": "葫芦过黄河：聊城民俗漂流记",
+        "hook": "红灯笼下，八仙葫芦正渡黄河！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "灰砖木窗、红灯笼、黑底金字对联——聊城婚俗博物馆静立古城区楼北大街南首。",
+            "subtitle": "聊城婚俗博物馆｜古建筑里的红灯笼",
+            "visual": "聊城婚俗博物馆入口，灰砖木窗配红灯笼，门柱悬黑底金字对联，上方牌匾题写馆名。",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 13,
+            "vo": "烟台非遗传承人宋玉良携八仙葫芦亮相聊城葫芦文化节，葫芦越过黄河，落进鲁西风土人情。",
+            "subtitle": "烟台葫芦过黄河｜聊城葫芦文化节",
+            "visual": "该视频报道烟台市级非遗传承人携八仙葫芦参加聊城葫芦文化节。",
+            "asset": "assets/asset_97c95cf3a90b8807.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F05",
+              "F10"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "上海葫芦爷爷来聊！聊城葫芦节出圈，手艺人销路通了，葫芦成了流动的乡愁。",
+            "subtitle": "上海葫芦爷爷来聊｜葫芦节出圈",
+            "visual": "该视频围绕聊城葫芦节及手艺人推广展开。",
+            "asset": "assets/asset_8b432eccb2d77535.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F06",
+              "F11"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 11,
+            "vo": "法国大学生逛智运嘉年华，把聊城非遗送给妈妈——一只葫芦，跨越山海的心意。",
+            "subtitle": "法国大学生逛智运嘉年华｜送葫芦给妈妈",
+            "visual": "该视频围绕法国大学生逛智运嘉年华并把聊城非遗送给妈妈展开。",
+            "asset": "assets/asset_8f5da7478711b426.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F07",
+              "F12"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "莘县许昌营庙会，一场乡土‘嘉年华’；婚俗博物馆陈列获省级精品奖——民俗是活的，葫芦是桥。",
+            "subtitle": "莘县庙会｜婚俗博物馆获省级精品奖",
+            "visual": "该素材以莘县许昌营庙会为主题，聚焦乡土民俗节庆活动。",
+            "asset": "assets/asset_23f058a141edf266.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F04",
+              "F09"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "庙会切片",
+      "script": {
+        "title": "莘县庙会：聊城乡土嘉年华",
+        "hook": "红灯笼下，唢呐炸响！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "莘县许昌营庙会——一场乡土‘嘉年华’。",
+            "subtitle": "莘县许昌营庙会\n乡土嘉年华",
+            "visual": "该素材以莘县许昌营庙会为主题，聚焦乡土民俗节庆活动。",
+            "asset": "assets/asset_23f058a141edf266.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F04",
+              "F09"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 12,
+            "vo": "聊城婚俗博物馆，灰砖木窗配红灯笼，门柱悬黑底金字对联。",
+            "subtitle": "聊城婚俗博物馆\n红灯笼·对联·古建筑",
+            "visual": "聊城婚俗博物馆入口，灰砖木窗配红灯笼，门柱悬黑底金字对联，上方牌匾题写馆名。",
+            "asset": "assets/asset_f52e4cf8cdbcb213.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F08"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 12,
+            "vo": "葫芦文化节上，八仙葫芦亮相；聊城葫芦节，把聊城和葫芦牢牢绑定。",
+            "subtitle": "葫芦文化节·八仙葫芦\n聊城×葫芦",
+            "visual": "该视频报道烟台市级非遗传承人携八仙葫芦参加聊城葫芦文化节。",
+            "asset": "assets/asset_97c95cf3a90b8807.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F05",
+              "F10"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 12,
+            "vo": "聊城葫芦节出圈！非遗手艺人打通销路，风土人情正被世界看见。",
+            "subtitle": "聊城葫芦节出圈\n非遗·风土人情",
+            "visual": "该视频围绕聊城葫芦节及手艺人推广展开。",
+            "asset": "assets/asset_8b432eccb2d77535.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F06",
+              "F11"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 12,
+            "vo": "法国大学生逛智运嘉年华，把聊城非遗送给妈妈。",
+            "subtitle": "智运嘉年华\n聊城非遗送妈妈",
+            "visual": "该视频围绕法国大学生逛智运嘉年华并把聊城非遗送给妈妈展开。",
+            "asset": "assets/asset_8f5da7478711b426.mp4",
+            "asset_type": "video",
+            "fact_ids": [
+              "F07",
+              "F12"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    }
+  ],
+  "self_check": {
+    "cand_1": "通过",
+    "cand_2": "通过",
+    "cand_3": "通过"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "conclusion": "输入资料中platform字段为'unspecified'，且无其他平台元数据。因此无法分析其是否符合任何特定平台的内容规范、算法偏好或话题趋势。",
+  "evidence_ids": [
+    "TASK"
+  ],
+  "nature": "待核实",
+  "uncertainty": "缺失平台上下文，无法进行针对性优化建议或合规性检查。"
+}

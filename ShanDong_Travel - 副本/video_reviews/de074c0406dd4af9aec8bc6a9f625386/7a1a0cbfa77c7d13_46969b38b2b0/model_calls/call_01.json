@@ -1,0 +1,27 @@
+{
+  "stage": "画面理解_001",
+  "call": 1,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\n  \"accessed\": true,\n  \"scenes\": [\n    {\n      \"start\": 0.0,\n      \"end\": 9.5,\n      \"description\": \"画面展示春季公园场景。开头为航拍视角，可见粉色花树、木栈道及散步的人群；随后切至草地上的蓝色帐篷和坐在折叠椅上休息的人；接着是人们在野餐垫上用餐以及躺在彩色吊床里休息的画面；最后是一名女子带着几名儿童在树林间走动。\",\n      \"on_screen_text\": [\n        \"聊城光岳楼与东昌湖的四季光影，美到窒息！\",\n        \"3月29日 山东聊城\",\n        \"聊城市新闻传媒中心\",\n        \"春天来聊城东昌湖，樱花山花开得正旺！\",\n        \"光岳楼倒映在花海里，这颜值绝了！\"\n      ]\n    },\n    {\n      \"start\": 9.5,\n      \"end\": 14.5,\n      \"description\": \"画面转为龙舟比赛特写。包含划手挥动船桨的近景、鼓手击鼓的特写（伴有水花飞溅），以及水面波浪翻滚的镜头。\",\n      \"on_screen_text\": [\n        \"到了五月，金凤广场龙舟赛那叫一个热闹！\",\n        \"5月27日-28日\",\n        \"中国聊城·江北水域龙舟公开赛\",\n        \"在东昌湖金凤广场水域举办\",\n        \"即将起浆！\"\n      ]\n    },\n    {\n      \"start\": 14.5,\n      \"end\": 20.4,\n      \"description\": \"画面展示宽阔的水域全景。远处可见城市建筑群和摩天轮，多艘龙舟在湖面竞渡；结尾处再次出现船上人员击鼓的背影剪影。\",\n      \"on_screen_text\": [\n        \"东昌湖可是冠军基地，水上运动氛围拉满。\",\n        \"中国·聊城江北水域龙舟公开赛\",\n        \"支持单位\",\n        \"国家体育总局社体中心 中国龙舟协会\",\n        \"由市政府主办\",\n        \"市教育和体育局承办 市旅发集团协办\"\n      ]\n    }\n  ],\n  \"uncertainty\": []\n}",
+  "usage": {
+    "completion_tokens": 499,
+    "prompt_tokens": 10699,
+    "total_tokens": 11198,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 499
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 497,
+      "video_tokens": 10202
+    }
+  },
+  "elapsed_seconds": 12.29
+}

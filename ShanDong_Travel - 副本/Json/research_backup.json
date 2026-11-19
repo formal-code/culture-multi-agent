@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "reference_videos": [],
+  "media_assets": [
+    {
+      "id": "asset_001",
+      "media_type": "image",
+      "file_path": "assets/4b84-htwhfzr8793445.jpg",
+      "title": "湖面与亭阁远景",
+      "description": "高处俯瞰湖面、桥梁、亭阁与沿岸绿树，具体拍摄地点待确认。",
+      "keywords": [
+        "湖面",
+        "湖景",
+        "远景",
+        "桥梁",
+        "亭阁",
+        "水岸"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_002",
+      "media_type": "image",
+      "file_path": "assets/31528473_133032576107_2.jpg",
+      "title": "树木掩映的传统建筑",
+      "description": "树木掩映下的传统建筑及屋檐，具体建筑名称待确认。",
+      "keywords": [
+        "古建",
+        "建筑",
+        "屋檐",
+        "院落",
+        "树木"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_003",
+      "media_type": "image",
+      "file_path": "assets/1006160000010ne7f0236.jpg",
+      "title": "湖畔城楼与倒影",
+      "description": "湖面、岸边城墙及传统城楼，蓝天白云下可见水面倒影，具体建筑名称待确认。",
+      "keywords": [
+        "湖畔",
+        "湖面",
+        "城楼",
+        "古城",
+        "倒影",
+        "水岸"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_004",
+      "media_type": "image",
+      "file_path": "assets/OIP-C.jpg",
+      "title": "人物展示年画成品",
+      "description": "室内人物手持彩色人物年画展示，背景有悬挂的年画；画面不是刻版或套印过程。",
+      "keywords": [
+        "年画",
+        "木版年画",
+        "年画成品",
+        "人物",
+        "展示",
+        "手捧",
+        "门神"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_005",
+      "media_type": "image",
+      "file_path": "assets/OIP-C.webp",
+      "title": "桌面铺陈的彩色年画",
+      "description": "人物在桌旁展示彩色年画，桌面铺满年画成品；画面未显示五次套印操作。",
+      "keywords": [
+        "年画",
+        "木版年画",
+        "彩色年画",
+        "年画成品",
+        "展示",
+        "桌面",
+        "门神"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_006",
+      "media_type": "image",
+      "file_path": "assets/R-C.jpg",
+      "title": "山陕会馆牌楼",
+      "description": "传统建筑正面，可见“山陕会馆”文字、装饰构件与屋檐。",
+      "keywords": [
+        "山陕会馆",
+        "会馆",
+        "古建",
+        "门匾",
+        "雕花",
+        "屋檐",
+        "建筑"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    },
+    {
+      "id": "asset_007",
+      "media_type": "image",
+      "file_path": "assets/屏幕截图 2026-11-11 170627.png",
+      "title": "木版印版展陈",
+      "description": "展柜中陈列多块带有雕刻纹样的木版，为静态展品画面，不是手持刻刀的制作过程。",
+      "keywords": [
+        "木版",
+        "年画版",
+        "印版",
+        "雕刻",
+        "纹样",
+        "展陈",
+        "刻木"
+      ],
+      "source_url": "",
+      "license": "未提供授权信息，待补充"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_002",
+  "call": 4,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"秋天的东昌湖起雾了，水云相接，光岳楼若隐若现，妥妥的水墨画既视感。冬天下雪的光岳楼太有诗意了，湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。傍晚\", \"sound_description\": \"单人女声旁白，语速适中偏慢，吐字清晰。背景伴有轻柔舒缓的纯音乐（钢琴/弦乐），音量较低不干扰人声。段落间有明显停顿，结尾处“傍晚”一词后音频突然截断。无环境噪音或电流声。\", \"uncertainty\": [\"结尾词“傍晚”被切断，后续内容缺失\"]}",
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 553,
+    "total_tokens": 704,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 151
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 142,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 411
+    }
+  },
+  "elapsed_seconds": 4.32
+}

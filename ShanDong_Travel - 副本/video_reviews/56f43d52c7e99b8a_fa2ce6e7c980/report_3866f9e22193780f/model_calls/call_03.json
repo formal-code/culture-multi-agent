@@ -1,0 +1,26 @@
+{
+  "stage": "单维修正_opening",
+  "call": 3,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\n  \"conclusion\": \"开场使用“先别划走”等祈使句直接引导注意力，并配合静态秋景画面与观察类字幕提问，旨在建立亲子互动场景。\",\n  \"evidence_ids\": [\n    \"V001\",\n    \"A001\"\n  ],\n  \"nature\": \"成片观察\",\n  \"uncertainty\": \"\"\n}",
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 2170,
+    "total_tokens": 2259,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 89
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 1792,
+      "image_tokens": null,
+      "text_tokens": 2170
+    }
+  },
+  "elapsed_seconds": 3.66
+}

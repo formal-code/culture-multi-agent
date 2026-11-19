@@ -1,0 +1,26 @@
+{
+  "stage": "音频理解_001",
+  "call": 2,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"transcript\": \"春天来聊城东昌湖，樱花山花开得正旺。光岳楼倒映在花海里，这颜值绝了！到了五月，金凤广场龙舟赛那叫一个热闹。东昌湖可是冠军基地，水上运动氛围拉满。秋\", \"sound_description\": \"单人女声普通话旁白，语气热情、积极；背景有轻快器乐配乐；约19.8秒处说到“秋”后突然中断并结束，无后续内容。\", \"uncertainty\": []}",
+  "usage": {
+    "completion_tokens": 121,
+    "prompt_tokens": 549,
+    "total_tokens": 670,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 121
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 142,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 407
+    }
+  },
+  "elapsed_seconds": 3.4
+}

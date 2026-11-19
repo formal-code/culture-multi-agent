@@ -1,0 +1,27 @@
+{
+  "stage": "画面理解_002",
+  "call": 3,
+  "model": "qwen3.8-omni-flash",
+  "answer": "{\"accessed\": true, \"scenes\": [{\"start\": 0.0, \"end\": 10.2, \"description\": \"演播室画面中，一名穿黑色西装、蓝色衬衫的男子站在屏幕右侧。左侧大屏幕先显示地球动画，随后切换为包含水面、拱桥和古建筑的风景图，图中带有红色标签。男子有轻微的手部动作。\", \"on_screen_text\": [\"【山东新闻联播】聚焦聊城东昌湖水墨初秋\", \"海岱四季\", \"聊城市新闻传媒中心\", \"秋天的东昌湖起雾了，水云相接，光岳楼若隐若现，\", \"妥妥的水墨画既视感！\"]}, {\"start\": 10.3, \"end\": 19.8, \"description\": \"画面切至户外自然场景，前景是枯黄的芦苇，背景是一片结冰的湖面。许多水鸟（包括深色鸭类和白色鹭类）停留在冰面上，部分在走动或站立，空中偶有鸟类飞过。镜头有轻微的平移和缩放。\", \"on_screen_text\": [\"冬天下雪的光岳楼太有诗意了！\", \"近日，大量越冬水鸟聚集在东昌湖冰面上，为冰封的湖面增添了生机与活力。\", \"湖面结冰，候鸟飞舞，坐游船看雪景依然人气爆棚。\", \"聊城市新闻传媒中心\"]}]}",
+  "usage": {
+    "completion_tokens": 289,
+    "prompt_tokens": 11213,
+    "total_tokens": 11502,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": null,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 289
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 501,
+      "video_tokens": 10712
+    }
+  },
+  "elapsed_seconds": 6.72
+}

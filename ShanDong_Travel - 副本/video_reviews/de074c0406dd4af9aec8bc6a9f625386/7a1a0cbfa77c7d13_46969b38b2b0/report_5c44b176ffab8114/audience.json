@@ -1,0 +1,8 @@
+{
+  "conclusion": "从视频措辞/内容推断可能面向对山东本地游、周末短途出行感兴趣的家庭或年轻结伴游客，尤其关注自然风光与文化打卡点的人群。",
+  "evidence_ids": [
+    "TASK"
+  ],
+  "nature": "合理推断",
+  "uncertainty": "用户brief中target_audience为空，无明确受众定义"
+}

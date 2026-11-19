@@ -1,0 +1,236 @@
+{
+  "topic": "聊城",
+  "brief": {
+    "audience": {
+      "value": "周末短途游的年轻家庭",
+      "source": "user"
+    },
+    "goal": {
+      "value": "提升聊城东昌府木版年画的知名度，带动线下体验",
+      "source": "user"
+    },
+    "platforms": {
+      "value": [
+        "douyin",
+        "xiaohongshu",
+        "shipinhao"
+      ],
+      "source": "系统默认"
+    },
+    "target_duration": {
+      "value": 60,
+      "source": "系统默认"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand_1",
+      "angle": "猫引秋光",
+      "script": {
+        "title": "猫在临清·秋游聊城",
+        "hook": "异瞳白猫一跃，跳进聊城秋光里。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "航拍镜头掠过碧蓝湖泊，层林尽染的秋景扑面而来——这是聊城的城市公园，湖光山色正当时。",
+            "subtitle": "航拍·秋景·城市公园",
+            "visual": "航拍视角下城市公园湖水碧蓝，岸边层林尽染呈现金黄秋色，圆形广场与游船码头点缀其间",
+            "asset": "assets/01.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 13,
+            "vo": "镜头推近湖心岛，中式楼阁掩映绿树间，游船静静停泊，长桥连通城市天际线。",
+            "subtitle": "湖心岛·园林景观·游船",
+            "visual": "航拍宽阔湖面中央的岛屿，岛上分布着中式楼阁与园林建筑，近处有一艘游船，远处可见长桥与城市天际线",
+            "asset": "assets/09.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F04"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 10,
+            "vo": "岸边红柱灰瓦的中式建筑群，倒映在粼粼波光中——临清的静谧，藏在每一处细节里。",
+            "subtitle": "中式建筑·临清·自然景观",
+            "visual": "宽阔湖面环抱绿树掩映的中式古建筑群，红柱灰瓦与圆顶亭阁错落有致，岸边整齐停靠着各式彩色游船",
+            "asset": "assets/05.png",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 15,
+            "vo": "毛发蓬松的异瞳白猫静卧眼前，它不是传说，是临清真实存在的狮子猫。‘猫在临清’，不止是标语，更是文旅宣传的新名片。",
+            "subtitle": "狮子猫·猫在临清·城市名片",
+            "visual": "一只毛发蓬松的异瞳白猫静卧于深色背景前，右侧配有白色书法字体“猫在临清”及宣传标语",
+            "asset": "assets/04.png",
+            "asset_type": "image",
+            "fact_ids": [
+              "F03"
+            ],
+            "removable": false
+          },
+          {
+            "no": 5,
+            "duration": 10,
+            "vo": "周末带娃来聊城，看秋景、乘游船、寻白猫，最后亲手印一张东昌府木版年画。",
+            "subtitle": "周末短途游·东昌府木版年画",
+            "visual": "湖面游船缓缓驶过，船头视角掠过岸边秋色与中式建筑",
+            "asset": "assets/06.jpg",
+            "asset_type": "image",
+            "fact_ids": [],
+            "removable": true
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_2",
+      "angle": "湖上行记",
+      "script": {
+        "title": "聊城东昌湖上行记：木版年画之旅",
+        "hook": "白鹅掠过船头，荷叶擦着指尖——出发！",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "镜头切开秋光，航拍下碧蓝湖泊环抱金黄秋景，圆形广场与游船码头静静守候。",
+            "subtitle": "航拍·公园·秋景·湖光山色",
+            "visual": "航拍视角下城市公园湖水碧蓝，岸边层林尽染呈现金黄秋色，圆形广场与游船码头点缀其间",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 13,
+            "vo": "游船轻启，白鹅戏水掠过船侧，荷叶层层铺展，湖面倒映中式建筑的红柱灰瓦。",
+            "subtitle": "游船·白鹅·荷叶·中式建筑",
+            "visual": "游船行进中掠过白鹅，近景荷叶摇曳，远处湖岸中式古建筑群若隐若现",
+            "asset": "assets/07.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 15,
+            "vo": "穿行荷叶丛，抬眼是绿树掩映的亭台楼阁；长桥横卧，城市天际线在湖光里轻轻呼吸。",
+            "subtitle": "园林景观·城市风光·自然景观",
+            "visual": "游船穿行荷叶近景，抬升视角展现环湖中式建筑群与远处长桥、城市天际线",
+            "asset": "assets/02.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 20,
+            "vo": "抵达湖心岛，航拍镜头升起——中式楼阁错落，岛屿如画浮于碧波中央，一只临清狮子猫正望向你。",
+            "subtitle": "湖心岛·园林景观·狮子猫·文旅宣传",
+            "visual": "航拍宽阔湖面中央岛屿，岛上中式楼阁与园林建筑分布，近处游船，远处长桥与城市天际线；画面右下角浮现白猫形象",
+            "asset": "assets/09.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F04",
+              "F03"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand_3",
+      "angle": "古建浮岛",
+      "script": {
+        "title": "聊城东昌府：湖心年画浮岛",
+        "hook": "白猫卧在青砖上，爪边摊开一张朱砂红纸。",
+        "total_duration": 60,
+        "segments": [
+          {
+            "no": 1,
+            "duration": 12,
+            "vo": "航拍镜头下，碧蓝湖泊环抱中式建筑群——红柱灰瓦，圆顶亭阁，在秋景里静静呼吸。",
+            "subtitle": "航拍·湖光山色·中式建筑",
+            "visual": "俯拍湖面倒映岸上建筑与湖心岛楼阁，构图呈岸-岛-城三层纵深，水面平静如镜",
+            "asset": "assets/03.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F02",
+              "F04"
+            ],
+            "removable": false
+          },
+          {
+            "no": 2,
+            "duration": 15,
+            "vo": "看！湖心岛上，中式楼阁错落有致；岸边游船停泊如彩带；远处长桥连通城市天际线——这是聊城的自然景观与城市风光共生体。",
+            "subtitle": "湖心岛·游船·城市天际线",
+            "visual": "assets/09.jpg画面主体：湖心岛中式楼阁，近处游船，远景长桥与城市建筑轮廓",
+            "asset": "assets/09.jpg",
+            "asset_type": "image",
+            "fact_ids": [
+              "F04"
+            ],
+            "removable": false
+          },
+          {
+            "no": 3,
+            "duration": 13,
+            "vo": "再拉远——湖边建筑群层林尽染，金黄秋色中圆形广场与码头点缀其间。这里不是江南，是聊城公园的真实秋景。",
+            "subtitle": "公园·秋景·层林尽染",
+            "visual": "assets/05.png画面：湖边中式建筑群，岸线清晰，树木呈金黄色，广场与码头可见",
+            "asset": "assets/05.png",
+            "asset_type": "image",
+            "fact_ids": [
+              "F01",
+              "F02"
+            ],
+            "removable": false
+          },
+          {
+            "no": 4,
+            "duration": 20,
+            "vo": "一只临清狮子猫，异瞳雪白，静卧深色背景前。它不说话，却把‘猫在临清’四个字，写进了聊城文旅宣传的心尖上。",
+            "subtitle": "狮子猫·猫在临清·文旅宣传",
+            "visual": "assets/04.png：异瞳白猫特写，右侧书法字‘猫在临清’及标语",
+            "asset": "assets/04.png",
+            "asset_type": "image",
+            "fact_ids": [
+              "F03"
+            ],
+            "removable": false
+          }
+        ]
+      }
+    }
+  ],
+  "self_check": {
+    "cand_1": "通过",
+    "cand_2": "通过",
+    "cand_3": "通过"
+  }
+}

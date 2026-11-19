@@ -1,0 +1,1122 @@
+{
+  "schema_version": "video-review-1.1",
+  "step": "understand_video",
+  "created_at": "2026-11-19T13:57:28.321758+00:00",
+  "model": "qwen3.8-omni-flash",
+  "video": {
+    "duration_seconds": 60.0,
+    "fps": 20.0,
+    "size": [
+      1080,
+      1920
+    ],
+    "has_audio_stream": true,
+    "sha256": "a20513236a9e7d35e4740776af43e9e9988aaa06a209adbc677ea59dad2ad524"
+  },
+  "status": "failed",
+  "chunks": [
+    {
+      "index": 1,
+      "start_seconds": 0,
+      "end_seconds": 20,
+      "time_basis": "program_clip_bounds",
+      "errors": [
+        "模型额度不足；请在百炼确认额度，或由你决定是否充值/启用付费。程序没有改动计费开关"
+      ],
+      "media_start_seconds": 0.0,
+      "media_end_seconds": 20.4,
+      "core_start_in_media": 0.0,
+      "core_end_in_media": 20.0,
+      "visual": null
+    }
+  ],
+  "limitations": [
+    "视频理解由模型完成，不能保证每帧覆盖；分镜时间为模型近似观察，片段边界由程序确定",
+    "音频按程序片段提供整体转写，不冒充逐字精确时间戳；静音与未成功读取音频是不同状态"
+  ],
+  "api_error": {
+    "code": "insufficient_quota",
+    "http_status": 403,
+    "request_id": "5a105c65-5137-9530-816b-a220d3b09ae9",
+    "message": "模型额度不足；请在百炼确认额度，或由你决定是否充值/启用付费。程序没有改动计费开关"
+  },
+  "coverage": {
+    "expected_chunks": 3,
+    "visual_chunks_read": 0,
+    "audio_chunks_read": 0,
+    "audio_chunks_expected": 3,
+    "note": "覆盖表示每个片段调用成功，非逐帧识别准确率"
+  },
+  "render_record": {
+    "status": "duration_matched_not_independently_verified",
+    "data": {
+      "renderer_version": "2.5",
+      "platform": "douyin",
+      "style": "douyin",
+      "aspect_ratio": "9:16",
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": 20,
+      "total_frames": 1200,
+      "duration_seconds": 60.0,
+      "title_seconds": 3.0,
+      "validation": {
+        "full_decode_verified": true,
+        "decoded_frames": 1200,
+        "timeline_checked": true,
+        "caption_text_preserved": true,
+        "visual_audit": {
+          "events": [],
+          "suppressed_events": 0,
+          "samples_checked": 120,
+          "sample_interval_seconds": 0.5,
+          "method": "encoded_grayscale_foreground_samples_with_added_text_masked",
+          "limits": "抽样会漏过短暂异常；夜景和固定机位可能正常。相似画面不等于解码故障；不做OCR或事实判断。"
+        },
+        "checked_caption_layouts": 13,
+        "subtitle_geometry_verified": true,
+        "method": "shared_render_geometry_not_OCR",
+        "final_mux_full_decode_verified": true,
+        "audio_duration_verified": true
+      },
+      "source_decode_events": [],
+      "reuse_check": {
+        "assets": [
+          {
+            "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+            "segment_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "duration_seconds": 60.0,
+            "fraction": 1.0,
+            "media_type": "video",
+            "frequent_reuse": true
+          }
+        ],
+        "longest_same_source_seconds": 60.0,
+        "policy": "reuse_permitted_report_only_not_rejected"
+      },
+      "performance": {
+        "preflight_seconds": 0.0062,
+        "planning_seconds": 0.0996,
+        "encoding_seconds": 479.457,
+        "validation_seconds": 7.0846,
+        "total_seconds": 486.6473,
+        "cache_activity": {
+          "preflight_hits": 1,
+          "preflight_misses": 0,
+          "image_hits": 0,
+          "image_misses": 0,
+          "video_read_retries": 0
+        },
+        "cache_state": {
+          "preflight": {
+            "entries": 1,
+            "bytes": 1525,
+            "max_entries": 128,
+            "max_bytes": 8388608
+          },
+          "images": {
+            "entries": 0,
+            "bytes": 0,
+            "max_entries": 12,
+            "max_bytes": 100663296
+          }
+        },
+        "cache_lifetime": "process_only_stat_identity_invalidation",
+        "memory_limits": "cache_limits_not_total_process_memory_limit_no_full_video_frame_cache",
+        "tts_prepare_seconds": 66.0695,
+        "total_with_tts_seconds": 559.7287
+      },
+      "segments": [
+        {
+          "no": 1,
+          "start_frame": 0,
+          "end_frame": 240,
+          "shots": [
+            {
+              "asset_id": "asset_53b21b75b5ac00fa",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 0,
+              "end_frame": 240,
+              "video_start_seconds": 0.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                2560,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 24.6,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "江北水城",
+                  "金凤广场"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 0,
+              "end_frame": 104,
+              "text": "咚！咚！咚！龙舟击鼓，从东昌湖金凤广场出发啦！",
+              "reading_units_per_second": 3.46
+            },
+            {
+              "start_frame": 104,
+              "end_frame": 154,
+              "text": "5月27到28日，",
+              "reading_units_per_second": 3.12
+            },
+            {
+              "start_frame": 154,
+              "end_frame": 240,
+              "text": "江北水城龙舟公开赛正在这儿火热开赛！",
+              "reading_units_per_second": 3.95
+            }
+          ],
+          "selection": {
+            "no": 1,
+            "selected_asset_id": "asset_53b21b75b5ac00fa",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 24.6,
+              "qualified": true,
+              "specific_keywords": [
+                "东昌湖",
+                "江北水城",
+                "金凤广场"
+              ],
+              "generic_keywords": [],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_53b21b75b5ac00fa",
+                "score": 24.6,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "江北水城",
+                  "金凤广场"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_53b21b75b5ac00fa.mp4"
+          }
+        },
+        {
+          "no": 2,
+          "start_frame": 240,
+          "end_frame": 480,
+          "shots": [
+            {
+              "asset_id": "asset_53b21b75b5ac00fa",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 240,
+              "end_frame": 480,
+              "video_start_seconds": 12.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": -1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                2560,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 12.3,
+                "qualified": true,
+                "specific_keywords": [
+                  "江北水城",
+                  "文旅活动"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 240,
+              "end_frame": 325,
+              "text": "桨划开水波，倒映着聊城的云和天。",
+              "reading_units_per_second": 3.29
+            },
+            {
+              "start_frame": 325,
+              "end_frame": 365,
+              "text": "这不仅是水上的比赛，",
+              "reading_units_per_second": 4.5
+            },
+            {
+              "start_frame": 365,
+              "end_frame": 480,
+              "text": "更是咱们江北水城最生动的文旅活动！",
+              "reading_units_per_second": 2.78
+            }
+          ],
+          "selection": {
+            "no": 2,
+            "selected_asset_id": "asset_53b21b75b5ac00fa",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 12.3,
+              "qualified": true,
+              "specific_keywords": [
+                "江北水城",
+                "文旅活动"
+              ],
+              "generic_keywords": [
+                "聊城"
+              ],
+              "exact_phrases": [],
+              "desired_kind": "scenery",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_53b21b75b5ac00fa",
+                "score": 12.3,
+                "qualified": true,
+                "specific_keywords": [
+                  "江北水城",
+                  "文旅活动"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_53b21b75b5ac00fa.mp4"
+          }
+        },
+        {
+          "no": 3,
+          "start_frame": 480,
+          "end_frame": 720,
+          "shots": [
+            {
+              "asset_id": "asset_53b21b75b5ac00fa",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 480,
+              "end_frame": 720,
+              "video_start_seconds": 24.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                2560,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 5.7,
+                "qualified": false,
+                "specific_keywords": [
+                  "东昌湖"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 480,
+              "end_frame": 522,
+              "text": "听听现场喊的！",
+              "reading_units_per_second": 2.86
+            },
+            {
+              "start_frame": 522,
+              "end_frame": 580,
+              "text": "东昌湖不再只是地图上的名字，",
+              "reading_units_per_second": 4.48
+            },
+            {
+              "start_frame": 580,
+              "end_frame": 720,
+              "text": "它是咱们水城跳动的脉搏，是聊城鲜活的日常！",
+              "reading_units_per_second": 2.71
+            }
+          ],
+          "selection": {
+            "no": 3,
+            "selected_asset_id": "asset_53b21b75b5ac00fa",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 5.7,
+              "qualified": false,
+              "specific_keywords": [
+                "东昌湖"
+              ],
+              "generic_keywords": [
+                "聊城"
+              ],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_53b21b75b5ac00fa",
+                "score": 5.7,
+                "qualified": false,
+                "specific_keywords": [
+                  "东昌湖"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_53b21b75b5ac00fa.mp4"
+          }
+        },
+        {
+          "no": 4,
+          "start_frame": 720,
+          "end_frame": 960,
+          "shots": [
+            {
+              "asset_id": "asset_53b21b75b5ac00fa",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 720,
+              "end_frame": 960,
+              "video_start_seconds": 36.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": -1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                2560,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 12.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "江北水城",
+                  "金凤广场"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 720,
+              "end_frame": 830,
+              "text": "龙舟竞发金凤广场，让“江北水城”有了声音、有了节奏、",
+              "reading_units_per_second": 3.82
+            },
+            {
+              "start_frame": 830,
+              "end_frame": 960,
+              "text": "有了心跳！这感觉绝了！",
+              "reading_units_per_second": 1.38
+            }
+          ],
+          "selection": {
+            "no": 4,
+            "selected_asset_id": "asset_53b21b75b5ac00fa",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 12.0,
+              "qualified": true,
+              "specific_keywords": [
+                "江北水城",
+                "金凤广场"
+              ],
+              "generic_keywords": [],
+              "exact_phrases": [],
+              "desired_kind": "unknown",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_53b21b75b5ac00fa",
+                "score": 12.0,
+                "qualified": true,
+                "specific_keywords": [
+                  "江北水城",
+                  "金凤广场"
+                ],
+                "generic_keywords": [],
+                "exact_phrases": [],
+                "desired_kind": "unknown",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_53b21b75b5ac00fa.mp4"
+          }
+        },
+        {
+          "no": 5,
+          "start_frame": 960,
+          "end_frame": 1200,
+          "shots": [
+            {
+              "asset_id": "asset_53b21b75b5ac00fa",
+              "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+              "media_type": "video",
+              "reason": "script_asset",
+              "layout": "preserve_full",
+              "preserve_full": false,
+              "start_frame": 960,
+              "end_frame": 1200,
+              "video_start_seconds": 48.0,
+              "motion_start": 0.0,
+              "motion_end": 1.0,
+              "motion_direction": 1,
+              "view": "overview",
+              "focus_box": null,
+              "view_size": [
+                2560,
+                1440
+              ],
+              "detail_basis": null,
+              "cut_on_caption_boundary": false,
+              "match_evidence": {
+                "score": 17.7,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "江北水城"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              },
+              "content_kind": "scenery"
+            }
+          ],
+          "captions": [
+            {
+              "start_frame": 960,
+              "end_frame": 1026,
+              "text": "聊城的夏天，从东昌湖开始！",
+              "reading_units_per_second": 3.33
+            },
+            {
+              "start_frame": 1026,
+              "end_frame": 1200,
+              "text": "龙舟劈波，水光跃动，看江北水城如何焕发新生！",
+              "reading_units_per_second": 2.18
+            }
+          ],
+          "selection": {
+            "no": 5,
+            "selected_asset_id": "asset_53b21b75b5ac00fa",
+            "reason": "script_asset",
+            "selected_evidence": {
+              "score": 17.7,
+              "qualified": true,
+              "specific_keywords": [
+                "东昌湖",
+                "江北水城"
+              ],
+              "generic_keywords": [
+                "聊城"
+              ],
+              "exact_phrases": [],
+              "desired_kind": "scenery",
+              "asset_kind": "scenery",
+              "conflicts": [],
+              "quality_preference": 0,
+              "basis": "upstream_text_not_visual_recognition"
+            },
+            "top_candidates": [
+              {
+                "asset_id": "asset_53b21b75b5ac00fa",
+                "score": 17.7,
+                "qualified": true,
+                "specific_keywords": [
+                  "东昌湖",
+                  "江北水城"
+                ],
+                "generic_keywords": [
+                  "聊城"
+                ],
+                "exact_phrases": [],
+                "desired_kind": "scenery",
+                "asset_kind": "scenery",
+                "conflicts": [],
+                "quality_preference": 0,
+                "basis": "upstream_text_not_visual_recognition"
+              }
+            ],
+            "declared_asset": "assets/asset_53b21b75b5ac00fa.mp4"
+          }
+        }
+      ],
+      "substitutions": [],
+      "warnings": [
+        "同一素材覆盖 5 个分镜、约 100% 时长；按允许复用规则继续生成。"
+      ],
+      "material_checks": [
+        {
+          "asset_id": "asset_53b21b75b5ac00fa",
+          "file_path": "D:\\Code\\Python\\ShanDong_Travel_Finally\\2026-11-18\\ShanDong_Travel\\generated_videos\\e3c9790e2ebe4343bb532ad06c13d3e8\\source\\a_delivery\\assets\\asset_53b21b75b5ac00fa.mp4",
+          "media_type": "video",
+          "width": 2560,
+          "height": 1440,
+          "content_kind": "scenery",
+          "preserve_full": false,
+          "quality": {
+            "method": "sampled_pixels_and_decode",
+            "samples": [
+              {
+                "frame_index": 0,
+                "readable": true,
+                "brightness": 104.34,
+                "luminance_std": 84.14,
+                "edge_energy": 450.83,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 287,
+                "readable": true,
+                "brightness": 105.13,
+                "luminance_std": 65.06,
+                "edge_energy": 646.21,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 574,
+                "readable": true,
+                "brightness": 113.73,
+                "luminance_std": 59.62,
+                "edge_energy": 738.9,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 862,
+                "readable": true,
+                "brightness": 139.79,
+                "luminance_std": 51.19,
+                "edge_energy": 670.98,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              },
+              {
+                "frame_index": 1149,
+                "readable": true,
+                "brightness": 139.22,
+                "luminance_std": 60.21,
+                "edge_energy": 655.27,
+                "near_black": false,
+                "near_white": false,
+                "nearly_uniform": false,
+                "softness_suspected": false
+              }
+            ],
+            "decode_failures": 0,
+            "full_decode_verified": false,
+            "sampled_motion": {
+              "max_difference": 83.854,
+              "status": "sampled_changes",
+              "basis": "five_sparse_positions_not_full_source_motion_analysis"
+            },
+            "source_size": [
+              2560,
+              1440
+            ],
+            "content_kind_basis": "upstream_text_rules"
+          },
+          "quality_notes": [],
+          "focus_box": null,
+          "target_upscale_factor": 0.41,
+          "severe_upscale_suspected": false,
+          "used": true
+        }
+      ],
+      "preflight_method": "images_fully_decoded_videos_sampled_up_to_5_positions",
+      "quality_limits": "像素指标只作疑似问题提示；素材类别来自上游文字，不识别主体、文字或真实地点。",
+      "text_cleaning_notice": "仅画面显示清理不支持的装饰符号；输入JSON不改写。",
+      "caption_preferred_seconds": 2.2,
+      "transition_method": "current_scene_dip_no_previous_picture_under_new_caption",
+      "detail_policy": "optional_upstream_focus_box_only_overview_kept",
+      "style_basis": "project_presets_not_platform_official_rules",
+      "semantic_recognition": false,
+      "audio": "tts",
+      "tts": {
+        "provider": "dashscope.audio.tts_v2.SpeechSynthesizer",
+        "model": "qwen-audio-3.0-tts-plus",
+        "voice": "longanlingxin",
+        "sample_rate": 24000,
+        "channels": 1,
+        "alignment": "measured_short_phrase_audio_not_word_timestamps",
+        "speed_policy": "provider_default_then_pitch_preserving_atempo_max_1.12",
+        "pause_seconds": 0.12,
+        "tail_seconds": 0.25,
+        "pause_policy": {
+          "version": "semantic_slack_v1",
+          "strategy": "redistribute_existing_tail_at_existing_phrase_boundaries",
+          "inserted_pause_limits_seconds": {
+            "continuation": 0.12,
+            "sentence": 0.4,
+            "question": 0.55,
+            "observation": 1.6
+          },
+          "ordinary_ending_reserve_seconds": 0.6,
+          "observation_ending_reserve_seconds": 1.6,
+          "includes_provider_internal_silence": false
+        },
+        "provider_calls": 13,
+        "cache_hits": 0,
+        "segments": [
+          {
+            "no": 1,
+            "original_duration_seconds": 12,
+            "actual_duration_seconds": 12,
+            "extended": false,
+            "natural_audio_seconds": 12.2042,
+            "tempo_factor": 1.039458,
+            "start_sample": 0,
+            "end_sample": 288000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "unchanged",
+              "baseline_tail_samples": 6666,
+              "baseline_tail_seconds": 0.27775,
+              "final_tail_samples": 6666,
+              "final_tail_seconds": 0.27775,
+              "redistributed_samples": 0,
+              "redistributed_seconds": 0.0,
+              "reserved_tail_samples": 6666,
+              "boundary_kinds": [
+                "sentence",
+                "continuation",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                2880,
+                2880
+              ],
+              "limited_by_boundary_caps": false
+            },
+            "units": [
+              {
+                "text": "咚！咚！咚！龙舟击鼓，从东昌湖金凤广场出发啦！",
+                "cache_key": "17b8478a130508ba6c29c95cfb43dec3daa048c8ed65d6319d787ddf7706cb01",
+                "cache_hit": false,
+                "start_sample": 0,
+                "end_sample": 121206,
+                "start_seconds": 0.0,
+                "end_seconds": 5.0503,
+                "pause_after_samples": 2880,
+                "pause_after_seconds": 0.12,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "5月27到28日，",
+                "cache_key": "7ee2e352fa5355319fd68e6290c3e1b9fc6bad426c09d5ab3eacede0230bd3c8",
+                "cache_hit": false,
+                "start_sample": 124086,
+                "end_sample": 181004,
+                "start_seconds": 5.1703,
+                "end_seconds": 7.5418,
+                "pause_after_samples": 2880,
+                "pause_after_seconds": 0.12,
+                "pause_kind": "continuation"
+              },
+              {
+                "text": "江北水城龙舟公开赛正在这儿火热开赛！",
+                "cache_key": "54dd61b9d2eeb06bdcae8b4e386aee076033506c38b7e09d6bd7ee235eb197df",
+                "cache_hit": false,
+                "start_sample": 183884,
+                "end_sample": 281334,
+                "start_seconds": 7.6618,
+                "end_seconds": 11.7223,
+                "pause_after_samples": 6666,
+                "pause_after_seconds": 0.27775,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 2,
+            "original_duration_seconds": 12,
+            "actual_duration_seconds": 12,
+            "extended": false,
+            "natural_audio_seconds": 9.4613,
+            "tempo_factor": 1.0,
+            "start_sample": 288000,
+            "end_sample": 576000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 60929,
+              "baseline_tail_seconds": 2.538708,
+              "final_tail_samples": 54209,
+              "final_tail_seconds": 2.258708,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "continuation",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600,
+                2880
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "桨划开水波，倒映着聊城的云和天。",
+                "cache_key": "65b6c67e315a0501cfaa41ce0a63429b363b9c7d71003ed754d5333c1594abd8",
+                "cache_hit": false,
+                "start_sample": 288000,
+                "end_sample": 379534,
+                "start_seconds": 12.0,
+                "end_seconds": 15.8139,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "这不仅是水上的比赛，",
+                "cache_key": "aca4380704f5d4678b87fb07dadec1a0b3672bb0cf3435a0093cd9fa62d72eee",
+                "cache_hit": false,
+                "start_sample": 389134,
+                "end_sample": 434901,
+                "start_seconds": 16.2139,
+                "end_seconds": 18.1209,
+                "pause_after_samples": 2880,
+                "pause_after_seconds": 0.12,
+                "pause_kind": "continuation"
+              },
+              {
+                "text": "更是咱们江北水城最生动的文旅活动！",
+                "cache_key": "432694f3d2e92c471184cec4df88b340d912334c0d37f9e0937a75357634f8e8",
+                "cache_hit": false,
+                "start_sample": 437781,
+                "end_sample": 521791,
+                "start_seconds": 18.2409,
+                "end_seconds": 21.7413,
+                "pause_after_samples": 54209,
+                "pause_after_seconds": 2.258708,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 3,
+            "original_duration_seconds": 12,
+            "actual_duration_seconds": 12,
+            "extended": false,
+            "natural_audio_seconds": 9.0172,
+            "tempo_factor": 1.0,
+            "start_sample": 576000,
+            "end_sample": 864000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 71587,
+              "baseline_tail_seconds": 2.982792,
+              "final_tail_samples": 64867,
+              "final_tail_seconds": 2.702792,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "continuation",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600,
+                2880
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "听听现场喊的！",
+                "cache_key": "ec20fe9a62c1dc69366e457b36b5e1ff44239b7198c125260a3c580189e07a67",
+                "cache_hit": false,
+                "start_sample": 576000,
+                "end_sample": 616125,
+                "start_seconds": 24.0,
+                "end_seconds": 25.6719,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "东昌湖不再只是地图上的名字，",
+                "cache_key": "e57fd87cf4079ad08e013c8387e43aca3e981991616079f42b53a7770b23191f",
+                "cache_hit": false,
+                "start_sample": 625725,
+                "end_sample": 692808,
+                "start_seconds": 26.0719,
+                "end_seconds": 28.867,
+                "pause_after_samples": 2880,
+                "pause_after_seconds": 0.12,
+                "pause_kind": "continuation"
+              },
+              {
+                "text": "它是咱们水城跳动的脉搏，是聊城鲜活的日常！",
+                "cache_key": "34a56f70e33631ff74776f97281925362247089e29b3589ac9ede848a5a977d8",
+                "cache_hit": false,
+                "start_sample": 695688,
+                "end_sample": 799133,
+                "start_seconds": 28.987,
+                "end_seconds": 33.2972,
+                "pause_after_samples": 64867,
+                "pause_after_seconds": 2.702792,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 4,
+            "original_duration_seconds": 12,
+            "actual_duration_seconds": 12,
+            "extended": false,
+            "natural_audio_seconds": 8.3486,
+            "tempo_factor": 1.0,
+            "start_sample": 864000,
+            "end_sample": 1152000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "unchanged",
+              "baseline_tail_samples": 87633,
+              "baseline_tail_seconds": 3.651375,
+              "final_tail_samples": 87633,
+              "final_tail_seconds": 3.651375,
+              "redistributed_samples": 0,
+              "redistributed_seconds": 0.0,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "continuation",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                2880
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "龙舟竞发金凤广场，让“江北水城”有了声音、有了节奏、",
+                "cache_key": "4e4eae10011f56597e8e8fc223af0b957bbf7119676ee9a1d7eca5750f850372",
+                "cache_hit": false,
+                "start_sample": 864000,
+                "end_sample": 992523,
+                "start_seconds": 36.0,
+                "end_seconds": 41.3551,
+                "pause_after_samples": 2880,
+                "pause_after_seconds": 0.12,
+                "pause_kind": "continuation"
+              },
+              {
+                "text": "有了心跳！这感觉绝了！",
+                "cache_key": "753344086af14a8e85b290908159b7c4ba9a81a321eeee7e6c6e3416a7da4d8b",
+                "cache_hit": false,
+                "start_sample": 995403,
+                "end_sample": 1064367,
+                "start_seconds": 41.4751,
+                "end_seconds": 44.3486,
+                "pause_after_samples": 87633,
+                "pause_after_seconds": 3.651375,
+                "pause_kind": "sentence"
+              }
+            ]
+          },
+          {
+            "no": 5,
+            "original_duration_seconds": 12,
+            "actual_duration_seconds": 12,
+            "extended": false,
+            "natural_audio_seconds": 8.5054,
+            "tempo_factor": 1.0,
+            "start_sample": 1152000,
+            "end_sample": 1440000,
+            "vo_empty": false,
+            "pause_allocation": {
+              "policy_version": "semantic_slack_v1",
+              "status": "redistributed",
+              "baseline_tail_samples": 83871,
+              "baseline_tail_seconds": 3.494625,
+              "final_tail_samples": 77151,
+              "final_tail_seconds": 3.214625,
+              "redistributed_samples": 6720,
+              "redistributed_seconds": 0.28,
+              "reserved_tail_samples": 14400,
+              "boundary_kinds": [
+                "sentence",
+                "sentence"
+              ],
+              "internal_gap_samples": [
+                9600
+              ],
+              "limited_by_boundary_caps": true
+            },
+            "units": [
+              {
+                "text": "聊城的夏天，从东昌湖开始！",
+                "cache_key": "546ecd33092e7e5b5807eccc2d9dc91beb2352c7d7fbe9f496c4ddc48daf34c4",
+                "cache_hit": false,
+                "start_sample": 1152000,
+                "end_sample": 1220964,
+                "start_seconds": 48.0,
+                "end_seconds": 50.8735,
+                "pause_after_samples": 9600,
+                "pause_after_seconds": 0.4,
+                "pause_kind": "sentence"
+              },
+              {
+                "text": "龙舟劈波，水光跃动，看江北水城如何焕发新生！",
+                "cache_key": "9f726d9099e2be03223ceffea9f947a446f4dd5f412a34cfa115794078849117",
+                "cache_hit": false,
+                "start_sample": 1230564,
+                "end_sample": 1362849,
+                "start_seconds": 51.2735,
+                "end_seconds": 56.7854,
+                "pause_after_samples": 77151,
+                "pause_after_seconds": 3.214625,
+                "pause_kind": "sentence"
+              }
+            ]
+          }
+        ],
+        "original_total_duration_seconds": 60,
+        "actual_total_duration_seconds": 60.0,
+        "final_decoded_audio_samples": 1440000
+      }
+    },
+    "note": "同名记录时长匹配；记录不是实际视觉或听觉识别结果"
+  }
+}
