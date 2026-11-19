@@ -3,12 +3,21 @@ from __future__ import annotations
 from html import escape
 import json
 import logging
+import os
 import time
 from concurrent.futures import ThreadPoolExecutor, wait
 from pathlib import Path
 from queue import Empty, Queue
 from uuid import uuid4
 import streamlit as st
+
+try:
+    for secret_name, secret_value in st.secrets.items():
+        if isinstance(secret_value, (str, int, float, bool)):
+            os.environ.setdefault(secret_name, str(secret_value))
+except FileNotFoundError:
+    pass
+
 import app_config as config
 from team_interfaces import IntegrationPending
 from video_generator import generate_platform_video
