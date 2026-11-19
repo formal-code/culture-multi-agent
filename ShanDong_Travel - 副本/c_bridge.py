@@ -59,7 +59,7 @@ def call_c_agent(prompt, research, candidates, *, assets_base_dir, on_research=N
         encoding="utf-8",
     )
 
-    load_env(config.C_ENV_FILE, override=True)
+    load_env(config.C_ENV_FILE, override=False)
     settings = Settings.from_env()
     output_dir = config.C_OUTPUT_DIR / token
 

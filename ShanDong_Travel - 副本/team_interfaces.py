@@ -57,7 +57,7 @@ def analyze_finished_video(video_path, *, prompt, research, selected, platform_c
     from evaluation_agent.config import load_env
     from evaluation_agent.video_review import ReviewSettings, review_video
     import app_config
-    load_env(app_config.C_ENV_FILE, override=True)
+    load_env(app_config.C_ENV_FILE, override=False)
     context = {"prompt": prompt, "research": research, "selected": selected,
                "platform_content": platform_content, "research_directory": research_directory}
     return review_video(video_path, output_dir, ReviewSettings.from_env(), context=context,
