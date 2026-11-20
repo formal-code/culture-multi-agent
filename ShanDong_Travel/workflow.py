@@ -208,14 +208,11 @@ def run_content_workflow(state: WorkflowState, on_event: StageCallback, model_ca
         emit(active, 'complete', '三个平台版本已就绪')
         emit('video', 'pending', '请选择一个平台生成视频')
         return state
-    except team.NoSuitableMaterials:
-        emit(active, 'no_materials', '未收集到合适素材，请调整创作要求后重试')
-        raise
     except team.IntegrationPending as exc:
         emit(active, 'waiting', str(exc))
         raise
     except Exception:
-        emit(active, 'error', '当前步骤执行异常，请稍后重试或联系项目维护者')
+        emit(active, 'error', '当前步骤未完成，请稍后重试或联系项目维护者')
         raise
 
 

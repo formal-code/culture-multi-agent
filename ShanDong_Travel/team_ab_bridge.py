@@ -13,8 +13,6 @@ from threading import Thread
 import time
 from urllib.parse import urlsplit
 
-from team_interfaces import NoSuitableMaterials
-
 ROOT = Path(__file__).resolve().parent
 EVENT_PREFIX = "TEAM_EVENT:"
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
@@ -72,10 +70,8 @@ def normalize_research(raw, delivery_dir):
     """保留A原文，新增D要求的media_assets和reference_videos，不伪造参考视频。"""
     result = deepcopy(raw)
     assets = raw.get("assets") if "assets" in raw else raw.get("media_assets")
-    if not isinstance(assets, list):
-        raise ValueError("A素材清单必须为数组")
-    if not assets:
-        raise NoSuitableMaterials("A本次没有交付可用素材")
+    if not isinstance(assets, list) or not assets:
+        raise ValueError("A本次没有交付可用素材")
     selected, excluded, ids, names = [], [], set(), set()
     for asset in assets:
         if not isinstance(asset, dict):
@@ -98,7 +94,7 @@ def normalize_research(raw, delivery_dir):
             raise ValueError("素材keywords须为数组")
         selected.append(row)
     if not selected:
-        raise NoSuitableMaterials("本次素材均不受现有视频模块支持")
+        raise ValueError("本次素材均不受现有视频模块支持")
     refs = result.setdefault("reference_videos", [])
     if not isinstance(refs, list):
         raise ValueError("reference_videos须为数组")
@@ -127,7 +123,6 @@ def run_worker(stage, payload, *, timeout, on_progress=None):
     reader_thread = Thread(target=reader, daemon=True)
     reader_thread.start()
     started, last_emit, closed, error, result = time.monotonic(), 0., False, None, None
-    error_code = None
     detail = "正在搜集并审核本次素材" if stage == "a" else "正在策划并自查候选脚本"
     try:
         process.stdin.write(json.dumps(payload, ensure_ascii=False))
@@ -149,7 +144,6 @@ def run_worker(stage, payload, *, timeout, on_progress=None):
                     result = event["result"]
                 elif event.get("kind") == "error":
                     error = safe_message(event["message"])
-                    error_code = event.get("code")
             elif line:
                 print(f"[{stage.upper()}] {safe_message(line)}", flush=True)
             now = time.monotonic()
@@ -158,8 +152,6 @@ def run_worker(stage, payload, *, timeout, on_progress=None):
                 last_emit = now
         code = process.wait(timeout=5)
         if code or error or result is None:
-            if stage == "a" and error_code == NoSuitableMaterials.code:
-                raise NoSuitableMaterials(error or "A本轮未找到合格素材")
             raise RuntimeError(error or f"{stage.upper()}未返回本次任务结果，退出码 {code}")
         return result
     finally:
@@ -190,7 +182,7 @@ def collect_with_a(prompt, work_dir, on_progress=None):
                         timeout=100*60, on_progress=on_progress)
     report = read_json(delivery / "collection_report.json")
     if report.get("approved_counts", {}).get("total", 0) < 1:
-        raise NoSuitableMaterials("本轮未搜集到符合当前要求的可用素材")
+        raise ValueError("A本轮没有合格素材，未使用任何历史素材")
     raw = read_json(delivery / "research.json")
     research = normalize_research(raw, delivery)
     research["sources"] = read_json(delivery / "sources.json").get("sources", [])

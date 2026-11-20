@@ -7,10 +7,6 @@ class CollectionError(Exception):
     """单个页面或素材失败，可以继续其他候选。"""
 
 
-class TransientReadError(CollectionError):
-    """公开网页或规则文件的临时网络错误，可以在预算内重读一次。"""
-
-
 class BudgetExceeded(CollectionError):
     """本轮总额度耗尽。"""
 

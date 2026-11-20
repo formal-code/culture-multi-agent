@@ -3,23 +3,14 @@ from __future__ import annotations
 from html import escape
 import json
 import logging
-import os
 import time
 from concurrent.futures import ThreadPoolExecutor, wait
 from pathlib import Path
 from queue import Empty, Queue
 from uuid import uuid4
 import streamlit as st
-
-try:
-    for secret_name, secret_value in st.secrets.items():
-        if isinstance(secret_value, (str, int, float, bool)):
-            os.environ.setdefault(secret_name, str(secret_value))
-except FileNotFoundError:
-    pass
-
 import app_config as config
-from team_interfaces import IntegrationPending, NoSuitableMaterials
+from team_interfaces import IntegrationPending
 from video_generator import generate_platform_video
 from tts_agent import TTSError, tts_enabled
 from workflow import STAGES, WorkflowState, run_content_workflow, run_video_review
@@ -33,7 +24,6 @@ st.markdown('''<style>
 h1,h2,h3{color:#193b32}.eyebrow{color:#557467;font-size:.76rem;letter-spacing:.12em}
 .stage{min-height:112px;background:white;padding:14px;border:1px solid #dde4dc;border-radius:8px}
 .stage-running{border-color:#27745f;background:#eef6f1}.stage-error{border-color:#b94e47}
-.stage-no_materials{border-color:#c58a25;background:#fff8e8}
 .stage-label{font-size:.88rem;font-weight:600;margin-bottom:8px}.stage-detail{font-size:.77rem;color:#63736b}
 </style>''', unsafe_allow_html=True)
 
@@ -246,7 +236,7 @@ if config.PIPELINE_MODE == "local":
         )
 with st.form('creation_form'):
     prompt = st.text_area('想做一期什么内容？', height=140,
-        placeholder='聊城光岳楼视频，面向儿童，时长30s')
+        placeholder='例如：制作一条介绍聊城东昌府木版年画的短视频，面向年轻游客，突出非遗工艺，时长约60秒。')
     submitted = st.form_submit_button('开始创作', type='primary', use_container_width=True)
 st.subheader('创作进度')
 columns = st.columns(5)
@@ -255,8 +245,7 @@ progress_slot = st.empty()
 
 
 def render_stages(state):
-    symbols = {'pending': '○', 'running': '●', 'complete': '✓', 'waiting': '◷', 'skipped': '—', 'error': '!',
-               'no_materials': '⚠'}
+    symbols = {'pending': '○', 'running': '●', 'complete': '✓', 'waiting': '◷', 'skipped': '—', 'error': '!'}
     for stage in STAGES:
         status, message = state.stages[stage] if state else ('pending', '等待开始')
         slots[stage].markdown(
@@ -279,13 +268,11 @@ if submitted:
             # 【前端连接后台】实际团队调用在 workflow.py，A/B/C 接口在 team_interfaces.py。
             run_content_workflow(state, lambda *_event: render_stages(state))
             st.success('脚本与三个平台版本已就绪，请选择平台制作视频。')
-        except NoSuitableMaterials:
-            st.warning('未收集到合适素材，请调整景点、主题或素材要求后重新创作。')
         except IntegrationPending as exc:
             st.info(str(exc))
         except Exception:
             LOGGER.exception('内容工作流失败，任务=%s', state.job_id)
-            st.error('创作过程中出现异常，请稍后重试或联系维护者。已完成的结果会保留。')
+            st.error('当前创作步骤暂未完成，请稍后重试或联系维护者。已完成的结果会保留。')
 st.divider()
 script_tab, evaluation_tab = st.tabs(['脚本与分镜', '测评与热度'])
 with script_tab:
@@ -301,23 +288,8 @@ with script_tab:
         st.info('脚本筛选完成后，标题、开场钩子和分镜会显示在这里。')
     if state and state.research:
         with st.expander('参考资料'):
-            assets = state.research.get('media_assets', [])
-            if assets:
-                image_count = sum(item.get('media_type') == 'image' for item in assets)
-                video_count = sum(item.get('media_type') == 'video' for item in assets)
-                st.caption(f'已收集 {len(assets)} 份素材：图片 {image_count} 张，视频 {video_count} 段')
-                shown_sources = set()
-                for item in assets:
-                    kind = '图片' if item.get('media_type') == 'image' else '视频'
-                    st.write(f"{kind} · {item.get('title', '素材')}")
-                    if item.get('description'):
-                        st.caption(item['description'])
-                    url = item.get('source_url', '')
-                    if isinstance(url, str) and url.startswith(('https://', 'http://')) and url not in shown_sources:
-                        st.link_button('查看素材来源', url)
-                        shown_sources.add(url)
             references = state.research.get('reference_videos', [])
-            if not references and not assets:
+            if not references:
                 st.caption('暂无参考视频记录')
             for item in references:
                 st.write(item.get('title', '参考资料'))

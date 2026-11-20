@@ -18,7 +18,7 @@ def main():
         print("优先查看 research.json、fact.json、sources.json 和 collection_report.json")
     except (CollectionError, ModelUnavailable, ValueError) as exc:
         print("\n运行停止：" + str(exc))
-        print("每次完成采集后只保留该轮审核通过的素材；不会自动复用旧素材。")
+        print("模型中断前已通过的素材会保存；本轮没有合格素材时保留上轮共享素材。")
     except KeyboardInterrupt:
         print("\n已由用户停止。")
 

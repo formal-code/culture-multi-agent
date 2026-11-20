@@ -10,7 +10,7 @@ from pathlib import Path
 import requests
 
 import config
-from culture.intent import finalize_intent, museum_displays_requested, source_media_type
+from culture.intent import finalize_intent, museum_displays_requested
 from culture.types import CollectionError, ModelUnavailable
 
 
@@ -54,7 +54,7 @@ class ModelClient:
                     {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{encoded}"}}]
         else:
             user = [{"type": "text", "text": content}]
-        payload = {"model": self.model, "temperature": 0,
+        payload = {"model": self.model, "temperature": 0.1,
                    "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
         # Local file preparation is not a model request. Count only outbound attempts.
         self.budget.take("calls")
@@ -97,11 +97,7 @@ REQUEST_PROMPT = """你只从用户这段中文素材需求里提取信息，不
 城市必须从输入明确提取；本项目首期固定城市为聊城。提取districts区县、targets明确地点/文化对象、themes内容主题、exclude_terms排除项。
 targets只放用户点名的具体实体，例如光岳楼、东昌湖；风土人情、民俗、非遗、美食、自然风光等必须放themes，不得放targets。
 例如“聊城的风土人情”：targets为空，themes为["风土人情"]；“聊城光岳楼的风土人情”：targets为["光岳楼"]，themes为["风土人情"]。
-搜索关键词只提取城市、区县、具体地点/文化对象和内容主题。“视频/短视频/宣传片/纪录片”、成片时长（30s、30秒、1分钟等）、面向儿童或大众等受众要求，不得放入districts/targets/themes/exclude_terms。
-例如“聊城光岳楼视频，面向儿童，时长30s”：city为“聊城”，targets为["光岳楼"]，districts/themes/exclude_terms均为空。成片形式、时长和受众由后续创作使用，不限制素材文章必须提及这些要求。
-media_type指要搜集的原始素材类型，只能是 all/image/video，默认all。
-“生成视频”“制作短视频”“光岳楼视频”是成片要求，不是只收集视频素材，必须为all；只有明确要求图片素材、视频素材或明确排除某类素材才限制。
-不得凭常识补充输入未出现的景点、区县或主题词。
+media_type只能是 all/image/video。不得凭常识补充输入未出现的景点、区县或主题词。
 另提取museum_display_requested布尔值：仅当用户明确要求博物馆等展馆内的展览物品、陈列、藏品、展柜文物、蜡像/复原展陈等图片时为true。
 “博物馆建筑外观”“历史文化”“风土人情”“非遗”“博物馆”本身不表示要求陈列物品图；否定或排除这类图片时为false。
 museum_display_request_evidence必须逐字引用用户明确要求这类图片的原话；未明确要求则为空字符串。
@@ -123,7 +119,8 @@ def analyze_request(client, raw):
         # 避免模型添加用户没有输入的对象，尤其防止搜索意图漂移。
         plan[key] = list(dict.fromkeys(x.strip() for x in terms
             if 1 < len(x.strip()) <= 40 and x.strip() in raw))[:20]
-    plan["media_type"] = source_media_type(raw)
+    media_type = value.get("media_type", "all")
+    plan["media_type"] = media_type if media_type in {"all", "image", "video"} else "all"
     evidence = value.get("museum_display_request_evidence", "")
     explicit_display_request = museum_displays_requested(dict(value, raw_request=raw))
     plan["museum_display_requested"] = explicit_display_request

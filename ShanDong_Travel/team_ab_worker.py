@@ -11,7 +11,6 @@ import re
 import sys
 
 from team_ab_bridge import EVENT_PREFIX, ROOT, read_json, safe_message, write_json
-from team_interfaces import NoSuitableMaterials
 
 
 def emit(kind, **kwargs):
@@ -46,7 +45,7 @@ def run_a(payload):
     # 保留A原有模型失败语义；模型停止时不偷偷继续付费调用其他Agent。
     report = collect(payload["prompt"], progress=progress)
     if report.get("approved_counts", {}).get("total", 0) < 1:
-        raise NoSuitableMaterials("本轮未搜集到符合当前要求的可用素材")
+        raise ValueError("A本轮未找到合格素材，没有使用包内历史资料")
     for name in ("research.json", "fact.json", "sources.json", "collection_report.json"):
         if not (delivery / name).is_file():
             raise ValueError("A本次交付缺少：" + name)
@@ -130,9 +129,6 @@ def main():
             raise ValueError("无效Agent阶段")
         emit("result", result=result)
         return 0
-    except NoSuitableMaterials as exc:
-        emit("error", code=NoSuitableMaterials.code, message=safe_message(str(exc)))
-        return 1
     except Exception as exc:
         emit("error", message=safe_message(f"{type(exc).__name__}: {exc}"))
         return 1

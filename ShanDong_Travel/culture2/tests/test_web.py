@@ -164,12 +164,11 @@ class WebRulesTests(unittest.TestCase):
             with self.subTest(response=response):
                 self.web.robots.clear()
                 self.session.get.reset_mock()
-                transient = isinstance(response, requests.ReadTimeout) or response.status_code == 503
-                self.session.get.side_effect = [response] * (2 if transient else 1)
+                self.session.get.side_effect = [response]
                 with tempfile.TemporaryDirectory() as temp:
                     with self.assertRaisesRegex(CollectionError, "站点访问规则暂时无法确认"):
                         self.download(temp)
-                self.assertEqual(self.session.get.call_count, 2 if transient else 1)
+                self.assertEqual(self.session.get.call_count, 1)
 
     def test_robots_403_is_cached_and_not_retried_for_every_video(self):
         self.session.get.side_effect = [self.response(403), self.response(200, b"a", "video/mp4"),
