@@ -12,7 +12,7 @@ from culture.intent import finalize_intent
 
 BODY_SELECTORS = (
     ".wenzhang", ".article-body", ".TRS_Editor", "#zoom", "#zoomcon", "#articleContent", "#article-content",
-    ".article-content", ".article_content", ".article-cont", ".news_content",
+    ".article-content", ".article_content", "#article_content", ".article-cont", ".news_content", ".news-con",
     ".news-content", ".detail-content", ".content-article", ".content_main",
     "[itemprop=articleBody]", "article", "main", ".content", "#content",
 )
@@ -78,6 +78,8 @@ def official_page_url(base, value, site):
 
 def is_article_url(url):
     path = urlsplit(url).path
+    if re.fullmatch(r'/(?:list|category|channel)/\d+(?:/\d+)?\.(?:s?html?)', path, re.I):
+        return False
     filename = path.rsplit("/", 1)[-1]
     return bool(ARTICLE_PATH.search(path)) and not re.match(
         r"^(?:index|list|search|channel)(?:[_-]\d+)?\.(?:s?html?)$", filename, re.I)
@@ -164,7 +166,9 @@ def search_links(soup, page_url, site, plan, depth):
         queries.append(plan.city + " " + target)
     if not queries:
         prefix = plan.districts[:1] or [plan.city]
-        queries = [" ".join([*prefix, term]) for term in (plan.theme_keywords or ["文旅"])]
+        terms = (plan.theme_keywords or ["文旅"])[:max(1, config.MAX_SEARCH_QUERIES // 2)]
+        # Local-site articles often omit the city name; search both forms.
+        queries = [query for term in terms for query in (term, " ".join([*prefix, term]))]
     queries = list(dict.fromkeys(queries))[:config.MAX_SEARCH_QUERIES]
     for form in soup.find_all("form"):
         if form.get("method", "get").lower() != "get":
@@ -201,7 +205,7 @@ def _body_metrics(node):
 
 def extract_article(html, url):
     soup = BeautifulSoup(html, "html.parser")
-    heading = soup.find("h1")
+    heading = soup.find("h1") or soup.select_one('#xl-headline h2, .post-title')
     title = clean(heading.get_text(" ")) if heading else ""
     if not title:
         meta = soup.find("meta", attrs={"property": "og:title"})

@@ -22,7 +22,7 @@ MAX_SECONDS = 90 * 60
 MAX_DOWNLOAD_BYTES = 15 * 1024 ** 3  # 整轮媒体已读取数据最多15GiB（含失败及丢弃文件）
 SITE_BATCH = 5
 MAX_LINKS_PER_PAGE = 300
-MAX_SEARCH_QUERIES = 6
+MAX_SEARCH_QUERIES = 12           # 主题词本身和带城市的查询均保留，仍受整轮请求额度约束
 MAX_EMPTY_PAGINATION_PAGES = 3    # 同一栏目连续没有新相关文章时停止该栏翻页
 PAGE_TIMEOUT = 20                 # HTTP 单页总读取时限
 MODEL_CONNECT_TIMEOUT = 8         # 建立接口连接的等待上限
@@ -41,7 +41,7 @@ VIDEO_ROBOTS_WARNING_ONLY = {"api.lcxw.cn": ("/upload/mp4/",)}
 # 新增官网主要在这里加入口；不要把媒体 CDN 当作文章网站加入。
 OFFICIAL_SITES = [
     {"id": "news", "name": "聊城新闻网", "url": "https://www.lcxw.cn/",
-     "hosts": ["www.lcxw.cn", "lcxw.cn"], "search_enabled": False,
+     "hosts": ["www.lcxw.cn", "lcxw.cn", "lcadmin.lcxw.cn"], "search_enabled": True,
      "prefer_https": True,
      "entry_urls": ["https://www.lcxw.cn/shiting/", "https://www.lcxw.cn/shipin/shupingshipin/"]},
     {"id": "gov", "name": "聊城市人民政府", "url": "http://www.liaocheng.gov.cn/",
@@ -54,11 +54,13 @@ OFFICIAL_SITES = [
     {"id": "dongchangfu", "name": "东昌府区人民政府", "url": "http://www.dongchangfu.gov.cn/",
      "hosts": ["www.dongchangfu.gov.cn", "dongchangfu.gov.cn"], "search_enabled": True},
     {"id": "dazhong", "name": "大众网聊城", "url": "https://liaocheng.dzwww.com/",
-     "hosts": ["liaocheng.dzwww.com"], "search_enabled": True},
+     "hosts": ["liaocheng.dzwww.com"], "search_enabled": True,
+     "entry_urls": ["https://liaocheng.dzwww.com/lcyj/"]},
     {"id": "natural_resources", "name": "聊城市自然资源和规划局", "url": "http://zrghj.liaocheng.gov.cn/",
      "hosts": ["zrghj.liaocheng.gov.cn"], "search_enabled": True},
     {"id": "canal_museum", "name": "中国运河文化博物馆", "url": "https://yunhebowuguan.cn/",
-     "hosts": ["yunhebowuguan.cn", "www.yunhebowuguan.cn"], "search_enabled": True},
+     "hosts": ["yunhebowuguan.cn", "www.yunhebowuguan.cn"], "search_enabled": True,
+     "entry_urls": ["https://yunhebowuguan.cn/list/15.html"]},
 ]
 
 TOURISM_TERMS = ("文旅", "旅游", "景区", "景点", "风光", "古城", "古建筑", "非遗",

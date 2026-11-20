@@ -1,5 +1,6 @@
 """Separate named objects from broad cultural themes and derive retrieval vocabulary."""
 from dataclasses import asdict, is_dataclass
+import re
 
 
 # Retrieval synonyms are not claims about a city and never invent named locations.
@@ -10,8 +11,10 @@ THEME_GROUPS = (
       "手艺", "戏曲", "舞龙", "舞狮", "秧歌", "大集", "赶集", "地方美食", "小吃")),
     (("民俗", "婚俗", "节庆", "年俗", "传统节日"),
      ("民俗", "婚俗", "风俗", "节庆", "庙会", "年俗", "端午", "龙舟", "元宵", "花灯", "舞龙", "秧歌")),
-    (("非遗", "非遗文化", "传统技艺", "传统文化", "手工艺"),
-     ("非遗", "传统技艺", "手艺", "手工艺", "传承", "剪纸", "刺绣", "木雕", "泥塑", "戏曲")),
+    (("非遗", "非遗文化", "非物质文化遗产", "传统技艺", "传统文化", "手工艺"),
+     ("非遗", "非物质文化遗产", "木版年画", "葫芦雕刻", "剪纸", "戏曲",
+      "东昌府木版年画", "东昌雕刻葫芦", "雕刻葫芦", "茌平剪纸", "临清肘捶", "聊城杂技",
+      "山东快书", "柳子戏", "面塑", "传统技艺", "手艺", "手工艺", "传承", "刺绣", "木雕", "泥塑")),
     (("美食", "地方美食", "饮食文化", "特色小吃", "小吃"),
      ("美食", "小吃", "饮食", "传统名吃", "老字号", "烹饪", "菜肴", "面食", "特产")),
     (("自然风光", "自然景观", "山水风光", "风景", "风光", "湖光山色"),
@@ -26,6 +29,26 @@ THEME_GROUPS = (
      ("文旅", "旅游", "景点", "景区", "风光", "古城", "文化", "非遗", "美食", "博物馆", "民俗")),
 )
 BROAD_THEMES = {name for names, _ in THEME_GROUPS for name in names}
+
+
+def source_media_type(raw):
+    """A requested video is a deliverable; restrict inputs only for explicit media requests."""
+    kinds = {'image': r'图片|照片|图像', 'video': r'视频'}
+    requested, excluded = set(), set()
+    for kind, words in kinds.items():
+        word = '(?:' + words + ')'
+        if re.search(r'(?:不要|不用|不需要|排除|不收集|不搜集|不采集|不搜索)\s*' + word, raw):
+            excluded.add(kind)
+        if (re.search(word + r'\s*(?:素材|资源|文件|片段|直链)', raw)
+                or re.search(r'(?:收集|搜集|采集|搜索|查找|寻找)[^，。；;\n]{0,24}?' + word, raw)
+                or re.search(r'(?:只|仅)(?:需要|要|收集|搜集|采集|搜索|查找|使用|用)?\s*' + word, raw)):
+            requested.add(kind)
+    if re.search(r'(?:(?:图片|照片|图像)\s*[和、及与/]\s*视频|视频\s*[和、及与/]\s*(?:图片|照片|图像))\s*(?:素材|资源|文件)', raw):
+        requested.update(kinds)
+    if len(excluded) == 1:
+        return next(iter(set(kinds) - excluded))
+    requested -= excluded
+    return next(iter(requested)) if len(requested) == 1 else 'all'
 
 
 def museum_displays_requested(plan):
@@ -47,10 +70,25 @@ def finalize_intent(plan):
     value.setdefault("exclude_terms", [])
     targets = list(value.get("targets", []))
     themes = list(value.get("themes", []))
+    normalized_targets = []
     for term in targets:
-        if term in BROAD_THEMES:
-            themes.append(term)
-    value["targets"] = list(dict.fromkeys(term for term in targets if term not in BROAD_THEMES))
+        topic = term
+        for prefix in (value.get('city', '聊城') + '市', value.get('city', '聊城'), *value['districts']):
+            if topic.startswith(prefix):
+                topic = topic[len(prefix):].lstrip('的 ')
+                break
+        if topic in BROAD_THEMES:
+            themes.append(topic)
+        else:
+            normalized_targets.append(term)
+    # Recover an explicitly named broad theme even if the model omits that field.
+    raw = value.get('raw_request', '')
+    if not themes:
+        matches = [name for name in BROAD_THEMES if name in raw
+                   and not any(term in name for term in value['exclude_terms'])]
+        if matches:
+            themes.append(max(matches, key=lambda name: (len(name), name)))
+    value["targets"] = list(dict.fromkeys(normalized_targets))
     value["themes"] = list(dict.fromkeys(themes))
     excluded = value.get("exclude_terms", [])
     words = list(value["themes"])

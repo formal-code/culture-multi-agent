@@ -8,6 +8,38 @@ SITE = {"id": "news", "name": "example", "url": "https://news.example/",
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_dazhong_news_container_keeps_images_and_video(self):
+        html = """<div id='xl-headline'><h2>东昌湖畔民俗文化节</h2></div>
+        <div class='news-con'><p>东昌湖畔开展非遗展示和民俗表演。</p>
+        <img src='/folk1.jpg'><img src='/folk2.jpg'><video src='/folk.mp4'></video></div>
+        <aside><img src='/advert.jpg'></aside>"""
+        article = extract_article(html, 'https://liaocheng.dzwww.com/lcyj/202402/t20240227_13733089.htm')
+        self.assertTrue(article.is_article)
+        self.assertEqual(article.title, '东昌湖畔民俗文化节')
+        self.assertEqual(article.body_selector, '.news-con')
+        self.assertEqual([m.media_type for m in article.media], ['image', 'image', 'video'])
+        self.assertFalse(any('advert' in m.url for m in article.media))
+
+    def test_museum_article_content_is_distinct_from_navigation_and_recommendations(self):
+        html = """<main><img src='/banner.jpg'><p class='post-title'>非遗面塑制作</p>
+        <div id='article_content'><p>手艺人与孩子们一起制作面塑。</p><img src='/craft.jpg'></div>
+        <aside><img src='/recommend.jpg'></aside></main>"""
+        article = extract_article(html, 'https://yunhebowuguan.cn/article/1085/15.html')
+        self.assertTrue(article.is_article)
+        self.assertEqual(article.title, '非遗面塑制作')
+        self.assertEqual(article.body_selector, '#article_content')
+        self.assertEqual([m.url for m in article.media], ['https://yunhebowuguan.cn/craft.jpg'])
+
+    def test_museum_numbered_list_is_a_column_with_pagination(self):
+        from culture.extract import is_article_url
+        self.assertFalse(is_article_url('https://yunhebowuguan.cn/list/15.html'))
+        html = """<a href='/article/1085/15.html'>非遗面塑制作</a>
+        <a href='/list/15.html?page=2' rel='next'>下一页</a>"""
+        site = dict(SITE, hosts=['yunhebowuguan.cn'])
+        links = find_links(html, 'https://yunhebowuguan.cn/list/15.html', site,
+                           Plan('聊城非遗', themes=['非遗']), page_kind='column')
+        self.assertEqual({link.kind for link in links}, {'article', 'pagination'})
+
     def test_poster_image_sources_are_not_video_candidates(self):
         html = """<h1>东昌湖视频</h1><div class='article-content'><p>东昌湖文旅视频介绍。</p>
         <video src='/cover.PNG?token=fixture'></video>

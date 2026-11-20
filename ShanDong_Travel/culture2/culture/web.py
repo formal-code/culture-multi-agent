@@ -11,7 +11,7 @@ from urllib.robotparser import RobotFileParser
 import requests
 
 import config
-from culture.types import BudgetExceeded, CollectionError
+from culture.types import BudgetExceeded, CollectionError, TransientReadError
 
 USER_AGENT = "Culture2MaterialCollector/1.0"
 
@@ -21,7 +21,7 @@ def public_host(host):
     try:
         addresses = socket.getaddrinfo(host, None, type=socket.SOCK_STREAM)
     except OSError as exc:
-        raise CollectionError("域名解析失败：" + host) from exc
+        raise TransientReadError("域名解析失败：" + host) from exc
     if not addresses or any(not ipaddress.ip_address(a[4][0]).is_global for a in addresses):
         raise CollectionError("只读取公开网站地址：" + host)
 
@@ -109,6 +109,8 @@ class WebClient:
                         return Response(url, b"", "", None, response.status_code)
                     if response.status_code >= 400:
                         kind = "规则文件" if robots else ("媒体文件" if destination else "网页")
+                        if response.status_code in {500, 502, 503, 504}:
+                            raise TransientReadError(f"{kind}返回 HTTP {response.status_code}：{urlsplit(url).hostname}")
                         raise CollectionError(f"{kind}返回 HTTP {response.status_code}：{urlsplit(url).hostname}")
                     length = response.headers.get("Content-Length", "")
                     if length.isdigit() and int(length) > max_bytes:
@@ -136,6 +138,8 @@ class WebClient:
                                     response.headers.get("Content-Type", "").lower(), response.encoding)
             except requests.RequestException as exc:
                 # 不输出整个带访问令牌的网址，也不把网络错误当成验证码重试。
+                if isinstance(exc, (requests.Timeout, requests.ConnectionError)):
+                    raise TransientReadError(f"读取失败/超时：{urlsplit(url).hostname}（{type(exc).__name__}）") from exc
                 raise CollectionError(f"读取失败/超时：{urlsplit(url).hostname}（{type(exc).__name__}）") from exc
         raise CollectionError("跳转次数过多：" + urlsplit(original_url).hostname)
 
@@ -144,7 +148,7 @@ class WebClient:
         origin = f"{p.scheme}://{p.netloc}"
         if origin not in self.robots:
             try:
-                response = self._raw(origin + "/robots.txt", 512 * 1024, 8, robots=True)
+                response = self._read_page(origin + "/robots.txt", 512 * 1024, 8, robots=True)
                 if response.status in {403, 404, 410}:
                     self.robots[origin] = None
                     if response.status == 403:
@@ -176,8 +180,17 @@ class WebClient:
                 return
             raise CollectionError("站点规则不允许自动读取此地址")
 
+    def _read_page(self, url, max_bytes, timeout, **kwargs):
+        for attempt in range(2):
+            try:
+                return self._raw(url, max_bytes, timeout, **kwargs)
+            except TransientReadError:
+                if attempt:
+                    raise
+                self.progress(f"[临时网络错误] {urlsplit(url).hostname}：在本轮预算内重读一次")
+
     def html(self, url, *, hosts=None):
-        response = self._raw(url, config.MAX_HTML_BYTES, config.PAGE_TIMEOUT, hosts=hosts)
+        response = self._read_page(url, config.MAX_HTML_BYTES, config.PAGE_TIMEOUT, hosts=hosts)
         if response.content_type and not any(x in response.content_type for x in ("html", "xml", "text/plain")):
             raise CollectionError("该链接不是网页")
         return response.url, response.text()

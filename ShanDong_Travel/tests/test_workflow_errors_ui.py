@@ -8,12 +8,28 @@ from streamlit.testing.v1 import AppTest
 
 import app_config
 from team_interfaces import IntegrationPending, NoSuitableMaterials, ResearchPackage
+from workflow import WorkflowState
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowErrorUITests(unittest.TestCase):
+    def test_research_lists_images_and_videos_even_without_reference_video_records(self):
+        state = WorkflowState('给我生成一个关于聊城东昌湖的视频，面向大众')
+        state.research = {'reference_videos': [], 'media_assets': [
+            {'media_type': 'image', 'title': '东昌湖湖景', 'source_url': 'https://example.org/lake.html'},
+            {'media_type': 'image', 'title': '湖畔景观', 'source_url': 'https://example.org/lake.html'},
+            {'media_type': 'video', 'title': '东昌湖游览', 'source_url': 'https://example.org/lake.html'}]}
+        app = AppTest.from_file(str(ROOT / 'streamlit_app.py'), default_timeout=15)
+        app.session_state['workflow'] = state
+        app.run()
+        self.assertFalse(app.exception)
+        self.assertIn('已收集 3 份素材：图片 2 张，视频 1 段', [item.value for item in app.caption])
+        self.assertIn('图片 · 东昌湖湖景', [item.value for item in app.markdown])
+        self.assertIn('视频 · 东昌湖游览', [item.value for item in app.markdown])
+        self.assertNotIn('暂无参考视频记录', [item.value for item in app.caption])
+
     def create_app(self):
         app = AppTest.from_file(str(ROOT / 'streamlit_app.py'), default_timeout=15)
         app.run()
