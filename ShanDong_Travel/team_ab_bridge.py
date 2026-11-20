@@ -190,7 +190,7 @@ def collect_with_a(prompt, work_dir, on_progress=None):
                         timeout=100*60, on_progress=on_progress)
     report = read_json(delivery / "collection_report.json")
     if report.get("approved_counts", {}).get("total", 0) < 1:
-        raise NoSuitableMaterials("A本轮没有合格素材，未使用任何历史素材")
+        raise NoSuitableMaterials("本轮未搜集到符合当前要求的可用素材")
     raw = read_json(delivery / "research.json")
     research = normalize_research(raw, delivery)
     research["sources"] = read_json(delivery / "sources.json").get("sources", [])

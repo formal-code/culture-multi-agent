@@ -46,7 +46,7 @@ def run_a(payload):
     # 保留A原有模型失败语义；模型停止时不偷偷继续付费调用其他Agent。
     report = collect(payload["prompt"], progress=progress)
     if report.get("approved_counts", {}).get("total", 0) < 1:
-        raise NoSuitableMaterials("A本轮未找到合格素材，没有使用包内历史资料")
+        raise NoSuitableMaterials("本轮未搜集到符合当前要求的可用素材")
     for name in ("research.json", "fact.json", "sources.json", "collection_report.json"):
         if not (delivery / name).is_file():
             raise ValueError("A本次交付缺少：" + name)

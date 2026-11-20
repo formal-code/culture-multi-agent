@@ -105,7 +105,11 @@ class PipelineTests(unittest.TestCase):
             if decision == "review":
                 self.assertTrue(any(row.get("decision") == "review" for row in report["failures"]))
             if decision != "keep":
-                self.assertFalse((out / "research.json").exists())
+                research = json.loads((out / "research.json").read_text(encoding="utf-8"))
+                self.assertEqual(research['assets'], [])
+                self.assertEqual(json.loads((out / "fact.json").read_text(encoding="utf-8"))['facts'], [])
+                self.assertEqual(json.loads((out / "sources.json").read_text(encoding="utf-8"))['sources'], [])
+                self.assertEqual(list((out / "assets").iterdir()), [])
                 self.assertFalse(list(out.rglob("*.jpg")))
                 return
             research = json.loads((out / "research.json").read_text(encoding="utf-8"))

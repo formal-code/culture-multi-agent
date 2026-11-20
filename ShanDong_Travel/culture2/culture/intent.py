@@ -31,6 +31,23 @@ THEME_GROUPS = (
 BROAD_THEMES = {name for names, _ in THEME_GROUPS for name in names}
 
 
+def retrieval_term(term):
+    """Remove production requirements from a proposed topic, retaining the named subject."""
+    term = re.sub(r'(?:面向|目标受众(?:为|是)?|受众(?:为|是)?)\s*[^，,。；;\n]*', '', term)
+    term = re.sub(r'(?:总时长|时长|片长|长度)\s*[:：]?\s*(?:\d{1,2}:){1,2}\d{2}', '', term)
+    number = r'(?:\d+(?:\.\d+)?|[零〇一二两三四五六七八九十百半]+)'
+    term = re.sub(r'(?:总时长|时长|片长|长度)?\s*[:：]?\s*(?:约|大约|为|控制在)?\s*'
+                  + number + r'\s*(?:至|到|[-—~～])?\s*(?:' + number + r')?\s*'
+                  r'(?:分钟|小时|秒钟?|[smh](?![a-z]))\s*(?:左右|以内|以上|以下)?', '', term, flags=re.I)
+    term = re.sub(r'短视频|视频|宣传片|纪录片|短片|成片|图片|照片|图像|vlog|总时长|时长|片长', '', term, flags=re.I)
+    term = term.strip(' ，,。；;：:、')
+    term = re.sub(r'^(?:关于|的)\s*|\s*的$', '', term)
+    if term in {'儿童', '大众', '青少年', '年轻游客', '游客', '小学生', '中学生', '老年人',
+                '生成', '制作', '素材', '拍摄', '秒', '分钟', '小时'}:
+        return ''
+    return term
+
+
 def source_media_type(raw):
     """A requested video is a deliverable; restrict inputs only for explicit media requests."""
     kinds = {'image': r'图片|照片|图像', 'video': r'视频'}
@@ -66,8 +83,9 @@ def museum_displays_requested(plan):
 def finalize_intent(plan):
     """Repair a model's category mistake without broadening any named-object constraint."""
     value = asdict(plan) if is_dataclass(plan) else dict(plan)
-    value.setdefault("districts", [])
-    value.setdefault("exclude_terms", [])
+    for key in ('districts', 'targets', 'themes', 'exclude_terms'):
+        value[key] = list(dict.fromkeys(cleaned for term in value.get(key, [])
+                                        if (cleaned := retrieval_term(term))))
     targets = list(value.get("targets", []))
     themes = list(value.get("themes", []))
     normalized_targets = []

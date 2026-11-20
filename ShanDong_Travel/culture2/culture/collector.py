@@ -318,11 +318,6 @@ def _publish(approved, plan, report, stage, progress):
     out = config.OUTPUT_DIR
     out.mkdir(parents=True, exist_ok=True)
     remove_legacy_review(out)
-    if not approved:
-        # Preserve the last usable package when this run found nothing to replace it with.
-        _json(out / "collection_report.json", report)
-        progress("未找到合格素材；上次 assets 和素材清单保持不变，失败原因已写入 collection_report.json")
-        return
     assets_stage = stage / "assets"
     assets_stage.mkdir(exist_ok=True)
     source_rows, research_rows = {}, []
@@ -359,10 +354,12 @@ def _publish(approved, plan, report, stage, progress):
             "keywords": review.get("tags", []), "uncertainties": uncertainties})
     fact_rows = populate_fact_links(research_rows, list(source_rows.values()), plan)
     package = {
-        "research.json": {"schema_version": "1.0", "city": plan["city"], "request": plan["raw_request"],
+        "research.json": {"schema_version": "1.0", "city": plan.get("city", config.CITY),
+                          "request": plan.get("raw_request", ""),
                           "assets": research_rows},
-        "fact.json": {"schema_version": "1.0", "city": plan["city"], "facts": fact_rows},
-        "sources.json": {"schema_version": "1.0", "city": plan["city"], "sources": list(source_rows.values())},
+        "fact.json": {"schema_version": "1.0", "city": plan.get("city", config.CITY), "facts": fact_rows},
+        "sources.json": {"schema_version": "1.0", "city": plan.get("city", config.CITY),
+                          "sources": list(source_rows.values())},
         "collection_report.json": report,
     }
     readme = ("聊城文旅素材交付\n\n"
