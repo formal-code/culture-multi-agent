@@ -8,6 +8,12 @@ class IntegrationPending(RuntimeError):
     """接口尚未连接；不得伪造已完成的阶段或生成结果。"""
 
 
+class NoSuitableMaterials(RuntimeError):
+    """本轮采集没有可用素材，与服务异常分开处理。"""
+
+    code = "no_suitable_materials"
+
+
 @dataclass
 class ResearchPackage:
     data: dict[str, Any]

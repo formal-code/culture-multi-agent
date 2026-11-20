@@ -19,7 +19,7 @@ except FileNotFoundError:
     pass
 
 import app_config as config
-from team_interfaces import IntegrationPending
+from team_interfaces import IntegrationPending, NoSuitableMaterials
 from video_generator import generate_platform_video
 from tts_agent import TTSError, tts_enabled
 from workflow import STAGES, WorkflowState, run_content_workflow, run_video_review
@@ -33,6 +33,7 @@ st.markdown('''<style>
 h1,h2,h3{color:#193b32}.eyebrow{color:#557467;font-size:.76rem;letter-spacing:.12em}
 .stage{min-height:112px;background:white;padding:14px;border:1px solid #dde4dc;border-radius:8px}
 .stage-running{border-color:#27745f;background:#eef6f1}.stage-error{border-color:#b94e47}
+.stage-no_materials{border-color:#c58a25;background:#fff8e8}
 .stage-label{font-size:.88rem;font-weight:600;margin-bottom:8px}.stage-detail{font-size:.77rem;color:#63736b}
 </style>''', unsafe_allow_html=True)
 
@@ -254,7 +255,8 @@ progress_slot = st.empty()
 
 
 def render_stages(state):
-    symbols = {'pending': '○', 'running': '●', 'complete': '✓', 'waiting': '◷', 'skipped': '—', 'error': '!'}
+    symbols = {'pending': '○', 'running': '●', 'complete': '✓', 'waiting': '◷', 'skipped': '—', 'error': '!',
+               'no_materials': '⚠'}
     for stage in STAGES:
         status, message = state.stages[stage] if state else ('pending', '等待开始')
         slots[stage].markdown(
@@ -277,11 +279,13 @@ if submitted:
             # 【前端连接后台】实际团队调用在 workflow.py，A/B/C 接口在 team_interfaces.py。
             run_content_workflow(state, lambda *_event: render_stages(state))
             st.success('脚本与三个平台版本已就绪，请选择平台制作视频。')
+        except NoSuitableMaterials:
+            st.warning('未收集到合适素材，请调整景点、主题或素材要求后重新创作。')
         except IntegrationPending as exc:
             st.info(str(exc))
         except Exception:
             LOGGER.exception('内容工作流失败，任务=%s', state.job_id)
-            st.error('当前创作步骤暂未完成，请稍后重试或联系维护者。已完成的结果会保留。')
+            st.error('创作过程中出现异常，请稍后重试或联系维护者。已完成的结果会保留。')
 st.divider()
 script_tab, evaluation_tab = st.tabs(['脚本与分镜', '测评与热度'])
 with script_tab:
