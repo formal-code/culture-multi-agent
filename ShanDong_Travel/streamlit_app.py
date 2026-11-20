@@ -236,7 +236,7 @@ if config.PIPELINE_MODE == "local":
         )
 with st.form('creation_form'):
     prompt = st.text_area('想做一期什么内容？', height=140,
-        placeholder='例如：制作一条介绍聊城东昌府木版年画的短视频，面向年轻游客，突出非遗工艺，时长约60秒。')
+        placeholder='生成聊城东昌湖和光岳楼的视频')
     submitted = st.form_submit_button('开始创作', type='primary', use_container_width=True)
 st.subheader('创作进度')
 columns = st.columns(5)
